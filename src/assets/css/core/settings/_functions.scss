@@ -1,0 +1,38 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/SETTINGS/FUNCTIONS - sass functions
+
+/* ==========================================================================
+   NORMALISE FUNCTIONS STYLES
+   ========================================================================== */
+
+// px to rem function
+@function toRem($px-size, $base-size: 16px) {
+  @return $px-size / $base-size * 1rem;
+}
+
+// px to em function
+@function toRem($px-size, $base-size: 16px) {
+  @return $px-size / $base-size * 1em;
+}
+
+// rgba function
+@function op-colour($colour, $opacity) {
+  @return rgba($colour, $opacity);
+}
+
+// sass maps function for colour usage = color: colour(type, clour); e.gs color: colour(brand, primary);
+@function colour($type, $colour) {
+    @return map-get(map-get($colours, $type), $colour);
+}
+
+// sass maps function for z-index usage = z-index: z(key); e.g. z-index: z(overlay);
+@function z($key) {
+  @if map-has-key($z-layers, $key) {
+    @return map-get($z-layers, $key);
+  }
+ 
+  @warn "Unknown `#{$key}` in $z-layers.";
+  @return null;
+}

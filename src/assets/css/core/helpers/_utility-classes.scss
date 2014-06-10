@@ -1,0 +1,32 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/UTILITY-CLASSES - utility classes for adding to elements
+
+/* ==========================================================================
+   UTILITY CLASSES
+   ========================================================================== */
+
+// visibility
+.show, %show {
+	display: block !important;
+}
+.hide, %hide {
+	display: none;
+}
+.visuallyhidden, %visuallyhidden {
+	@include visuallyhidden;
+}
+
+// main wrap class
+%l-wrap, .l-wrap {
+	width: 96%;
+	max-width: $max-width;
+	margin: 0 auto;
+}
+
+//grid wrap class
+.g-wrap {
+	margin-left: -$gutter;
+	@include cf;
+}

@@ -1,0 +1,63 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/SETTINGS/VARIABLES - site wide variables
+
+/* ==========================================================================
+   SETTINGS VARIABLES
+   ========================================================================== */
+
+// ------------------------------------------------------------------------------------------------------------------------//
+// COLOURS
+// ------------------------------------------------------------------------------------------------------------------------//
+
+$shades: hsl(0, 0%, 100%);
+
+$colours: (
+    brand: (
+    	primary 								: gray,							// to be updated
+			secondary 							: lightgrey, 				// to be updated
+			tertiary 								: lightblue					// to be updated
+    ),
+    shades: (
+			white 									: hsl(0, 0%, 100%),
+			lightergray 						: darken($shades,10),
+			lightgray  							: darken($shades,20),
+			gray 			 							: darken($shades,30),
+			darkergray 							: darken($shades,40),
+			darkgray 								: darken($shades,50),
+			black 									: hsl(0, 0%, 0%)
+    ),
+    links: (
+    	link 										: hsl(0, 0%, 100%),
+			link-hover 							: hsl(0, 0%, 100%)
+    ),
+    alerts: (
+    	info 										: hsl(194, 66%, 61%),
+			warn 										: hsl(35, 84%, 62%),
+			error 									: hsl(2, 64%, 58%),
+			success 								: hsl(120, 39%, 54%)
+    )
+);
+
+// ------------------------------------------------------------------------------------------------------------------------//
+// MEDIA QUERIES
+// ------------------------------------------------------------------------------------------------------------------------//
+
+$bp10 													: toRem(450px); //update
+
+$breakpoints: (
+  bp10: $bp10
+);
+
+// ------------------------------------------------------------------------------------------------------------------------//
+// Z-INDEX
+// ------------------------------------------------------------------------------------------------------------------------//
+
+$z-layers: (
+  bottomless-pit: -9999,
+  default: 1,
+  dropdown: 3000,
+  overlay: 4000,
+  modal: 4001
+);

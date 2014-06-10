@@ -1,0 +1,41 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/HELPERS/MIXINS/TYPOGRAPHY - sass typography mixins
+
+// SASS MIXINS
+
+/* ==========================================================================
+		TYPOGRAPHY
+	 ========================================================================== */
+
+@mixin vr($size, $lines, $margin-bottom) {
+	font-size 			: toRem($size);
+	line-height 		: $base-line-height * $lines;
+	
+	@if ($margin-bottom != 0) {
+		margin-bottom 	: ($base-line-height * $margin-bottom) * 1rem;
+	}
+
+}
+
+@mixin text-overflow {
+	overflow : hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap; 
+}
+
+@mixin css-hyphens($val:auto) {
+	-webkit-hyphens : $val;
+	-moz-hyphens : $val;
+	-ms-hyphens : $val;
+	-o-hyphens : $val;
+	hyphens : $val; 
+}
+
+@mixin smallcaps($color, $font-weight) {
+	font-variant : small-caps;
+	font-weight : $font-weight;
+	text-transform : lowercase;
+	color : $color; 
+}

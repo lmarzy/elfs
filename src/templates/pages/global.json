@@ -1,0 +1,15 @@
+{
+
+	"meta": {
+		"description": "Description",
+		"author": "Lee Marsden"
+	},
+
+	"pageHeader": "page header",
+
+	"siteNav": [
+		{ "linkName": "", "linkUrl": "/" },
+		{ "linkName": "", "linkUrl": "/" }
+	]
+
+}

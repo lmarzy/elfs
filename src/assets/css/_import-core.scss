@@ -1,0 +1,43 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : IMPORT-CORE - all core imports
+
+/* ==========================================================================
+   IMPORT - CORE
+   ========================================================================== */
+
+// import normalise
+@import "core/normalise/root";
+@import "core/normalise/display";
+@import "core/normalise/links";
+@import "core/normalise/text";
+@import "core/normalise/embedded";
+@import "core/normalise/grouping";
+@import "core/normalise/forms";
+@import "core/normalise/tables";
+
+// import settins
+@import "core/settings/config";
+@import "core/settings/functions";
+@import "core/settings/variables";
+@import "core/settings/font-face";
+
+// import helpers
+// helper mixins
+@import "core/helpers/mixins/breakpoints";
+@import "core/helpers/mixins/typography";
+@import "core/helpers/mixins/visibility";
+@import "core/helpers/mixins/grids";
+@import "core/helpers/mixins/css3";
+@import "core/helpers/mixins/misc";
+
+@import "core/helpers/extends";
+@import "core/helpers/keyframe-animation";
+@import "core/helpers/utility-classes";
+
+// import base
+@import "core/base/root";
+@import "core/base/text";
+@import "core/base/links";
+@import "core/base/forms";

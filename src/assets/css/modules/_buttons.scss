@@ -1,0 +1,62 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/BUTTONS - class styles for buttons
+
+/* ==========================================================================
+   BUTTON MODULE STYLES
+   ========================================================================== */
+
+.btn {
+	display: inline-block;
+	padding: $btn-padding;
+	font-family: $btn-font-family;
+	font-size: $btn-font-size;
+	font-weight: normal;
+	line-height: normal;
+	text-align: $btn-font-align;
+	vertical-align: middle;
+	border-width: $btn-border-width;
+	border-style: $btn-border-style;
+	border-radius: $btn-border-radius;
+	cursor: pointer;
+
+		&:hover, &:active, &:visited {
+			text-decoration: none;
+		}
+}
+
+.btn--a {
+	background: $btn-primary-bg;
+	color: $btn-primary-colour;
+	border-color: $btn-primary-border-colour;
+
+		&:hover, &:visited, &:focus, &.btn-disabled, &[disabled] { background: darken($btn-primary-bg,10); color: $btn-primary-colour; }
+		&:active { background: darken($btn-primary-bg,20); }
+}
+
+// button sizes
+
+.btn--tiny {
+	font-size: $btn-tiny;
+}
+
+.btn--small {
+	font-size: $btn-small;
+}
+.btn--large {
+	font-size: $btn-large;
+}
+
+.btn--huge {
+	font-size: $btn-huge;
+}
+
+// disabled buttons
+
+button[disabled], .btn--disabled {
+	opacity: .4;
+	cursor: default;
+
+		&:hover { opacity: .4; }
+}

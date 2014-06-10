@@ -1,0 +1,36 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/HELPERS/MIXINS/VISIBILITY - sass visibility mixins
+
+// SASS MIXINS
+
+/* ==========================================================================
+		VISIBILITY
+	 ========================================================================== */
+
+@mixin hidden {
+	display : none !important;
+	visibility : hidden; 
+}
+
+@mixin hide-text {
+	text-indent : 100%;
+	white-space : nowrap;
+	overflow : hidden; 
+}
+
+@mixin invisible {
+	visibility : hidden; 
+}
+
+@mixin visuallyhidden {
+	overflow : hidden;
+	position : absolute;
+	clip : rect(0 0 0 0);
+	height : 1px;
+	width : 1px;
+	margin : -1px;
+	padding : 0;
+	border : 0;
+}

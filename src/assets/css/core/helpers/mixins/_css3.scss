@@ -1,0 +1,31 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/HELPERS/MIXINS/CSS3 - sass css3 mixins
+
+// SASS MIXINS
+
+/* ==========================================================================
+		CSS3
+	 ========================================================================== */
+
+// linear gradient
+@mixin linear-gradient($start, $end) {
+	background: linear-gradient($start, $end);
+}
+
+// transitions
+@mixin transition($args...) {
+  transition: $args;
+}
+
+// keyframe animaiton
+@mixin keyframes($animation-name) {  
+  @keyframes $animation-name {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  animation: #{$str};      
+}
