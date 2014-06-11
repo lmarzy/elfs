@@ -46,9 +46,19 @@ $colours: (
 
 $bp10 													: toRem(450px); //update
 
+$bpbody1                        : toRem(600px);
+$bpbody2                        : toRem(880px);
+$bpbody3                        : toRem(1160px);
+$bpbody4                        : toRem(1440px);
+
 $breakpoints: (
-  bp10: $bp10
+  bp10: $bp10,
+  bpbody1: $bpbody1,
+  bpbody2: $bpbody2,
+  bpbody3: $bpbody3,
+  bpbody4: $bpbody4
 );
+
 
 // ------------------------------------------------------------------------------------------------------------------------//
 // Z-INDEX
