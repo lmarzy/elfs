@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+	{% include "../partials/other/svg.swig" %}
 	
 	{% include "../partials/structure/header.swig" %}
 	

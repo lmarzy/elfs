@@ -1,12 +1,30 @@
 // Site          : Responsive Template with SASS and Javascript
 // CSS author    : Lee Marsden
 // Updated by    : Lee Marsden
-// Site CSS File : IMPORT-MODULES - all module imports
+// Site CSS File : MODULES/ICONS - icons module styles
 
 /* ==========================================================================
-   IMPORT - MODULES
+   ICON MODULE STYLES
    ========================================================================== */
 
-@import "modules/icons";
-@import "modules/headings";
-@import "modules/buttons";
+.icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	fill: $text-colour;
+}
+.icon-close {
+	
+}
+.icon-facebook {
+	
+}
+.icon-twitter {
+	
+}
+.icon-envelope-o {
+	
+}
+.icon-instagram {
+	
+}

@@ -7,6 +7,7 @@ var gulp 					= require('gulp'),
 		autoprefixer 	= require('gulp-autoprefixer'),
 		cssmin 				= require('gulp-minify-css'),
 		uglify 				= require('gulp-uglify'),
+		imagemin 			= require('gulp-imagemin'),
 		watch 				= require('gulp-watch'),
 		connect 			= require('gulp-connect'),
 		dir, config;
@@ -30,7 +31,7 @@ config = {
 		},
 		css: {
 			files: dir.src + '/assets/css/styles.scss',
-			assets: dir.src + '/assets/css/assets/**/*.*',
+			images: dir.src + '/assets/css/assets/img/*.*',
 			watch: dir.src + '/assets/css/**/*.scss'
 		},
 		js: {
@@ -41,6 +42,7 @@ config = {
 	dest: {
 		html: dir.dest,
 		css: dir.dest + '/assets/css/',
+		cssImg: dir.dest + '/assets/css/assets/img',
 		js: dir.dest + '/assets/js/',
 		images: dir.dest + '/assets/img/',
 	}
@@ -97,12 +99,24 @@ gulp.task('js', function() {
 
 });
 
-//image task
-gulp.task('copyimg', function() {
+//image min inline task
+gulp.task('imageminInline', function () {
+    return gulp.src(config.src.images)
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+        }))
+        .pipe(gulp.dest(config.dest.images));
+});
 
-	gulp.src(config.src.images)
-	.pipe(gulp.dest(config.dest.images));
-
+//image min css task
+gulp.task('imageminCss', function () {
+    return gulp.src(config.src.css.images)
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+        }))
+        .pipe(gulp.dest(config.dest.cssImg));
 });
 
 //css assets task
@@ -141,6 +155,6 @@ gulp.task('connect', function() {
 
 //build tasks
 
-gulp.task('default', [ 'swig', 'sass', 'js', 'copyimg', 'copyCssAssets' ]);
+gulp.task('default', [ 'swig', 'sass', 'js', 'imageminInline', 'imageminCss', ]);
 
 gulp.task('serve', [ 'default', 'watch', 'connect' ]);

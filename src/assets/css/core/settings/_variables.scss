@@ -33,12 +33,11 @@ $text-colour 										: hsl(0, 0%, 0%);
 // TYPOGRAPHY
 // ------------------------------------------------------------------------------------------------------------------------//
 
-$base-font-family 							: sans-serif; // to be updated
+$base-font-family 							: 'Open Sans', sans-serif;
 $base-font-size 								: 100%;
 $base-line-height 							: 1.5;
 
-$alt-font												: Cambria, Georgia, Times, "Times New Roman";
-$alt-line-height								: 1.35em;
+$alt-font												: 'Dancing Script', cursive;
 
 $small-font 										: toRem(14px);
 $large-font 										: toRem(18px);
