@@ -7,3 +7,39 @@
 		NAVIGATION - SITE NAVIGATION
 	 ========================================================================== */
 
+.nav-main {
+	padding: toRem(6px) 0;
+	border-top: 1px solid $border-colour;
+	border-bottom: 1px solid $border-colour;
+	@include cf;
+	li {
+		float: left;
+		width: 33.33%;
+		border-right: 1px solid $border-colour;
+
+			&:last-child {
+				border: none;
+			}
+	}
+	a {
+		display: block;
+		color: colour(brand, primary);
+		text-decoration: none;
+		height: toRem(34px);
+		line-height: toRem(34px);
+		font-family: $alt-font;
+		font-size: toRem(20px);
+	}
+
+		@include bp(bp10) {
+			float: right;
+			margin-top: toRem(48px);
+			border: none;
+
+				li { border: none; }
+				a {
+					padding: 0 toRem(20px);
+					font-size: toRem(24px);
+				}
+		}
+}

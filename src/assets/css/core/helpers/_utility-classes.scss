@@ -18,11 +18,19 @@
 	@include visuallyhidden;
 }
 
+//typography
+
+.list-unstyled {
+	list-style: none;
+	padding: 0;
+}
+
 // main wrap class
 %l-wrap, .l-wrap {
 	width: 96%;
 	max-width: $max-width;
 	margin: 0 auto;
+	@include cf;
 }
 
 //grid wrap class

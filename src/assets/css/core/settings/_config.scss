@@ -15,9 +15,8 @@ $shades: hsl(0, 0%, 100%);
 
 $colours: (
     brand: (
-    	primary 								: gray,							// to be updated
-			secondary 							: lightgrey, 				// to be updated
-			tertiary 								: lightblue					// to be updated
+    	primary 								: hsl(4, 90%, 24%),
+			secondary 							: hsl(123, 28%, 30%),
     ),
     shades: (
 			white 									: hsl(0, 0%, 100%),
@@ -44,7 +43,7 @@ $colours: (
 // MEDIA QUERIES
 // ------------------------------------------------------------------------------------------------------------------------//
 
-$bp10 													: toRem(450px); //update
+$bp10 													: toRem(620px);
 
 $bpbody1                        : toRem(600px);
 $bpbody2                        : toRem(880px);

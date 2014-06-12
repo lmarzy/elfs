@@ -8,8 +8,9 @@
 	"pageHeader": "The Christmas Elf",
 
 	"siteNav": [
-		{ "linkName": "", "linkUrl": "/" },
-		{ "linkName": "", "linkUrl": "/" }
+		{ "linkName": "Home", "linkUrl": "/" },
+		{ "linkName": "About", "linkUrl": "/about.html" },
+		{ "linkName": "FAQ's", "linkUrl": "/faq.html" }
 	]
 
 }
