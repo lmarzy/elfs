@@ -28,14 +28,14 @@ $colours: (
 			black 									: hsl(0, 0%, 0%)
     ),
     links: (
-    	link 										: hsl(0, 0%, 100%),
+    	link 										: hsl(4, 90%, 24%),
 			link-hover 							: hsl(0, 0%, 100%)
     ),
-    alerts: (
-    	info 										: hsl(194, 66%, 61%),
-			warn 										: hsl(35, 84%, 62%),
-			error 									: hsl(2, 64%, 58%),
-			success 								: hsl(120, 39%, 54%)
+    social: (
+      facebook                : hsl(221, 44%, 41%),
+      twitter                 : hsl(196, 100%, 46%),
+      instagram               : hsl(207, 34%, 48%),
+      mail                    : hsl(0, 0%, 49%)
     )
 );
 
@@ -44,6 +44,7 @@ $colours: (
 // ------------------------------------------------------------------------------------------------------------------------//
 
 $bp10 													: toRem(620px);
+$bp30                           : toRem(1100px);
 
 $bpbody1                        : toRem(600px);
 $bpbody2                        : toRem(880px);
@@ -52,6 +53,7 @@ $bpbody4                        : toRem(1440px);
 
 $breakpoints: (
   bp10: $bp10,
+  bp30: $bp30,
   bpbody1: $bpbody1,
   bpbody2: $bpbody2,
   bpbody3: $bpbody3,

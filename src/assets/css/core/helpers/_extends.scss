@@ -19,3 +19,14 @@
 %col-width-half {
 	@include grid-width(2);
 }
+
+//general
+
+%list-inline {
+	li {
+		float: left;
+	}
+	a {
+		display: block;
+	}
+}

@@ -10,6 +10,8 @@
 .c-logo {
 	margin-bottom: $spacing / 2;	
 
+	animation: drop 2000ms ease-in;
+
 		@include bp(bp10) {
 			float: left;
 		}

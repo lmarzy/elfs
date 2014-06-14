@@ -12,8 +12,10 @@
 	border-top: 1px solid $border-colour;
 	border-bottom: 1px solid $border-colour;
 	@include cf;
+
+	@extend %list-inline;
+
 	li {
-		float: left;
 		width: 33.33%;
 		border-right: 1px solid $border-colour;
 
@@ -22,7 +24,6 @@
 			}
 	}
 	a {
-		display: block;
 		color: colour(brand, primary);
 		text-decoration: none;
 		height: toRem(34px);

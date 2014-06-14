@@ -1,0 +1,73 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/CONTENT/HEADER/SOCIAL - content styles for social media links
+
+/* ==========================================================================
+   SOCIAL CONTENT STYLES
+   ========================================================================== */
+
+.c-social {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: toRem(6px) 0;
+	background: colour(shades, white);
+	box-shadow: 1px -2px 3px rgba(colour(shades, black), 0.3);
+	text-align: center;
+
+		@include cf;
+	
+		@extend %list-inline;
+		
+		li {
+			width: 25%;
+			border-right: 1px solid $border-colour;
+
+				&:last-child { border: none; }
+		}
+		a {
+			padding: toRem(4px);
+			transition: background 250ms ease-in;
+
+				&:hover {
+						svg { fill: colour(shades, white); }
+				}
+				&.c-social__facebook:hover {
+						background: colour(social, facebook);
+				}
+				&.c-social__twitter:hover {
+						background: colour(social, twitter);
+				}
+				&.c-social__instagram:hover {
+						background: colour(social, instagram);
+				}
+				&.c-social__mail:hover {
+						background: colour(social, mail);
+				}
+		}
+
+		@include bp(bp30) {
+			bottom: auto;
+			left: auto;
+			right: 0;
+			padding: 0;
+			box-shadow: -2px 0 4px rgba(colour(shades, black), 0.3);
+			opacity: 0.7;
+
+				&:hover { opacity: 1; }
+
+				li {
+					float: none;
+					width: auto;
+					border-right: none;
+					border-bottom: 1px solid $border-colour;
+				}
+				a { padding: toRem(16px); }
+		}
+}
+
+.c-social__facebook {
+
+}
