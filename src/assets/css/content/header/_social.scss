@@ -16,6 +16,7 @@
 	background: colour(shades, white);
 	box-shadow: 1px -2px 3px rgba(colour(shades, black), 0.3);
 	text-align: center;
+	z-index: z(modal);
 
 		@include cf;
 	
@@ -31,20 +32,28 @@
 			padding: toRem(4px);
 			transition: background 250ms ease-in;
 
-				&:hover {
+				&:hover, &:focus {
 						svg { fill: colour(shades, white); }
 				}
-				&.c-social__facebook:hover {
+				&.c-social__facebook {
+					&:hover, &:focus {
 						background: colour(social, facebook);
+					}
 				}
-				&.c-social__twitter:hover {
+				&.c-social__twitter {
+					&:hover, &:focus {
 						background: colour(social, twitter);
+					}
 				}
-				&.c-social__instagram:hover {
+				&.c-social__instagram {
+					&:hover, &:focus {
 						background: colour(social, instagram);
+					}
 				}
-				&.c-social__mail:hover {
+				&.c-social__mail {
+					&:hover, &:focus {
 						background: colour(social, mail);
+					}
 				}
 		}
 
@@ -52,6 +61,7 @@
 			bottom: auto;
 			left: auto;
 			right: 0;
+			top: 40%;
 			padding: 0;
 			box-shadow: -2px 0 4px rgba(colour(shades, black), 0.3);
 			opacity: 0.7;

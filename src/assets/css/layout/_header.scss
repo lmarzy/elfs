@@ -8,11 +8,12 @@
    ========================================================================== */
 
 [role="banner"] {
-	padding: $spacing / 2 0;
+	padding-top: $spacing / 2;
 	text-align: center;
 
 		@include bp(bp10) {
-			padding: $spacing 0;
+			padding-top: $spacing;
 			text-align: left;
 		}
+		
 }

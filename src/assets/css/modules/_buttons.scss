@@ -16,10 +16,9 @@
 	line-height: normal;
 	text-align: $btn-font-align;
 	vertical-align: middle;
-	border-width: $btn-border-width;
-	border-style: $btn-border-style;
 	border-radius: $btn-border-radius;
 	cursor: pointer;
+	text-decoration: none;
 
 		&:hover, &:active, &:visited {
 			text-decoration: none;
@@ -29,9 +28,8 @@
 .btn--a {
 	background: $btn-primary-bg;
 	color: $btn-primary-colour;
-	border-color: $btn-primary-border-colour;
 
-		&:hover, &:visited, &:focus, &.btn-disabled, &[disabled] { background: darken($btn-primary-bg,10); color: $btn-primary-colour; }
+		&:hover, &:visited, &:focus, &.btn-disabled, &[disabled] { background: darken($btn-primary-bg,10); color: $btn-primary-colour; box-shadow: 0 0 6px rgba(colour(shades, black), 0.8); }
 		&:active { background: darken($btn-primary-bg,20); }
 }
 

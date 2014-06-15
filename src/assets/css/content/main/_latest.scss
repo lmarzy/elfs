@@ -1,14 +1,13 @@
 // Site          : Responsive Template with SASS and Javascript
 // CSS author    : Lee Marsden
 // Updated by    : Lee Marsden
-// Site CSS File : IMPORT-MODULES - all module imports
+// Site CSS File : CORE/CONTENT/MAIN/LATEST - content styles for the latest products section
 
 /* ==========================================================================
-   IMPORT - MODULES
+   LATEST CONTENT STYLES
    ========================================================================== */
 
-@import "modules/icons";
-@import "modules/headings";
-@import "modules/buttons";
-@import "modules/sections";
-@import "modules/product";
+.latest {
+	padding: $spacing;
+	background: lighten(colour(shades, lightergray),2);
+}

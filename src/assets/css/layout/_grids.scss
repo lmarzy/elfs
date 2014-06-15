@@ -6,3 +6,20 @@
 /* ==========================================================================
    MAIN LAYOUT STYLES
    ========================================================================== */
+
+.l-about {
+	@extend %col-one;
+
+		@include bp(bp20) {
+			@include grid-width(3,2);	
+		}
+}
+
+.l-latest {
+	@extend %col-one;
+	
+		@include bp(bp20) {
+			@include grid-width(3);	
+		}
+		
+}

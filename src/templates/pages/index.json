@@ -1,3 +1,9 @@
 {
-	"metaTitle": "The Christmal Elf - Home page"
+	"metaTitle": "The Christmal Elf - Home page",
+
+	"latestProducts": [
+		{ "url": "/", "title": "product title", "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
+		{ "url": "/", "title": "product title", "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" }
+	]
+
 }

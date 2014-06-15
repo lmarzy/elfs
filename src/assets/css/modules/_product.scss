@@ -1,0 +1,24 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/PRODUCT - product module styles
+
+/* ==========================================================================
+   PROCUCT MODULE STYLES
+   ========================================================================== */
+
+.product {
+		a { 
+			padding: toRem(4px);
+			background: colour(shades, white);
+			display: block; text-decoration: none; color: $text-colour;
+			transition: all 150ms ease-in;
+
+				&:hover {
+					box-shadow: 0 0 4px rgba(colour(shades, black),0.7);
+					transform: scale(1.02);
+				}
+		}
+
+		h1 { margin-bottom: 0; color: colour(brand, secondary); }
+}

@@ -24,12 +24,18 @@
 			}
 	}
 	a {
-		color: colour(brand, primary);
+		color: colour(brand, secondary);
 		text-decoration: none;
 		height: toRem(34px);
 		line-height: toRem(34px);
 		font-family: $alt-font;
 		font-size: toRem(20px);
+		transition: transform 250ms ease-in;
+
+			&:hover, &:focus {
+				color: darken(colour(brand,primary),10);
+				transform: translateY(toRem(-4px));
+			}
 	}
 
 		@include bp(bp10) {

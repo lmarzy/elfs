@@ -108,16 +108,14 @@ $form-help-padding 							: toRem(6px) 0;
 $btn-font-family 								: $base-font-family;
 $btn-font-size 									: $base-font-size;
 
-$btn-border-width 							: $border-width;
-$btn-border-style 							: $border-style;
-$btn-border-radius 							: $border-radius;
+$btn-border-radius 							: $border-radius * 2;
 
 $btn-font-align 								: center;
-$btn-padding 										: $form-input-padding;
+$btn-padding 										: toEms(10px) toEms(24px);
 
 $btn-opacity 										: .6;
 
-$btn-primary-bg 								: colour(brand, primary);
+$btn-primary-bg 								: colour(brand, secondary);
 $btn-primary-border-colour 			: darken($btn-primary-bg,10);
 $btn-primary-colour 						: colour(shades, white);
 

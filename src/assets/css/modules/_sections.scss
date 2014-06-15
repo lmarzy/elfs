@@ -1,0 +1,20 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/SECTIONS - styles for site sections
+
+/* ==========================================================================
+   SECTIONS MODULE STYLES
+   ========================================================================== */
+
+.section {
+	padding: $spacing 0;
+
+		*:last-child { margin: 0; }
+}
+
+.section--highlight {
+	background: lighten(colour(shades, lightergray),6);
+	border-top: 1px solid $border-colour;
+	border-bottom: 1px solid $border-colour;
+}

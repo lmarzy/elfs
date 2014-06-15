@@ -13,7 +13,7 @@
 }
 
 // px to em function
-@function toRem($px-size, $base-size: 16px) {
+@function toEms($px-size, $base-size: 16px) {
   @return $px-size / $base-size * 1em;
 }
 

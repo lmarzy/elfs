@@ -13,8 +13,12 @@
 @import "content/header/logo";
 @import "content/header/social";
 
-//main
+//banner
+@import "content/banner/banner";
 
+//main
+@import "content/main/latest";
+@import "content/main/latest__list";
 
 //footer
 @import "content/footer/copyright";

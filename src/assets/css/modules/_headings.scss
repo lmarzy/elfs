@@ -6,3 +6,38 @@
 /* ==========================================================================
    HEADING MODULE STYLES
    ========================================================================== */
+
+.h-banner, .h-section, .h-section-sub {
+	font-family: $alt-font;
+	color: colour(brand, primary);
+}
+
+.h-banner {
+	font-size: toRem(28px);
+
+		@include bp(bp05) {
+			font-size: toRem(32px);
+		}
+		@include bp(bp10) {
+			font-size: toRem(40px);
+		}
+		@include bp(bp20) {
+			font-size: toRem(60px);
+		}
+}
+
+.h-section {
+	font-size: toRem(30px);
+
+		@include bp(bp10) {
+			font-size: toRem(36px);
+		}
+}
+
+.h-section-sub {
+	font-size: toRem(22px);
+
+		@include bp(bp10) {
+			font-size: toRem(28px);
+		}
+}
