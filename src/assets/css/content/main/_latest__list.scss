@@ -9,6 +9,7 @@
 
 .latest__list {
 	@include cf;
+	
 	li { margin-bottom: $spacing / 2; }
 
 		@include bp(bp10) {
