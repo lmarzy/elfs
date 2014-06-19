@@ -32,6 +32,13 @@
 		&:hover, &:visited, &:focus, &.btn-disabled, &[disabled] { background: darken($btn-primary-bg,10); color: $btn-primary-colour; box-shadow: 0 0 6px rgba(colour(shades, black), 0.8); }
 		&:active { background: darken($btn-primary-bg,20); }
 }
+.btn--b {
+	background: $btn-secondary-bg;
+	color: $btn-secondary-colour;
+
+		&:hover, &:visited, &:focus, &.btn-disabled, &[disabled] { background: darken($btn-secondary-bg,10); color: $btn-secondary-colour; box-shadow: 0 0 6px rgba(colour(shades, black), 0.8); }
+		&:active { background: darken($btn-primary-bg,20); }
+}
 
 // button sizes
 

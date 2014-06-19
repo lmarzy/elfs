@@ -8,9 +8,11 @@
    ========================================================================== */
 
 .product {
+	padding: toRem(8px);
+	background: colour(shades, white);
+	border: 1px solid $border-colour;
+
 		a { 
-			padding: toRem(4px);
-			background: colour(shades, white);
 			display: block; text-decoration: none; color: $text-colour;
 			transition: all 150ms ease-in;
 
@@ -21,4 +23,21 @@
 		}
 
 		h1 { margin-bottom: 0; color: colour(brand, secondary); }
+		p { margin: 0; }
+}
+
+.product--main {
+	margin-bottom: $spacing;
+	@include cf;
+
+	@include bp(bp10) {
+
+		img {
+			width: auto;
+			float: left;
+			margin-right: $spacing;
+		}
+
+	}
+
 }

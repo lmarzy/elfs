@@ -16,8 +16,6 @@
 	{% include "../partials/other/svg.swig" %}
 	
 	{% include "../partials/structure/header.swig" %}
-
-	{% include "../partials/sections/banner.swig" %}
 	
 	<main role="main">
   {% block content %}{% endblock %}

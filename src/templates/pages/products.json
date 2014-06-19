@@ -1,0 +1,19 @@
+{
+	"metaTitle": "The Christmal Elf - Our product range",
+
+	"mainProduct": {
+		"productAlt": "alt",
+		"productImg": "http://placehold.it/420x300",
+		"productTitle": "Product Title",
+		"productPrice": "2.99"
+	},
+
+	"productExtras": [
+		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
+		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
+		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
+		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
+		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
+		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" }
+	]
+}

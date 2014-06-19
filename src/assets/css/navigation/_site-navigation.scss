@@ -16,7 +16,7 @@
 	@extend %list-inline;
 
 	li {
-		width: 33.33%;
+		width: 25%;
 		border-right: 1px solid $border-colour;
 
 			&:last-child {
@@ -43,7 +43,7 @@
 			margin-top: toRem(48px);
 			border: none;
 
-				li { border: none; }
+				li { width: auto; border: none; }
 				a {
 					padding: 0 toRem(20px);
 					font-size: toRem(24px);

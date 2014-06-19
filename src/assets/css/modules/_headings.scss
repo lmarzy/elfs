@@ -7,13 +7,15 @@
    HEADING MODULE STYLES
    ========================================================================== */
 
-.h-banner, .h-section, .h-section-sub {
+.h-banner, .h-section, .h-section-sub, .h-page, .h-page--sub {
 	font-family: $alt-font;
 	color: colour(brand, primary);
 }
 
 .h-banner {
 	font-size: toRem(28px);
+
+	animation: slide-in 2000ms ease-in;
 
 		@include bp(bp05) {
 			font-size: toRem(32px);
@@ -23,6 +25,24 @@
 		}
 		@include bp(bp20) {
 			font-size: toRem(60px);
+		}
+}
+
+.h-page {
+	padding: toRem(8px) 0;
+	border-bottom: 1px solid $border-colour;
+	font-size: toRem(20px);
+
+		@include bp(bp10) {
+			font-size: toRem(28px);
+		}
+}
+
+.h-page--sub {
+	font-size: toRem(22px);
+
+		@include bp(bp10) {
+			font-size: toRem(26px);
 		}
 }
 

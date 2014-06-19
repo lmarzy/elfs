@@ -1,15 +1,16 @@
 // Site          : Responsive Template with SASS and Javascript
 // CSS author    : Lee Marsden
 // Updated by    : Lee Marsden
-// Site CSS File : CORE/LAYOUT/FOOTER - layout styles for footer
+// Site CSS File : CORE/CONTENT/MAIN/FAQ - content styles for the faq page
 
 /* ==========================================================================
-   FOOTER LAYOUT STYLES
+   FAQ CONTENT STYLES
    ========================================================================== */
 
-[role="contentinfo"] {
-	padding: $spacing 0;
-	background: colour(brand, primary);
-	text-align: center;
-	color: darken(colour(shades, white),20);
+.faq {
+	margin-bottom: $spacing;
+	
+	dt { font-size: toRem(18px); margin-bottom: toRem(8px); }
+	dd { margin: 0 0 toRem(12px) 0; }
+
 }

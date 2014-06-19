@@ -21,7 +21,7 @@ html {
 }
 
 body {
-	padding-bottom: toRem(40px);
+	padding-bottom: toRem(42px);
 	background: url(assets/img/bg-body-mini.jpg) no-repeat 0 0;
 	background-size: 100%;
 
@@ -31,7 +31,7 @@ body {
 		}
 		@include bp(bpbody2) {
 			background: url(assets/img/bg-body-med.jpg) no-repeat 0 0;
-			background-size: 100%;			
+			background-size: 100%;	
 		}
 		@include bp(bpbody3) {
 			background: url(assets/img/bg-body-lrg.jpg) no-repeat 0 0;
@@ -40,6 +40,10 @@ body {
 		@include bp(bpbody4) {
 			background: url(assets/img/bg-body-xlrg.jpg) no-repeat 0 0;
 			background-size: 100%;
+		}
+
+		@include bp(bp30) {
+			padding: 0;
 		}
 
 }

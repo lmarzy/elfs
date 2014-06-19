@@ -7,8 +7,12 @@
 
 	"pageHeader": "The Christmas Elf",
 
+	"email": "headelf@chritsmaself.co.uk",
+	"facebook": "Christmas Elf",
+
 	"siteNav": [
 		{ "linkName": "Home", "linkUrl": "/" },
+		{ "linkName": "Products", "linkUrl": "/products.html" },
 		{ "linkName": "FAQ's", "linkUrl": "/faq.html" },
 		{ "linkName": "Contact", "linkUrl": "/contact.html" }
 	],

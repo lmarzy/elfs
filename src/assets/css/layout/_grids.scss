@@ -23,3 +23,19 @@
 		}
 		
 }
+
+.l-productextras {
+
+	li {
+		margin-bottom: $spacing;
+
+		@extend %col-one;
+
+			@include bp(bp10) {
+				@include grid-width(2);
+			}
+			@include bp(bp20) {
+				@include grid-width(3);
+			}
+	}
+}

@@ -9,8 +9,6 @@
 			<li class="list-unstyled">
 
 			<article class="product">
-
-				<a href="{{ products.url }}" title="{{ products.title }}">
 					
 					<img class="full-width" alt="{{ products.productAlt }}" src="{{ products.productImg }}">
 
@@ -22,8 +20,6 @@
 
 					</header>
 
-				</a>
-
 			</article>
 
 		</li>			
@@ -31,6 +27,8 @@
 		{% endfor %}
 
 	</ul>					
+
+	<a href="/products.html" class="btn btn--b full-width">View All Products</a>
 
 </section>
 

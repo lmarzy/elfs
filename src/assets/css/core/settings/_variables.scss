@@ -115,9 +115,11 @@ $btn-padding 										: toEms(10px) toEms(24px);
 
 $btn-opacity 										: .6;
 
-$btn-primary-bg 								: colour(brand, secondary);
-$btn-primary-border-colour 			: darken($btn-primary-bg,10);
+$btn-primary-bg 								: lighten(colour(brand, secondary),10);
 $btn-primary-colour 						: colour(shades, white);
+
+$btn-secondary-bg 							: lighten(colour(brand, secondary),35);
+$btn-secondary-colour 					: colour(shades, white);
 
 // sizes
 
