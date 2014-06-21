@@ -2,18 +2,42 @@
 	"metaTitle": "The Christmal Elf - Our product range",
 
 	"mainProduct": {
-		"productAlt": "alt",
-		"productImg": "http://placehold.it/420x300",
-		"productTitle": "Product Title",
-		"productPrice": "2.99"
+		"productAlt": "The christmas Elf set",
+		"productImg": "assets/img/products/elf-set.jpg",
+		"productTitle": "Elf Set",
+		"productPrice": "13.50",
+		"productInfo": [
+			"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
+			"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
+			"1 small bag of magic snow",
+			"1 candy cane"
+		]
 	},
 
-	"productExtras": [
-		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
-		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
-		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
-		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
-		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
-		{ "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" }
-	]
+	"productExtras": {
+
+		"niceCertificate": {
+			"productAlt": "Nice Certificate", 
+			"productImg": "assets/img/products/cert.jpg", 
+			"productTitle": "Nice Certificate", 
+			"productPrice": "2.00"
+		},
+		"elfPuppets": {
+			"productAlt": "Elf finger puppets", 
+			"productImg": "assets/img/products/puppets.jpg", 
+			"productTitle": "Elf finger puppets", 
+			"productPrice": "4.00"
+		},
+		"specialKey": {
+			"productAlt": "Santas special key", 
+			"productImg": "assets/img/products/key.jpg", 
+			"productTitle": "Santas special key", 
+			"productPrice": "4.25"
+		}	
+
+	}
+	
 }
+		
+		
+		

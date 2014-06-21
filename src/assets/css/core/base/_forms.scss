@@ -1,0 +1,65 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/BASE/FORMS - any default form styles
+
+/* ==========================================================================
+   BASE FORMS STYLES
+   ========================================================================== */
+
+// typical form markup
+
+// <form>
+
+// 	<fieldset>
+
+// 		<legend></legend>
+
+// 		<ul>
+// 			<li>
+// 				<label></label>
+// 				<input type="text">
+// 			</li>
+// 			<li>
+// 				<label></label>
+// 				<input type="text">
+// 			</li>
+// 		</ul>
+
+// 	</fieldset>
+
+// </form>
+
+label {
+    display: block;
+    margin-bottom: $label-margin-bottom;
+}
+
+select,
+input[type="text"] {
+    display: inline-block;
+    padding: $input-padding;
+    vertical-align: middle;
+    background-color: $input-bg;
+    border: $input-border-width $input-border-style $input-border-colour;
+
+        &:hover {
+            border-color: $input-border-hover-colour;
+        }
+        &:focus {
+            border-color: $input-border-focus-color;
+            box-shadow: $input-focus-box-shadow;
+            outline: 0;
+            outline : thin dotted \ 9;
+        }
+}
+
+input,
+textarea {
+    width : 100%;
+}
+
+textarea {
+    height : auto;
+    resize-x : none;
+}

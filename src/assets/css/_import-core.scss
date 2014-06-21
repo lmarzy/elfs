@@ -9,6 +9,7 @@
 
 // import normalise
 @import "core/normalise/root";
+@import "core/normalise/forms";
 @import "core/normalise/display";
 @import "core/normalise/links";
 @import "core/normalise/text";
@@ -39,3 +40,4 @@
 @import "core/base/root";
 @import "core/base/text";
 @import "core/base/links";
+@import "core/base/forms";

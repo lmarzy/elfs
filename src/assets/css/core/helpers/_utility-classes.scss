@@ -31,6 +31,11 @@
 	padding: 0;
 }
 
+.smallprint {
+	font-size: toRem(12px);
+	font-style: italic;
+}
+
 // main wrap class
 %l-wrap, .l-wrap {
 	width: 96%;

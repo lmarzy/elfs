@@ -7,48 +7,32 @@
 	<div class="l-wrap">
 		
 		<h1 class="h-page">Products</h1>
+		
+		{% include "../partials/products/elf-sets.swig" %}
 
-		<article class="product product--main">
-					
-					<img class="full-width" alt="{{ mainProduct.productAlt }}" src="{{ mainProduct.productImg }}">
+	</div>
 
-					<header>
-						
-						<h1>{{ mainProduct.productTitle }}</h1>
+		<div class="section--extras">
 
-						<p>&pound;{{ mainProduct.productPrice }}</p>
+			<div class="l-wrap">
 
-					</header>
+				<h2 class="h-page--sub">Product Extras</h2>
 
-			</article>
+				<ul class="g-wrap l-productextras list-unstyled">
 
-			<h2 class="h-page--sub">Product Extras</h2>
+					<li>
+						{% include "../partials/products/nice-cert.swig" %}						
+					</li>
+					<li>
+						{% include "../partials/products/elf-puppets.swig" %}						
+					</li>
+					<li>
+						{% include "../partials/products/special-key.swig" %}		
+					</li>
 
-			<ul class="g-wrap l-productextras">
+			</ul>
 
-				{% for products in productExtras %}
-
-				<li class="list-unstyled">
-
-				<article class="product">
-						
-						<img class="full-width" alt="{{ products.productAlt }}" src="{{ products.productImg }}">
-
-						<header>
-							
-							<h1>{{ products.productTitle }}</h1>
-
-							<p>&pound;{{ products.productPrice }}</p>
-
-						</header>
-
-				</article>
-
-			</li>			
-
-			{% endfor %}
-
-		</ul>
+		</div>
 
 	</div>
 

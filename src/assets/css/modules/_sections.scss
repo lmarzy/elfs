@@ -16,3 +16,9 @@
 	border-top: 1px solid $border-colour;
 	border-bottom: 1px solid $border-colour;
 }
+
+.section--extras {
+	padding-top: $spacing;
+	background: lighten(colour(shades, lightergray),2);
+	border-top: 1px solid darken($border-colour,5);
+}

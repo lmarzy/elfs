@@ -69,7 +69,7 @@ $border-radius 									: toRem(4px);
 // ------------------------------------------------------------------------------------------------------------------------//
 
 $form-font-family 							: inherit !default;
-$form-input-padding 						: toEms(10px) toEms(12px);
+$form-input-padding 						: toEms(6px) toEms(10px);
 
 // labels
 
@@ -90,7 +90,7 @@ $input-focus-bg 								: darken($input-bg, 2);
 
 $input-border-width 						: $border-width;
 $input-border-style 						: $border-style;
-$input-border-colour 						: $border-colour;
+$input-border-colour 						: darken($border-colour,5);
 $input-border-hover-colour 			: darken($border-colour,10);
 $input-border-focus-color 			: darken($border-colour,20);
 $input-border-radius 						: $border-radius;
