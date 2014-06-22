@@ -2,8 +2,12 @@
 	"metaTitle": "The Christmal Elf - Our product range",
 
 	"mainProduct": {
-		"productAlt": "The christmas Elf set",
-		"productImg": "assets/img/products/elf-set.jpg",
+		"productImg": {
+			"main": "assets/img/products/elf-set.jpg",
+			"mainAlt": "The christmas Elf set",
+			"secondary": "assets/img/products/elfs.jpg",
+			"secondaryAlt": "The indivisual elfs for the two boys and one girl"
+		},
 		"productTitle": "Elf Set",
 		"productPrice": "13.50",
 		"productInfo": [

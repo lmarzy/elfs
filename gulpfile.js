@@ -5,6 +5,7 @@ var gulp 					= require('gulp'),
 		swig 					= require('gulp-swig'),
 		sass 					= require('gulp-ruby-sass'),
 		autoprefixer 	= require('gulp-autoprefixer'),
+		minifyhtml		= require('gulp-minify-html'),
 		cssmin 				= require('gulp-minify-css'),
 		uglify 				= require('gulp-uglify'),
 		imagemin 			= require('gulp-imagemin'),
@@ -72,6 +73,7 @@ gulp.task('swig', function() {
 
 	gulp.src(config.src.html.files)
 	.pipe(swig(opts))
+	.pipe(prod ? minifyhtml() : gutil.noop())
 	.pipe(gulp.dest(config.dest.html))
 	.pipe(dev ? connect.reload() : gutil.noop());
 

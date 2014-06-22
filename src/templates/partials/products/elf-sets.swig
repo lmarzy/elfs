@@ -1,7 +1,11 @@
 <article class="product product--main">
 			
-			<img class="full-width" alt="{{ mainProduct.productAlt }}" src="{{ mainProduct.productImg }}">
+			<div class="product--main__image">
+
+				<img class="full-width" alt="{{ mainProduct.productImg.mainAlt }}" src="{{ mainProduct.productImg.main }}">
 			
+			</div>
+
 			<div class="product--main__info">
 
 				<header>
