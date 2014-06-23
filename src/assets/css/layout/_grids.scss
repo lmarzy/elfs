@@ -24,7 +24,20 @@
 		
 }
 
-.l-productextras {
+.l-productsmain {
+
+	li {
+		margin-bottom: $spacing;
+		@extend %col-one;
+
+			@include bp(bp10) {
+				@include grid-width(2);
+			}
+	}
+
+}
+
+.l-productsextra {
 
 	li {
 		margin-bottom: $spacing;

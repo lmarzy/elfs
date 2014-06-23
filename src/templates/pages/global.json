@@ -23,6 +23,73 @@
 		{ "name": "Connect with us on Twitter", "icon": "icon-twitter", "url": "/", "class": "c-social__twitter" },
 		{ "name": "heckout our antics on Instagram", "icon": "icon-instagram", "url": "/", "class": "c-social__instagram" },
 		{ "name": "Send the Head Elf and Email", "icon": "icon-envelope-o", "url": "mailto:headelf@christmaself.co.uk", "class": "c-social__mail" }
+	],
+
+	"productsMain": [
+		{	
+			"url": "/products/elf-sets.html",
+			"title": "Christmas Elf Set",
+			"price": "13.50",
+			"img": "assets/img/products/elf-set.jpg",
+			"imgAlt": "The Christmal Elf Set",
+			"overview": "information about the product",
+
+			"productInfo": [
+				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
+				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
+				"1 small bag of magic snow",
+				"1 candy cane"
+			]
+	
+		},
+		{	
+			"url": "/products/elf-sets.html",
+			"title": "Christmas Elf Set",
+			"price": "13.50",
+			"img": "assets/img/products/elf-set.jpg",
+			"imgAlt": "The Christmal Elf Set",
+			"overview": "information about the product",
+
+			"productInfo": [
+				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
+				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
+				"1 small bag of magic snow",
+				"1 candy cane"
+			]
+	
+		}
+		
+	],
+
+	"productsExtra": [
+
+		{
+			"url": "",
+			"title": "",
+			"price": "",
+			"img": "http://placehold.it/270x180",
+			"imgAlt": "",
+			"overview": ""
+		},
+
+		{
+			"url": "",
+			"title": "",
+			"price": "",
+			"img": "http://placehold.it/270x180",
+			"imgAlt": "",
+			"overview": ""
+		},
+
+		{
+			"url": "",
+			"title": "",
+			"price": "",
+			"img": "http://placehold.it/270x180",
+			"imgAlt": "",
+			"overview": ""
+		}
+
 	]
 
 }

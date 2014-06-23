@@ -7,28 +7,30 @@
 		{% for products in latestProducts %}
 
 			<li class="list-unstyled">
+	
+			<a href="{{ products.url }}" title="{{ products.title }}" class="product">
 
-			<article class="product">
-					
-					<img class="full-width" alt="{{ products.productAlt }}" src="{{ products.productImg }}">
-
-					<header>
+				<article>
 						
-						<h1>{{ products.productTitle }}</h1>
+						<img class="full-width" alt="{{ products.productAlt }}" src="{{ products.productImg }}">
 
-						<p>&pound;{{ products.productPrice }}</p>
+						<header>
+							
+							<h1>{{ products.productTitle }}</h1>
 
-					</header>
+							<p>&pound;{{ products.productPrice }}</p>
 
-			</article>
+						</header>
+
+				</article>
+
+			</a>
 
 		</li>			
 
 		{% endfor %}
 
-	</ul>					
-
-	<a href="/products.html" class="btn btn--b full-width">View All Products</a>
+	</ul>
 
 </section>
 

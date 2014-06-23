@@ -22,3 +22,7 @@
 	background: lighten(colour(shades, lightergray),2);
 	border-top: 1px solid darken($border-colour,5);
 }
+
+.section--about {
+	background: url(assets/img/bg-elf-hanging.png) no-repeat 94% 22px;
+}

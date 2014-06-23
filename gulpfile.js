@@ -24,7 +24,7 @@ dir = {
 config = {
 	src: {
 		html: {
-			files: dir.src + '/templates/pages/*.swig',
+			files: dir.src + '/templates/pages/**/*.swig',
 			watch: dir.src + '/templates/**/*.swig'
 		},
 		json: {

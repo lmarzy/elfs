@@ -8,6 +8,7 @@
    ========================================================================== */
 
 .latest__list {
+	padding: 0;
 	@include cf;
 	
 	li { margin-bottom: $spacing / 2; }

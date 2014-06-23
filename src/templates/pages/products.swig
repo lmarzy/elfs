@@ -8,34 +8,85 @@
 		
 		<h1 class="h-page">Products</h1>
 		
-		{% include "../partials/products/elf-sets.swig" %}
+		<ul class="g-wrap l-productsmain list-unstyled">
 
-	</div>
+			{% for products in productsMain %}
 
-		<div class="section--extras">
+				<li class="list-unstyled">
+		
+					<a href="{{ products.url }}" title="{{ products.title }}" class="product">
 
-			<div class="l-wrap">
+						<article>
+								
+								<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}">
 
-				<h2 class="h-page--sub">Product Extras</h2>
+								<header>
+									
+									<h1>{{ products.title }}</h1>
 
-				<ul class="g-wrap l-productextras list-unstyled">
+									<p class="product--price">&pound;{{ products.price }}</p>
 
-					<li>
-						{% include "../partials/products/nice-cert.swig" %}						
-					</li>
-					<li>
-						{% include "../partials/products/elf-puppets.swig" %}						
-					</li>
-					<li>
-						{% include "../partials/products/special-key.swig" %}		
-					</li>
+								</header>
+
+								<p>{{ products.overview }}</p>
+
+						</article>
+
+					</a>
+
+				</li>			
+
+			{% endfor %}
+
+		</ul>
+		
+	</div> <!-- !END products main -->
+
+	<div class="section--extras">
+
+		<div class="l-wrap">
+
+			<h2 class="h-page--sub">Product Extras</h2>
+
+				<ul class="g-wrap l-productsextra list-unstyled">
+
+					{% for products in productsExtra %}
+
+						<li class="list-unstyled">
+				
+							<a href="{{ products.url }}" title="{{ products.title }}" class="product">
+
+								<article>
+										
+										<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}">
+
+										<header>
+											
+											<h1>{{ products.title }}</h1>
+
+											<p class="product--price">&pound;{{ products.price }}</p>
+
+										</header>
+
+										<p>{{ products.overview }}</p>
+
+								</article>
+
+							</a>
+
+						</li>			
+
+					{% endfor %}
 
 			</ul>
 
 		</div>
 
-	</div>
+	</div><!-- !END products extra -->
 
 </section>	
 
 {% endblock %}
+
+
+<!-- {% include "../partials/products/elf-sets.swig" %} -->

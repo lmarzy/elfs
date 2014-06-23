@@ -1,4 +1,4 @@
-<section class="section">
+<section class="section section--about">
 	
 	<h1 class="h-section">About</h1>
 

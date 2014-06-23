@@ -8,73 +8,36 @@
    ========================================================================== */
 
 .product {
-	padding: toRem(8px);
+	display: block;
+	padding: toRem(6px);
 	background: colour(shades, white);
 	border: 1px solid darken($border-colour,4);
+	border-radius: $border-radius;
+	text-decoration: none; 
+	color: $text-colour;
+	transition: all 100ms ease-in;
 
-		a { 
-			display: block; text-decoration: none; color: $text-colour;
-			transition: all 150ms ease-in;
-
-				&:hover {
-					box-shadow: 0 0 4px rgba(colour(shades, black),0.7);
-					transform: scale(1.02);
-				}
+		&:hover {
+			box-shadow: 0 0 4px rgba(colour(shades, black),0.5);
+			transform: scale(1.01);
 		}
 
-		header {
-			margin-bottom: $spacing;
-		}
+		header { @include cf; }
 
-		h1 { margin-bottom: 0; color: colour(brand, secondary); font-size: toRem(20px); }
+		h1 {
+			margin: 0;
+			float: left;
+			color: colour(brand, secondary); 
+			font-size: toRem(20px);
+
+				&:hover { text-decoration: underline; }
+		}
 		p:last-child { margin: 0; }
 }
 
-.product--main {
-	margin-bottom: $spacing;
-	@include cf;
-
-	@include bp(bp20) {
-
-		.product--main__info {
-			width: 52%;
-			float: left;
-			padding-left: $spacing;
-		}
-
-	}
-
-}
-
-.product--main__image {
-
-	@include bp(bp20) {
-		width: 48%;
-		float: left;
-		transition: transform 200ms ease-in;
-
-			&:hover {
-				transform: scale(1.2);
-			}
-			
-	}
-
-}
-
-.product--main__set {
-	margin: toRem(8px) 0 $spacing 0;
-
-		li { margin-bottom: toRem(8px); }
-}
-
-.product__buy {
-	padding: toRem(10px);
-	background: lighten(colour(shades, lightergray),5);
-	border: 1px solid $border-colour;
-	border-radius: $border-radius;
-		
-		 table { width: 100%; margin-bottom: toRem(12px); }
-		 td { padding: toRem(2px) 0; }
-
-		 input[type="image"] { width: toRem(160px); }
+.product--price {
+	float: right;
+	font-size: toRem(14px);
+	font-weight: 700;
+	color: lighten(colour(brand, primary),40);
 }
