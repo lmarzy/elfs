@@ -61,3 +61,11 @@
 			font-size: toRem(28px);
 		}
 }
+
+.h-product {
+	margin: 0;
+	color: colour(brand, secondary); 
+	font-size: toRem(20px);
+
+		&:hover { text-decoration: underline; }
+}

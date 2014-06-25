@@ -22,7 +22,7 @@
 
 								<header>
 									
-									<h1>{{ products.title }}</h1>
+									<h1 class="h-product">{{ products.title }}</h1>
 
 									<p class="product--price">&pound;{{ products.price }}</p>
 

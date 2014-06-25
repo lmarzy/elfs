@@ -52,3 +52,33 @@
 			}
 	}
 }
+
+.l-product-img {
+	@extend %col-one;	
+
+		@include bp(bp20) {
+			width: 54%;
+		}
+}
+.l-product-details {
+	@extend %col-one;	
+
+		@include bp(bp20) {
+			width: 44%;
+		}
+}
+
+.l-more-images {
+
+	li {
+		@extend %col-one;
+
+			@include bp(bp10) {
+				@include grid-width(2);
+			}
+			@include bp(bp20) {
+				@include grid-width(3);
+			}
+	}
+
+}

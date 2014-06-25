@@ -1,2 +1,37 @@
 {
+	"metaTitle": "Christmas Elf - Elf Sets",
+
+	"product": {
+			"title": "Christmas Elf Set",
+			"price": "13.50",
+			"img": "/assets/img/products/elf-sets/elf-set-main.jpg",
+			"alt": "Christmal Elf Set",
+			"caption": "Full elf set",
+
+			"moreImages": [
+				{
+					"img": "/assets/img/products/elf-sets/girl-elf.jpg",
+					"alt": "Christmal Elf Set",
+					"caption": "Girl Elf"
+				},
+				{
+					"img": "/assets/img/products/elf-sets/boy-elf-tunic.jpg",
+					"alt": "Christmal Elf Set",
+					"caption": "Boy Elf - Tunic"
+				},
+				{
+					"img": "/assets/img/products/elf-sets/boy-elf-shorts.jpg",
+					"alt": "Christmal Elf Set",
+					"caption": "Boy Elf - Shorts"
+				}
+			],
+			
+			"productInfo": [
+				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
+				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
+				"1 small bag of magic snow",
+				"1 candy cane"
+				]
+			}
+
 }
