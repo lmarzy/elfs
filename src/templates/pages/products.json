@@ -1,5 +1,73 @@
 {
-	"metaTitle": "The Christmal Elf - Our product range"
+	"metaTitle": "The Christmal Elf - Our product range",
+
+	"productsMain": [
+		{	
+			"url": "/products/elf-sets.html",
+			"title": "Christmas Elf Set",
+			"price": "13.50",
+			"img": "/assets/img/products/list/elf-set.jpg",
+			"imgAlt": "Christmal Elf Set",
+			"overview": "information about the product",
+
+			"productInfo": [
+				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
+				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
+				"1 small bag of magic snow",
+				"1 candy cane"
+			]
+	
+		},
+		{	
+			"url": "/products/elf-sets.html",
+			"title": "Christmas Elf Set",
+			"price": "13.50",
+			"img": "/assets/img/products/list/elf-set.jpg",
+			"imgAlt": "The Christmal Elf Set",
+			"overview": "information about the product",
+
+			"productInfo": [
+				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
+				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
+				"1 small bag of magic snow",
+				"1 candy cane"
+			]
+	
+		}
+		
+	],
+
+	"productsExtra": [
+
+		{
+			"url": "/products/nice-cert.html",
+			"title": "Nice Certificate",
+			"price": "2.99",
+			"img": "/assets/img/products/list/nice-cert.jpg",
+			"imgAlt": "Nice Certificate",
+			"overview": "Who been naughtly or nice"
+		},
+
+		{
+			"url": "/products/finger-puppets.html",
+			"title": "Elf Finger Puppets",
+			"price": "4",
+			"img": "/assets/img/products/list/finger-puppets.jpg",
+			"imgAlt": "Elf Finger Puppets",
+			"overview": "Set of 4 finger puppets containing 2 boy and 2 girl elf's"
+		},
+
+		{
+			"url": "/products/key.html",
+			"title": "Santa's Special Key",
+			"price": "4.25",
+			"img": "/assets/img/products/list/key.jpg",
+			"imgAlt": "Santa's Special Key",
+			"overview": "If you havent got a chimney you need santa's special key"
+		}
+
+	]
+
 }
 		
 		

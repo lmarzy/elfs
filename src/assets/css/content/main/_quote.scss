@@ -20,4 +20,7 @@
 		@include bp(bp10) {
 			p { font-size: toRem(28px); }
 		}
+		@include bp(bp20) {
+			p { padding: 0 toRem(60px); }
+		}
 }

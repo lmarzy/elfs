@@ -9,7 +9,7 @@
 		<h1 class="h-page">Products</h1>
 		
 		<ul class="g-wrap l-productsmain list-unstyled">
-
+			
 			{% for products in productsMain %}
 
 				<li class="list-unstyled">
@@ -62,7 +62,7 @@
 
 										<header>
 											
-											<h1>{{ products.title }}</h1>
+											<h1 class="h-product">{{ products.title }}</h1>
 
 											<p class="product--price">&pound;{{ products.price }}</p>
 
