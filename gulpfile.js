@@ -11,6 +11,7 @@ var gulp 					= require('gulp'),
 		imagemin 			= require('gulp-imagemin'),
 		watch 				= require('gulp-watch'),
 		connect 			= require('gulp-connect'),
+		deploy 				= require("gulp-gh-pages"),
 		dir, config;
 
 
@@ -153,6 +154,12 @@ gulp.task('connect', function() {
     port: 8000,
     livereload: true
   });
+});
+
+// deploy gh-pages
+gulp.task('deploy', function () {
+    gulp.src(config.dest)
+        .pipe(deploy());
 });
 
 //build tasks
