@@ -179,4 +179,4 @@ gulp.task('default', [ 'swig', 'sass', 'js', 'imageminInline', 'imageminCss', ])
 
 gulp.task('serve', [ 'default', 'watch', 'connect' ]);
 
-gulp.task('deploy', [ 'default', 'copyCNAME', 'deploy' ]);
+gulp.task('publish', [ 'default', 'copyCNAME' ]);
