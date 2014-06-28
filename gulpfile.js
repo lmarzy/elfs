@@ -47,6 +47,9 @@ config = {
 		cssImg: dir.dest + '/assets/css/assets/img',
 		js: dir.dest + '/assets/js/',
 		images: dir.dest + '/assets/img/',
+	},
+	deploy: {
+		site: dir.dest + '/**/*'
 	}
 };
 
@@ -147,6 +150,14 @@ gulp.task('copyCssAssets', function() {
 
 });
 
+//copy CNAME task
+gulp.task('copyCNAME', function() {
+
+	gulp.src(dir.src + '/CNAME')
+	.pipe(gulp.dest(dir.dest));
+
+});
+
 //connect task
 gulp.task('connect', function() {
   connect.server({
@@ -158,7 +169,7 @@ gulp.task('connect', function() {
 
 // deploy gh-pages
 gulp.task('deploy', function () {
-    gulp.src(dir.dest + '/**/*')
+    gulp.src(config.deploy.site)
         .pipe(deploy());
 });
 
@@ -167,3 +178,5 @@ gulp.task('deploy', function () {
 gulp.task('default', [ 'swig', 'sass', 'js', 'imageminInline', 'imageminCss', ]);
 
 gulp.task('serve', [ 'default', 'watch', 'connect' ]);
+
+gulp.task('deploy', [ 'default', 'copyCNAME', 'deploy' ]);

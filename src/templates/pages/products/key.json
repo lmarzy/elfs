@@ -6,7 +6,7 @@
 	"product": {
 		"title": "Nce Certificate",
 		"price": "4.50",
-		"img": "/assets/img/products/main/key/main.jpg",
+		"img": "assets/img/products/main/key/main.jpg",
 		"alt": "Nce Certificate",
 		"caption": "Nce Certificate",
 		"info": "If you havent got a chimney you need santa's special key"

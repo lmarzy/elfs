@@ -6,7 +6,7 @@
 	"product": {
 		"title": "Nce Certificate",
 		"price": "2.50",
-		"img": "/assets/img/products/main/nice-cert/main.jpg",
+		"img": "assets/img/products/main/nice-cert/main.jpg",
 		"alt": "Nce Certificate",
 		"caption": "Nce Certificate",
 		"info": "An Official personalised Nice list certificate"

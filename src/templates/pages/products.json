@@ -6,7 +6,7 @@
 			"url": "/products/elf-sets.html",
 			"title": "Christmas Elf Set",
 			"price": "13.50",
-			"img": "/assets/img/products/list/elf-set.jpg",
+			"img": "assets/img/products/list/elf-set.jpg",
 			"imgAlt": "Christmal Elf Set",
 			"overview": "information about the product",
 
@@ -22,7 +22,7 @@
 			"url": "/products/elf-sets.html",
 			"title": "Christmas Elf Set",
 			"price": "13.50",
-			"img": "/assets/img/products/list/elf-set.jpg",
+			"img": "assets/img/products/list/elf-set.jpg",
 			"imgAlt": "The Christmal Elf Set",
 			"overview": "information about the product",
 
@@ -43,7 +43,7 @@
 			"url": "/products/nice-cert.html",
 			"title": "Nice Certificate",
 			"price": "2.99",
-			"img": "/assets/img/products/list/nice-cert.jpg",
+			"img": "assets/img/products/list/nice-cert.jpg",
 			"imgAlt": "Nice Certificate",
 			"overview": "Who been naughtly or nice? Nice Certificate showing childs name"
 		},
@@ -52,7 +52,7 @@
 			"url": "/products/finger-puppets.html",
 			"title": "Elf Finger Puppets",
 			"price": "4",
-			"img": "/assets/img/products/list/finger-puppets.jpg",
+			"img": "assets/img/products/list/finger-puppets.jpg",
 			"imgAlt": "Elf Finger Puppets",
 			"overview": "Set of 4 finger puppets containing 2 boy and 2 girl elf's"
 		},
@@ -61,7 +61,7 @@
 			"url": "/products/key.html",
 			"title": "Santa's Special Key",
 			"price": "4.25",
-			"img": "/assets/img/products/list/key.jpg",
+			"img": "assets/img/products/list/key.jpg",
 			"imgAlt": "Santa's Special Key",
 			"overview": "If you havent got a chimney you need santa's special key"
 		}
