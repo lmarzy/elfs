@@ -16,9 +16,9 @@
 
 						<header>
 							
-							<h1>{{ products.productTitle }}</h1>
+							<h1 class="h-product">{{ products.productTitle }}</h1>
 
-							<p>&pound;{{ products.productPrice }}</p>
+							<p class="product--price">&pound;{{ products.productPrice }}</p>
 
 						</header>
 

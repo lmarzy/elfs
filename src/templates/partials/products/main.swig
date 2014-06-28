@@ -38,6 +38,40 @@
 
 						{% endif %}
 
+						<div class="product__buy">
+							
+							<!-- Elf Sets -->
+							{% if buyElfSet %}
+								{% include "buy-buttons/elf-set.swig" %}
+							{% endif %}
+
+							<!-- Nice Certificate -->
+							{% if buyNiceCert %}
+								{% include "buy-buttons/nice-cert.swig" %}
+							{% endif %}
+
+							<!-- Finger Puppets -->
+							{% if buyFingerPuppets %}
+								{% include "buy-buttons/finger-puppets.swig" %}
+							{% endif %}
+
+							<!-- Special Key -->
+							{% if buyKey %}
+								{% include "buy-buttons/key.swig" %}
+							{% endif %}
+
+							<!-- Bendy Elf -->
+							{% if buyBendyElf %}
+								{% include "buy-buttons/bendy-elfs.swig" %}
+							{% endif %}
+
+							<!-- Elf Mug -->
+							{% if buyMug %}
+								{% include "buy-buttons/mug.swig" %}
+							{% endif %}
+
+						</div>
+
 					</div>
 
 

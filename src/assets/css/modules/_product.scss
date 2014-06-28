@@ -68,7 +68,13 @@
 }
 
 .product__set {
+	margin-bottom: $spacing;
 	padding: $spacing / 2;
 	background: lighten(colour(shades, lightergray),6);
 	border: 1px solid $border-colour;
+}
+
+.product__buy {
+	table { width: 100%; margin-bottom: toRem(10px); }
+	td { padding: toRem(4px) 0; }
 }

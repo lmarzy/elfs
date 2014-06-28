@@ -1,8 +1,10 @@
 {
 	"metaTitle": "Christmas Elf - Elf Sets",
 
-	"productExtraElf": true,
 	"productMoreImages": true,
+	"productExtraElf": true,
+
+	"buyElfSet": true,
 
 	"product": {
 		"title": "Christmas Elf Set",
