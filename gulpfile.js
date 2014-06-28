@@ -158,7 +158,7 @@ gulp.task('connect', function() {
 
 // deploy gh-pages
 gulp.task('deploy', function () {
-    gulp.src(dir.dest)
+    gulp.src(dir.dest + '/**/*')
         .pipe(deploy());
 });
 
