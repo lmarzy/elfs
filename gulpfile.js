@@ -154,7 +154,7 @@ gulp.task('copyCssAssets', function() {
 gulp.task('copyCNAME', function() {
 
 	gulp.src(dir.src + '/CNAME')
-	.pipe(gulp.dest(dir.dest));
+	.pipe(prod ? (gulp.dest(dir.dest)) : gutil.noop());
 
 });
 
@@ -175,8 +175,6 @@ gulp.task('deploy', function () {
 
 //build tasks
 
-gulp.task('default', [ 'swig', 'sass', 'js', 'imageminInline', 'imageminCss', ]);
+gulp.task('default', [ 'swig', 'sass', 'js', 'imageminInline', 'imageminCss', 'copyCNAME' ]);
 
 gulp.task('serve', [ 'default', 'watch', 'connect' ]);
-
-gulp.task('publish', [ 'default', 'copyCNAME' ]);
