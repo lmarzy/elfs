@@ -10,7 +10,11 @@
 		"img": "/assets/img/products/main/key/main.jpg",
 		"alt": "Nce Certificate",
 		"caption": "Nce Certificate",
-		"info": "If you havent got a chimney you need santa's special key"
+		"info": [
+ 			"3 designs available.",
+ 			"Plastic mugs are perfect for those holiday drinks.",
+ 			"3 inches tall and hold approx 8 oz"
+ 		]
 	},
 
 	"inStock": true

@@ -10,7 +10,11 @@
 		"img": "/assets/img/products/main/finger-puppets/main.jpg",
 		"alt": "Finger Puppets",
 		"caption": "Finger Puppets",
-		"info": "Set of 4 finger puppets containing 2 boy and 2 girl elf's"
+		"info": [
+ 			"Choose from a boy or girl elf or take a full set of 4",
+ 			"Hang them on Christmas trees, stuff them in stockings and wrap them around Christmas gifts. ",
+ 			"Made from Vinyl and measuring 4 inches."
+ 		]
 	}
 
 }

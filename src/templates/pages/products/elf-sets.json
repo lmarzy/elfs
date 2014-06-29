@@ -13,7 +13,9 @@
 		"img": "/assets/img/products/main/elf-sets/main.jpg",
 		"alt": "Christmal Elf Set",
 		"caption": "Full elf set",
-		"info": "The elf is approx 11inches long and comply with EN71 / CE safety regulations and are suitable from the age of 3+ due to small parts. Adult supervision is required.",
+		"info": [
+ 			"The elf is approx 11inches long and comply with EN71 / CE safety regulations and are suitable from the age of 3+ due to small parts. Adult supervision is required."
+ 		],
 
 		"moreImages": [
 			{

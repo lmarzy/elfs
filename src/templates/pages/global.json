@@ -8,8 +8,8 @@
 	"pageHeader": "The Christmas Elf",
 
 	"email": "headelf@chritsmaself.co.uk",
-	"facebook": "Christmas Elf",
-	"twitter": "@christmaself",
+	"facebook": "https://www.facebook.com/Christmaself01?ref=hl",
+	"twitter": "https://twitter.com/elf_xmas",
 
 	"siteNav": [
 		{ "linkName": "Home", "linkUrl": "/" },
@@ -19,9 +19,9 @@
 	],
 
 	"socialLinks": [
-		{ "name": "Connect with us on Facebook", "icon": "icon-facebook", "url": "/", "class": "c-social__facebook" },
-		{ "name": "Connect with us on Twitter", "icon": "icon-twitter", "url": "/", "class": "c-social__twitter" },
-		{ "name": "heckout our antics on Instagram", "icon": "icon-instagram", "url": "/", "class": "c-social__instagram" },
+		{ "name": "Connect with us on Facebook", "icon": "icon-facebook", "url": "https://www.facebook.com/Christmaself01?ref=hl", "class": "c-social__facebook" },
+		{ "name": "Connect with us on Twitter", "icon": "icon-twitter", "url": "https://twitter.com/elf_xmas", "class": "c-social__twitter" },
+		{ "name": "heckout our antics on Instagram", "icon": "icon-instagram", "url": "http://instagram.com/elfantics?ref=badge", "class": "c-social__instagram" },
 		{ "name": "Send the Head Elf and Email", "icon": "icon-envelope-o", "url": "mailto:headelf@christmaself.co.uk", "class": "c-social__mail" }
 	]
 

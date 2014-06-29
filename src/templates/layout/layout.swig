@@ -23,5 +23,7 @@
 
 	{% include "../partials/structure/footer.swig" %}
 
+	{% include "../partials/foot/analytics.swig" %}
+
 </body>
 </html>

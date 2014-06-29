@@ -10,7 +10,11 @@
 		"img": "/assets/img/products/main/nice-cert/main.jpg",
 		"alt": "Nce Certificate",
 		"caption": "Nce Certificate",
-		"info": "An Official personalised Nice list certificate"
+ 		"info": [
+ 			"A4 Nice list certificate signed by head elf PJ Jingles to show your child has made the Nice list this year",
+ 			"Available for a boy or Girl. Personalised with child's name.",
+ 			"Printed on thin card."
+ 		]
 	},
 
 	"inStock": true

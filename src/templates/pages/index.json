@@ -2,8 +2,22 @@
 	"metaTitle": "The Christmal Elf - Home page",
 
 	"latestProducts": [
-		{ "url": "/products/product1.html", "title": "product title", "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" },
-		{ "url": "/products/product2.html", "title": "product title", "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" }
+		{ 
+			"url": "/products/nice-cert.html",
+			"title": "Nice Certificate",
+			"productAlt": "Nice Certificate",
+			"productImg": "/assets/img/products/list/nice-cert.jpg",
+			"productTitle": "Nice Certificate",
+			"productPrice": "2.50"
+			},
+		{
+			"url": "/products/finger-puppets.html",
+			"title": "Elf Finger Puppets",
+			"productAlt": "Elf Finger Puppets",
+			"productImg": "/assets/img/products/list/finger-puppets.jpg",
+			"productTitle": "Elf Finger Puppets",
+			"productPrice": "4.00"
+		}
 	]
 
 }

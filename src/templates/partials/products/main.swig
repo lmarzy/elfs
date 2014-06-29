@@ -45,8 +45,16 @@
 							</div>
 
 						</header>
+						
+						<div itemprop="description">
 
-						<p itemprop="description">{{ product.info }}</p>
+							{% for info in product.info %}
+								
+								<p>{{ info }}</p>
+
+							{% endfor %}
+
+						</div>
 
 						{% if productExtraElf %}
 

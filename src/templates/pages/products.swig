@@ -92,7 +92,7 @@
 
 										</header>
 
-										<p itemprop="description">{{ products.overview }}</p>
+										<p class="product--description" itemprop="description">{{ products.description }}</p>
 
 								</article>
 
