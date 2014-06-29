@@ -80,7 +80,7 @@
 											<h1 class="h-product" itemprop="name">{{ products.title }}</h1>
 										
 											<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-												<p><span class="product--price" itemprop="price">&pound;{{ products.price }}</span> <span class="smallprint">inc postage</span></p>
+												<p><span class="product--price" itemprop="price">&pound;{{ products.price }}</span> <span class="smallprint">inc uk postage</span></p>
 
 												{% if products.inStock %}
 													<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">In Stock</p>
