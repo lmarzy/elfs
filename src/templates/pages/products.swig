@@ -2,7 +2,12 @@
 
 {% block content %}
 
-<section class="section--highlight" itemscope itemtype="http://schema.org/Product">
+<section class="section section--highlight" itemscope itemtype="http://schema.org/Product">
+
+	<ul class="breadcrumbs list-unstyled l-wrap">
+		<li><a href="/">Home</a></li>
+		<li>Products</li>
+	</ul>
 		
 	<div class="l-wrap">
 		

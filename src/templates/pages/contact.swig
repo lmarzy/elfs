@@ -2,7 +2,12 @@
 
 {% block content %}
 
-	<section class="section--highlight">
+	<section class="section section--highlight">
+
+		<ul class="breadcrumbs list-unstyled l-wrap">
+			<li><a href="/">Home</a></li>
+			<li>Contact</li>
+		</ul>
 
 		<div class="l-wrap">
 		

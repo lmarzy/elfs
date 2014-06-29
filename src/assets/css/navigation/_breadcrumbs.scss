@@ -1,0 +1,21 @@
+// Site 					: Responsive Template with SASS
+// CSS author 		: Lee Marsden
+// Updated body 	: Lee Marsden
+// Site CSS File 	: NAVIGATION/BREADCRUMBS - site breadcrumb styles
+
+/* ==========================================================================
+		NAVIGATION - BREADCRUMBS
+	 ========================================================================== */
+
+.breadcrumbs {
+	margin-bottom: $spacing / 2;
+	padding: toRem(6px);
+	background: lighten(colour(shades, lightergray),2);
+	border-radius: 0 0 $border-radius $border-radius;
+	@include cf;
+
+	li { 
+		float: left; 
+		margin-right: toRem(12px); 
+		font-size: toRem(12px); }
+}

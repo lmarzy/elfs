@@ -16,7 +16,9 @@
 	{% include "../partials/structure/header.swig" %}
 	
 	<main role="main">
+
   {% block content %}{% endblock %}
+
 	</main>
 
 	{% include "../partials/structure/footer.swig" %}

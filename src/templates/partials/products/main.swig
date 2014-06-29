@@ -1,6 +1,12 @@
 <article>
 
 	<div class="section section--highlight" itemscope itemtype="http://schema.org/Product">
+
+		<ul class="breadcrumbs list-unstyled l-wrap">
+			<li><a href="/">Home</a></li>
+			<li><a href="/products.html">Products</a></li>
+			<li>{{ breadcrumb }}</li>
+		</ul>
 		
 		<div class="l-wrap">
 
