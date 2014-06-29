@@ -10,6 +10,8 @@
 		"alt": "Nce Certificate",
 		"caption": "Nce Certificate",
 		"info": "If you havent got a chimney you need santa's special key"
-	}
+	},
+
+	"inStock": true
 
 }

@@ -22,14 +22,15 @@
 			transform: scale(1.01);
 		}
 
-		p:last-child { margin: 0; }
 }
 
 .product--price {
 	font-weight: 700;
 	color: lighten(colour(brand, primary),40);
 }
-
+.product--stock {
+	margin-bottom: $spacing;
+}
 
 .product__img {
 	position: relative;
@@ -58,13 +59,23 @@
 
 .product__details {
 
-	header { border-bottom: 1px solid $border-colour;  margin-bottom: $spacing; }
-
 	@include bp(bp20) {
 		padding: $spacing / 2;
 		background: colour(shades, white);
 		box-shadow: 0 0 4px rgba(colour(shades, black),0.5);
 	}
+}
+
+.product--overview { 
+	border-bottom: 1px solid $border-colour; 
+	margin-bottom: $spacing / 2;
+
+		p:first-child { margin: 0; }
+		p:last-child { margin-bottom: $spacing / 2; }
+}
+
+.product--description {
+	margin: 0;
 }
 
 .product__set {

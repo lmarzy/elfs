@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<section class="section--highlight">
+<section class="section--highlight" itemscope itemtype="http://schema.org/Product">
 		
 	<div class="l-wrap">
 		
@@ -18,17 +18,27 @@
 
 						<article>
 								
-								<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}">
+								<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}" itemprop="image">
 
-								<header>
+								<header class="product--overview">
 									
-									<h1 class="h-product">{{ products.title }}</h1>
+									<h1 class="h-product" itemprop="name">{{ products.title }}</h1>
 
-									<p class="product--price">&pound;{{ products.price }}</p>
+									<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+										<p><span class="product--price" itemprop="price">&pound;{{ products.price }}</span> <span class="smallprint">inc postage</span></p>
+
+										{% if products.inStock %}
+											<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">In Stock</p>
+										{% else %}
+											<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">Out of Stock</p>
+										{% endif %}
+
+									</div>
 
 								</header>
 
-								<p>{{ products.overview }}</p>
+								<p class="product--description" itemprop="description">{{ products.description }}</p>
 
 						</article>
 
@@ -56,19 +66,28 @@
 				
 							<a href="{{ products.url }}" title="{{ products.title }}" class="product">
 
-								<article>
+								<article itemscope itemtype="http://schema.org/Product">
 										
-										<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}">
+										<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}" itemprop="image">
 
-										<header>
+										<header class="product--overview">
 											
-											<h1 class="h-product">{{ products.title }}</h1>
+											<h1 class="h-product" itemprop="name">{{ products.title }}</h1>
+										
+											<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+												<p><span class="product--price" itemprop="price">&pound;{{ products.price }}</span> <span class="smallprint">inc postage</span></p>
 
-											<p class="product--price">&pound;{{ products.price }}</p>
+												{% if products.inStock %}
+													<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">In Stock</p>
+												{% else %}
+													<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">Out of Stock</p>
+												{% endif %}
+												
+											</div>
 
 										</header>
 
-										<p>{{ products.overview }}</p>
+										<p itemprop="description">{{ products.overview }}</p>
 
 								</article>
 

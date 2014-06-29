@@ -8,31 +8,35 @@
 			"price": "13.50",
 			"img": "assets/img/products/list/elf-set.jpg",
 			"imgAlt": "Christmal Elf Set",
-			"overview": "information about the product",
+			"description": "information about the product",
 
 			"productInfo": [
 				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
 				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
 				"1 small bag of magic snow",
 				"1 candy cane"
-			]
+			],
+
+			"inStock": true
 	
 		},
 		{	
-			"url": "/products/elf-sets.html",
-			"title": "Christmas Elf Set",
+			"url": "",
+			"title": "Christmas Eve Bags",
 			"price": "13.50",
-			"img": "assets/img/products/list/elf-set.jpg",
-			"imgAlt": "The Christmal Elf Set",
-			"overview": "information about the product",
+			"img": "",
+			"imgAlt": "Awaiting images",
+			"description": "Christmas Eve bags containging lots of goodies to keep your child occupied on the special night",
 
 			"productInfo": [
 				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
 				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
 				"1 small bag of magic snow",
 				"1 candy cane"
-			]
-	
+			],
+
+			"inStock": false
+
 		}
 		
 	],
@@ -45,7 +49,10 @@
 			"price": "2.99",
 			"img": "/assets/img/products/list/nice-cert.jpg",
 			"imgAlt": "Nice Certificate",
-			"overview": "Who been naughtly or nice? Nice Certificate showing childs name"
+			"description": "Who been naughtly or nice? Nice Certificate showing childs name",
+
+			"inStock": true
+
 		},
 
 		{
@@ -54,7 +61,10 @@
 			"price": "4",
 			"img": "/assets/img/products/list/finger-puppets.jpg",
 			"imgAlt": "Elf Finger Puppets",
-			"overview": "Set of 4 finger puppets containing 2 boy and 2 girl elf's"
+			"description": "Set of 4 finger puppets containing 2 boy and 2 girl elf's",
+
+			"inStock": true
+			
 		},
 
 		{
@@ -63,7 +73,10 @@
 			"price": "4.25",
 			"img": "/assets/img/products/list/key.jpg",
 			"imgAlt": "Santa's Special Key",
-			"overview": "If you havent got a chimney you need santa's special key"
+			"description": "If you havent got a chimney you need santa's special key",
+
+			"inStock": true
+
 		}
 
 	]

@@ -38,6 +38,8 @@
 			"1 small bag of magic snow",
 			"1 candy cane"
 			]
-		}
+		},
+
+	"inStock": true
 
 }

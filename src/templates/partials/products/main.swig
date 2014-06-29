@@ -1,6 +1,6 @@
 <article>
 
-	<div class="section section--highlight">
+	<div class="section section--highlight" itemscope itemtype="http://schema.org/Product">
 		
 		<div class="l-wrap">
 
@@ -10,7 +10,7 @@
 
 					<figure class="product__img">
 	
-						<img class="full-width" alt="{{ product.alt }}" src="{{ product.img }}">	
+						<img class="full-width" alt="{{ product.alt }}" src="{{ product.img }}" itemprop="image">	
 
 						<figcaption>{{ product.caption }}</figcaption>
 
@@ -22,15 +22,25 @@
 
 					<div class="product__details">
 
-						<header>
+						<header class="product--overview">
 							
-							<h1 class="h-product">{{ product.title }}</h1>
+							<h1 class="h-product" itemprop="name">{{ product.title }}</h1>
+							
+							<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+								
+								<p><span class="product--price" itemprop="price">&pound;{{ product.price }}</span> <span class="smallprint">inc postage</span></p>
+								
+								{% if inStock %}
+									<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">In Stock</p>
+								{% else %}
+									<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">Out of Stock</p>
+								{% endif %}
 
-							<p><span class="product--price">&pound;{{ product.price }}</span> <span class="smallprint">inc postage</span></p>
+							</div>
 
 						</header>
 
-						<p>{{ product.info }}</p>
+						<p itemprop="description">{{ product.info }}</p>
 
 						{% if productExtraElf %}
 
@@ -40,35 +50,44 @@
 
 						<div class="product__buy">
 							
-							<!-- Elf Sets -->
-							{% if buyElfSet %}
-								{% include "buy-buttons/elf-set.swig" %}
+							{% if inStock %}
+
+								<!-- Elf Sets -->
+								{% if buyElfSet %}
+									{% include "buy-buttons/elf-set.swig" %}
+								{% endif %}
+
+								<!-- Nice Certificate -->
+								{% if buyNiceCert %}
+									{% include "buy-buttons/nice-cert.swig" %}
+								{% endif %}
+
+								<!-- Finger Puppets -->
+								{% if buyFingerPuppets %}
+									{% include "buy-buttons/finger-puppets.swig" %}
+								{% endif %}
+
+								<!-- Special Key -->
+								{% if buyKey %}
+									{% include "buy-buttons/key.swig" %}
+								{% endif %}
+
+								<!-- Bendy Elf -->
+								{% if buyBendyElf %}
+									{% include "buy-buttons/bendy-elfs.swig" %}
+								{% endif %}
+
+								<!-- Elf Mug -->
+								{% if buyMug %}
+									{% include "buy-buttons/mug.swig" %}
+								{% endif %}
+		
+							{% else %}
+
+								<p>We are currently awaiting product stock, please check back soon</p>
+
 							{% endif %}
 
-							<!-- Nice Certificate -->
-							{% if buyNiceCert %}
-								{% include "buy-buttons/nice-cert.swig" %}
-							{% endif %}
-
-							<!-- Finger Puppets -->
-							{% if buyFingerPuppets %}
-								{% include "buy-buttons/finger-puppets.swig" %}
-							{% endif %}
-
-							<!-- Special Key -->
-							{% if buyKey %}
-								{% include "buy-buttons/key.swig" %}
-							{% endif %}
-
-							<!-- Bendy Elf -->
-							{% if buyBendyElf %}
-								{% include "buy-buttons/bendy-elfs.swig" %}
-							{% endif %}
-
-							<!-- Elf Mug -->
-							{% if buyMug %}
-								{% include "buy-buttons/mug.swig" %}
-							{% endif %}
 
 						</div>
 
