@@ -29,7 +29,8 @@
 					You can contact us by:
 					<ul class="list-unstyled">
 						<li>Email to: - <a href="mailto:{{ email }}">{{ email }}</a></li>
-						<li>Face book:  - {{ facebook }}</li>
+						<li>Facebook: - <a href="{{ facebook }}">Christmaself</a></li>
+						<li>Twitter: - <a href="{{ twitter }}">@elf_xmas</a></li>
 					</ul>	
 						
 				</dd>
