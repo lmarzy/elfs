@@ -12,6 +12,7 @@ var gulp 					= require('gulp'),
 		watch 				= require('gulp-watch'),
 		connect 			= require('gulp-connect'),
 		deploy 				= require("gulp-gh-pages"),
+		psi 					= require('psi'),
 		dir, config;
 
 
@@ -156,6 +157,15 @@ gulp.task('copyFiles', function() {
 	gulp.src([dir.src + '/CNAME', dir.src + '/robots.txt', dir.src + '/sitemap.xml'])
 	.pipe(prod ? (gulp.dest(dir.dest)) : gutil.noop());
 
+});
+
+//page speed insights
+gulp.task('psi', function (cb) {
+   psi({
+       nokey: 'true',
+       url: 'http://www.christmaself.co.uk',
+       strategy: 'mobile',
+   }, cb);
 });
 
 //connect task
