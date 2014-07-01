@@ -1,4 +1,4 @@
-<p class="smallprint">Please not these elf's are intended as an occasional/decorative toy. </p>
+<p class="smallprint">Please note these elf's are intended as an occasional/decorative toy. </p>
 
 <div class="product__set">
 
