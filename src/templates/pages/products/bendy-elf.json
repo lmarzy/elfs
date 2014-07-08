@@ -1,20 +1,22 @@
 {
-	"metaTitle": "Christmas Elf - Finger Puppets",
+	"metaTitle": "Christmas Elf - Bendy Elfs",
 	"breadcrumb": "Bendy Elf",
 
 	"buyBendyElf": true,
 
 	"product": {
-		"title": "Finger Puppets",
-		"price": "4.00",
-		"img": "/assets/img/products/main/finger-puppets/main.jpg",
-		"alt": "Finger Puppets",
-		"caption": "Finger Puppets",
+		"title": "Bendy Elf",
+		"price": "2.50 each or 4 for £5.50",
+		"img": "/assets/img/products/main/bendy-elf/main.jpg",
+		"alt": "Bendy Elf",
+		"caption": "Bendy Elf",
 		"info": [
  			"Choose from a boy or girl elf or take a full set of 4",
- 			"Hang them on Christmas trees, stuff them in stockings and wrap them around Christmas gifts. ",
+ 			"Hang them on Christmas trees, stuff them in stockings and wrap them around Christmas gifts.",
  			"Made from Vinyl and measuring 4 inches."
  		]
-	}
+	},
+
+	"inStock": true
 
 }

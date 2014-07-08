@@ -77,6 +77,30 @@
 
 			"inStock": true
 
+		},
+
+		{
+			"url": "/products/bendy-elf.html",
+			"title": "Bendy Elf",
+			"price": "2.50 each",
+			"img": "/assets/img/products/list/bendy-elfs.jpg",
+			"imgAlt": "Bendy Elf",
+			"description": "Choose from a boy or girl elf or take a full set of 4",
+
+			"inStock": true
+
+		},
+
+		{
+			"url": "/products/elf-mug.html",
+			"title": "Elf Mug",
+			"price": "5.25",
+			"img": "/assets/img/products/list/elf-mugs.jpg",
+			"imgAlt": "Elf Mug",
+			"description": "3 designs available.",
+
+			"inStock": true
+
 		}
 
 	]

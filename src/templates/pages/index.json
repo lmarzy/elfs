@@ -3,20 +3,20 @@
 
 	"latestProducts": [
 		{ 
-			"url": "/products/nice-cert.html",
-			"title": "Nice Certificate",
-			"productAlt": "Nice Certificate",
-			"productImg": "/assets/img/products/list/nice-cert.jpg",
-			"productTitle": "Nice Certificate",
-			"productPrice": "2.50"
+			"url": "/products/elf-mug.html",
+			"title": "Elf Mug",
+			"productAlt": "Elf Mug",
+			"productImg": "/assets/img/products/list/elf-mugs.jpg",
+			"productTitle": "Elf Mug",
+			"productPrice": "5.25"
 			},
 		{
-			"url": "/products/finger-puppets.html",
-			"title": "Elf Finger Puppets",
-			"productAlt": "Elf Finger Puppets",
-			"productImg": "/assets/img/products/list/finger-puppets.jpg",
-			"productTitle": "Elf Finger Puppets",
-			"productPrice": "4.00"
+			"url": "/products/bendy-elf.html",
+			"title": "Bendy Elf",
+			"productAlt": "Bendy Elf",
+			"productImg": "/assets/img/products/list/bendy-elfs.jpg",
+			"productTitle": "Bendy Elf",
+			"productPrice": "2.50 each"
 		}
 	]
 
