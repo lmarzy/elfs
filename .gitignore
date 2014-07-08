@@ -17,7 +17,6 @@ node_modules
 node_modules
 bower_modules
 src/assets/js/vendor
-dist
 .sass-cache
 .DS_Store
 .tmp
