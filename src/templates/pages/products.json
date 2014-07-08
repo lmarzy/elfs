@@ -21,19 +21,12 @@
 	
 		},
 		{	
-			"url": "",
+			"url": "/products/eve-bags.html",
 			"title": "Christmas Eve Bags",
 			"price": "13.50",
-			"img": "",
-			"imgAlt": "Awaiting images",
+			"img": "assets/img/products/list/eve-bags.jpg",
+			"imgAlt": "Christmas Eve Bags",
 			"description": "Christmas Eve bags containging lots of goodies to keep your child occupied on the special night",
-
-			"productInfo": [
-				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
-				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
-				"1 small bag of magic snow",
-				"1 candy cane"
-			],
 
 			"inStock": false
 

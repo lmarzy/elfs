@@ -1,0 +1,48 @@
+{
+	"metaTitle": "Christmas Elf - Christmas Eve Bags",
+	"breadcrumb": "Christmas Eve Bags",
+
+	"productMoreImages": true,
+	"productExtraElf": true,
+
+	"buyElfSet": true,
+
+	"product": {
+		"title": "Christmas Eve Bags",
+		"price": "13.50",
+		"img": "/assets/img/products/main/eve-bags/main.jpg",
+		"alt": "Christmal Elf Set",
+		"caption": "Full elf set",
+		"info": [
+ 			"The elf is approx 11inches long and comply with EN71 / CE safety regulations and are suitable from the age of 3+ due to small parts. Adult supervision is required."
+ 		],
+
+ 		"productInfo": [
+			"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
+			"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
+			"1 small bag of magic snow",
+			"1 candy cane"
+			]
+		},
+
+		"moreImages": [
+			{
+				"img": "/assets/img/products/main/eve-bags/girl.jpg",
+				"alt": "Christmal Elf Set",
+				"caption": "Girl Elf"
+			},
+			{
+				"img": "/assets/img/products/main/eve-bags/boy-tunic.jpg",
+				"alt": "Christmal Elf Set",
+				"caption": "Boy Elf - Tunic"
+			},
+			{
+				"img": "/assets/img/products/main/eve-bags/boy-shorts.jpg",
+				"alt": "Christmal Elf Set",
+				"caption": "Boy Elf - Shorts"
+			}
+		],
+
+	"inStock": true
+
+}
