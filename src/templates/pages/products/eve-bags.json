@@ -3,9 +3,7 @@
 	"breadcrumb": "Christmas Eve Bags",
 
 	"productMoreImages": true,
-	"productExtraElf": true,
-
-	"buyElfSet": true,
+	"productExtraInfo": true,
 
 	"product": {
 		"title": "Christmas Eve Bags",
@@ -14,34 +12,71 @@
 		"alt": "Christmal Elf Set",
 		"caption": "Full elf set",
 		"info": [
- 			"The elf is approx 11inches long and comply with EN71 / CE safety regulations and are suitable from the age of 3+ due to small parts. Adult supervision is required."
+ 			"A perfect gift for your elf to leave when they return to the North Pole. It contains lots to keep your child entertained throughout Christmas Eve.",
+ 			"There is plenty of room for you to add your own gifts such as a DVD or new Pyjamas too !"
  		],
 
  		"productInfo": [
-			"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
-			"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
-			"1 small bag of magic snow",
-			"1 candy cane"
-			]
-		},
+			"1 x 14.5\" x 16.5\" large Christmas tote bag with long handles (Various colours - chosen at random)",
+			"1 x Reindeer food to sprinkle on your drive or lawn at night",
+			"1 x make your own elf Christmas decoration (glue needed)",
+			"1 x Snowman soup (hot chocolate with marshmallows and choc buttons with a candy cane stirrer)",
+			"1 x chocolate Santa",
+			"1 x North Pole colouring story book with 12 pages",
+			"1 x pack of Christmas crayons (6 crayons)",
+			"1 x Paddleball game (various designs - chosen at random)",
+			"1 x Personalised nice list certificate (please select boy or girl option at checkout and enter the child's name in the notes field)"
+			],
 
 		"moreImages": [
 			{
-				"img": "/assets/img/products/main/eve-bags/girl.jpg",
-				"alt": "Christmal Elf Set",
-				"caption": "Girl Elf"
+				"img": "/assets/img/products/main/eve-bags/soup.jpg",
+				"alt": "Snowman Soup",
+				"caption": "Snowman Soup"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/boy-tunic.jpg",
-				"alt": "Christmal Elf Set",
-				"caption": "Boy Elf - Tunic"
+				"img": "/assets/img/products/main/eve-bags/choc.jpg",
+				"alt": "Chocolate Santa",
+				"caption": "Chocolate Santa"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/boy-shorts.jpg",
-				"alt": "Christmal Elf Set",
-				"caption": "Boy Elf - Shorts"
+				"img": "/assets/img/products/main/eve-bags/food.jpg",
+				"alt": "Reindeer Food",
+				"caption": "Reindeer Food"
+			},
+			{
+				"img": "/assets/img/products/main/eve-bags/tree-deco.jpg",
+				"alt": "Christmas Decoration",
+				"caption": "Christmas Decoration"
+			},
+			{
+				"img": "/assets/img/products/main/eve-bags/colour-book.jpg",
+				"alt": "Colouring Story Book",
+				"caption": "Colouring Story Book"
+			},
+			{
+				"img": "/assets/img/products/main/eve-bags/crayons.jpg",
+				"alt": "Christmas Crayons",
+				"caption": "Christmas Crayons"
+			},
+			{
+				"img": "/assets/img/products/main/eve-bags/bats.jpg",
+				"alt": "Paddleball Game",
+				"caption": "Paddleball Game"
+			},
+			{
+				"img": "/assets/img/products/main/eve-bags/bags.jpg",
+				"alt": "Christmas Tote Bag",
+				"caption": "Christmas Tote Bag"
+			},
+			{
+				"img": "/assets/img/products/main/eve-bags/nice-cert.jpg",
+				"alt": "Nice Certificate",
+				"caption": "Nice Certificate"
 			}
-		],
+		]
+
+		},
 
 	"inStock": true
 

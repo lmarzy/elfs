@@ -3,7 +3,7 @@
 	"breadcrumb": "Christmas Elf Set",
 
 	"productMoreImages": true,
-	"productExtraElf": true,
+	"productExtraInfo": true,
 
 	"buyElfSet": true,
 
@@ -16,6 +16,10 @@
 		"info": [
  			"The elf is approx 11inches long and comply with EN71 / CE safety regulations and are suitable from the age of 3+ due to small parts. Adult supervision is required."
  		],
+
+ 		"smallPrint": "Please note these elf's are intended as an occasional/decorative toy.",
+
+ 		"smallPrintInfo": "",
 
 		"moreImages": [
 			{

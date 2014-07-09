@@ -50,7 +50,7 @@ config = {
 		images: dir.dest + '/assets/img/',
 	},
 	deploy: {
-		site: dir.dest + '/**/*'
+		site: dir.dest + ''
 	}
 };
 

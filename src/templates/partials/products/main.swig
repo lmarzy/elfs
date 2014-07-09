@@ -56,9 +56,9 @@
 
 						</div>
 
-						{% if productExtraElf %}
+						{% if productExtraInfo %}
 
-							{% include "extra-info/elf-sets.swig" %}
+							{% include "extra-info.swig" %}
 
 						{% endif %}
 

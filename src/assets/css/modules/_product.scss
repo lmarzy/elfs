@@ -84,6 +84,8 @@
 	padding: $spacing / 2;
 	background: lighten(colour(shades, lightergray),6);
 	border: 1px solid $border-colour;
+
+		.smallprint { margin: $spacing 0 0 0; }
 }
 
 .product__buy {
