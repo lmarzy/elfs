@@ -3,8 +3,6 @@
 <input type="hidden" name="hosted_button_id" value="XFN6FCTTNJ8MN">
 <table>
 <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
-	<option value="1 Boy Bendy Elf">1 Boy Bendy Elf £2.50 GBP</option>
-	<option value="1 Girl Bendy Elf">1 Girl Bendy Elf £2.50 GBP</option>
 	<option value="Set of 4  (2 Boy, 2 Girl)">Set of 4  (2 Boy, 2 Girl) £5.50 GBP</option>
 </select> </td></tr>
 </table>
