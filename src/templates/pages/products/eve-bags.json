@@ -7,14 +7,14 @@
 
 	"product": {
 		"title": "Christmas Eve Bags",
-		"price": "13.50(Available mid September)",
+		"price": "13.50 (Available mid September)",
 		"img": "/assets/img/products/main/eve-bags/main.jpg",
 		"alt": "Christmas Eve Bags",
 		"caption": "Christmas Eve Bags",
 		"info": [
-			"This product is not available to order right now due to the set containgin food items, this product will be available mid September, if you would like to know when the product is available please send us a message",
+			"This product is not available to order right now due to the set containing food items. This product will be available mid September, if you would like to know when the product is available please send us a message",
  			"A perfect gift for your elf to leave when they return to the North Pole. It contains lots to keep your child entertained throughout Christmas Eve.",
- 			"There is plenty of room for you to add your own gifts such as a DVD or new Pyjamas too !"
+ 			"There is plenty of room for you to add your own gifts such as a DVD or new Pyjamas too!"
  		],
 
  		"productInfo": [
@@ -47,8 +47,8 @@
 			},
 			{
 				"img": "/assets/img/products/main/eve-bags/tree-deco.jpg",
-				"alt": "Christmas Decoration",
-				"caption": "Christmas Decoration"
+				"alt": "Make Your Own Christmas Decoration",
+				"caption": "Make Your Own Christmas Decoration"
 			},
 			{
 				"img": "/assets/img/products/main/eve-bags/colour-book.jpg",
@@ -72,8 +72,8 @@
 			},
 			{
 				"img": "/assets/img/products/main/eve-bags/nice-cert.jpg",
-				"alt": "Nice Certificate",
-				"caption": "Nice Certificate"
+				"alt": "Personalised Nice Certificate",
+				"caption": "Personalised Nice Certificate"
 			}
 		]
 

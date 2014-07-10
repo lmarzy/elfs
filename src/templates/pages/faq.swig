@@ -44,11 +44,11 @@
 				<dt>Do you ship internationally?</dt>
 				<dd>All of the prices quoted on this website include postage to the <strong>UK ONLY. 
 Please not purchase via the website if you live outside of the UK.</strong> 
-If you require shipping to any other destination please contact us via email at <a href="{{ email }}">{{ email }}</a>
+If you require shipping to any other destination please contact us via email at <a href="mailto:{{ email }}">{{ email }}</a>
 and we will calculate a cost including international shipping for you</dd>
 		
 				<dt>Postage Discounts</dt>
-				<dd>If you would like to purchase more than 2 elf sets we may be able to offer a discount on the inclusive postage. Before purchasing please contact us via email at <a href="{{ email }}">{{ email }}</a></dd>
+				<dd>If you would like to purchase more than 2 elf sets of additional extra products, we may be able to offer a discount on the inclusive postage. Before purchasing please contact us via email at <a href="mailto:{{ email }}">{{ email }}</a></dd>
 
 				<dt>What if I'm not happy with my goods?</dt>
 				<dd>We hope that you will be very happy with your Christmas Elf but if for any unfortunate reason you have a problem with your order please contact us and we will be happy to resolve any issues.</dd>
