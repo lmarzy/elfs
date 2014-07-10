@@ -10,7 +10,7 @@
 .faq {
 	margin-bottom: $spacing;
 	
-	dt { font-size: toRem(18px); margin-bottom: toRem(8px); }
+	dt { font-size: toRem(18px); margin-bottom: toRem(8px); color: colour(brand, primary); }
 	dd { margin: 0 0 toRem(12px) 0; }
 
 }

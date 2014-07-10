@@ -7,11 +7,12 @@
 
 	"product": {
 		"title": "Christmas Eve Bags",
-		"price": "13.50",
+		"price": "13.50(Available mid September)",
 		"img": "/assets/img/products/main/eve-bags/main.jpg",
-		"alt": "Christmal Elf Set",
-		"caption": "Full elf set",
+		"alt": "Christmas Eve Bags",
+		"caption": "Christmas Eve Bags",
 		"info": [
+			"This product is not available to order right now due to the set containgin food items, this product will be available mid September, if you would like to know when the product is available please send us a message",
  			"A perfect gift for your elf to leave when they return to the North Pole. It contains lots to keep your child entertained throughout Christmas Eve.",
  			"There is plenty of room for you to add your own gifts such as a DVD or new Pyjamas too !"
  		],
@@ -78,6 +79,6 @@
 
 		},
 
-	"inStock": true
+	"inStock": false
 
 }

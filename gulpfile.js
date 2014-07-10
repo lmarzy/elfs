@@ -34,7 +34,7 @@ config = {
 		},
 		css: {
 			files: dir.src + '/assets/css/styles.scss',
-			images: dir.src + '/assets/css/assets/img/*.*',
+			images: dir.src + '/assets/css/assets/*.*',
 			watch: dir.src + '/assets/css/**/*.scss'
 		},
 		js: {
@@ -45,7 +45,7 @@ config = {
 	dest: {
 		html: dir.dest,
 		css: dir.dest + '/assets/css/',
-		cssImg: dir.dest + '/assets/css/assets/img',
+		cssImg: dir.dest + '/assets/css/assets/',
 		js: dir.dest + '/assets/js/',
 		images: dir.dest + '/assets/img/',
 	},
