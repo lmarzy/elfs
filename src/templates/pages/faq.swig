@@ -16,13 +16,13 @@
 			<dl class="faq">
 
 				<dt>How do I purchase?</dt>
-				<dd>Simply add your desired products to the shopping cart and click on the checkout button. This will direct you to PayPal for payment details. Please follow the on screen instructions. Our elf sets come with a personalised letter for which we require the childs/chrildrens names. During placing your order you will find a notes box, please enter the names require here. If no names are entered the letter will simply read "Hello there". If you forget to enter the name you have 24 hours in which you can make contact with us via email to advise a change to your order otherwise the letter will be sent generic.</dd>
+				<dd>Simply add your desired products to the shopping cart and click on the checkout button. This will direct you to PayPal for payment details. Please follow the on screen instructions. Our elf sets come with a personalised letter for which we require the childs/children's names. During placing your order you will find a notes box, please enter the names require here. If no names are entered the letter will simply read "Hello there". If you forget to enter the name you have 24 hours in which you can make contact with us via email to advise a change to your order otherwise the letter will be sent generic.</dd>
 
 				<dt>How many children's names can be inserted in the personalised letter?</dt>
 				<dd>You can have as many children's names as you wish but please note the set will still only contain 1 candy cane.</dd>
 			
 				<dt>How can I pay for my purchase?</dt>
-				<dd>Paying for your purchase is easy and safe as we use PayPal for all transactions. If you would like to make a payment in other ways please feel free to contact us at headelf@chritsmaself.co.uk before placing an order.</dd>
+				<dd>Paying for your purchase is easy and safe as we use PayPal for all transactions. If you would like to make a payment in other ways please feel free to contact us at <a href="mailto:{{ email }}">{{ email }}</a> before placing an order.</dd>
 
 				<dt>How can I contact you?</dt>
 				<dd>

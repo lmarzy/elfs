@@ -25,5 +25,31 @@
 
 	{% include "../partials/foot/analytics.swig" %}
 
+	<script>
+
+			var frmPayPal = document.getElementById('frmPayPal');
+
+
+			function validateForm(e) {
+
+			    var frmPayPalName = document.getElementById('frmPayPalName'),
+			    		frmPayPalMessage = document.getElementById('frmPayPalMessage');
+
+			    if (frmPayPalName.value==null || frmPayPalName.value=="") {
+			        
+			        frmPayPalName.classList.add('is-invalid');
+			        frmPayPalMessage.classList.add('active');
+			        e.preventDefault();
+			    } else {
+			    		frmPayPalName.classList.add('is-valid');
+			      	frmPayPalMessage.classList.remove('active');
+			    }
+			}
+
+			frmPayPal.addEventListener('submit', validateForm, true);
+
+
+	</script>
+
 </body>
 </html>

@@ -52,6 +52,15 @@ input[type="text"] {
             outline: 0;
             outline : thin dotted \ 9;
         }
+
+        &.is-invalid {
+            background: lighten(red,45);
+            border-color: lighten(red,15);
+        }
+        &.is-valid {
+            background: lighten(green,70);
+            border-color: lighten(green,15);
+        }
 }
 
 input[type="text"],
@@ -62,4 +71,13 @@ textarea {
 textarea {
     height : auto;
     resize-x : none;
+}
+
+#frmPayPalMessage {
+    display: none;
+    padding: toRem(4px);
+    background: lighten(red,15);
+    color: colour(shades, white);
+
+        &.active { display: block; }
 }
