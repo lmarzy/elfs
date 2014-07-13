@@ -16,7 +16,7 @@
 			<dl class="faq">
 
 				<dt>How do I purchase?</dt>
-				<dd>Simply add your desired products to the shopping cart and click on the checkout button. This will direct you to PayPal for payment details. Please follow the on screen instructions. Our elf sets come with a personalised letter for which we require the childs/children's names. During placing your order you will find a notes box, please enter the names require here. If no names are entered the letter will simply read "Hello there". If you forget to enter the name you have 24 hours in which you can make contact with us via email to advise a change to your order otherwise the letter will be sent generic.</dd>
+				<dd>Simply add your desired products to the shopping cart and click on the checkout button. This will direct you to PayPal for payment details. Please follow the on screen instructions. Our elf sets come with a personalised letter for which we require the childs/children's names. During placing your order you will find a notes box, please enter the names required here. If no names are entered the letter will simply read "Hello there". If you forget to enter the name you have 24 hours in which you can make contact with us via email to advise a change to your order otherwise the letter will be sent generic.</dd>
 
 				<dt>How many children's names can be inserted in the personalised letter?</dt>
 				<dd>You can have as many children's names as you wish but please note the set will still only contain 1 candy cane.</dd>
@@ -43,7 +43,7 @@
 
 				<dt>Do you ship internationally?</dt>
 				<dd>All of the prices quoted on this website include postage to the <strong>UK ONLY. 
-Please not purchase via the website if you live outside of the UK.</strong> 
+Please do not purchase via the website if you live outside of the UK.</strong> 
 If you require shipping to any other destination please contact us via email at <a href="mailto:{{ email }}">{{ email }}</a>
 and we will calculate a cost including international shipping for you</dd>
 		
