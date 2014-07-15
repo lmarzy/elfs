@@ -1,7 +1,7 @@
 //lodad all plugins
 var gulp 					= require('gulp'),
 		gutil 				= require('gulp-util'),
-		clean 				= require('gulp-clean'),
+		rimraf 				= require('gulp-rimraf'),
 		swig 					= require('gulp-swig'),
 		sass 					= require('gulp-ruby-sass'),
 		autoprefixer 	= require('gulp-autoprefixer'),
@@ -59,12 +59,10 @@ var dev = gutil.env.dev,
 
 //TASKS
 
-//clean task
-gulp.task('clean', function(){
-
-  gulp.src([dir.dest, dir.sassCache], {read:false})
-  .pipe(clean());
-
+//rimraf task
+gulp.task('clean', function() {
+  return gulp.src([dir.sassCache, dir.dest], { read: false })
+    .pipe(rimraf());
 });
 
 //swig task
