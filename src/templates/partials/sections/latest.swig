@@ -10,15 +10,19 @@
 	
 			<a href="{{ products.url }}" title="{{ products.title }}" class="product">
 
-				<article>
+				<article itemscope itemtype="http://schema.org/Product">
 						
-						<img class="full-width" alt="{{ products.productAlt }}" src="{{ products.productImg }}">
+						<img class="full-width" alt="{{ products.productAlt }}" src="{{ products.productImg }}" itemprop="image">
 
 						<header>
 							
-							<h1 class="h-product">{{ products.productTitle }}</h1>
+							<h1 class="h-product" itemprop="name">{{ products.productTitle }}</h1>
 
-							<p class="product--price">&pound;{{ products.productPrice }}</p>
+							<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+								<p class="product--price" itemprop="price">&pound;{{ products.productPrice }}</p>
+
+							</div>
 
 						</header>
 
@@ -33,6 +37,3 @@
 	</ul>
 
 </section>
-
-<!-- 
-{ "url": "/", "title": "product title", "productAlt": "alt", "productImg": "http://placehold.it/270x180", "productTitle": "Product Title", "productPrice": "2.99" } -->
