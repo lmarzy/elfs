@@ -24,5 +24,7 @@
 }
 
 .section--about {
-	background: url(assets/img/bg-elf-hanging.png) no-repeat 94% 22px;
+	position: relative;
+	background: url(assets/bg-hanging-elf.png) no-repeat 94% 22px;
+	z-index: 100;
 }
