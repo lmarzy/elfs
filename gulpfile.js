@@ -33,21 +33,17 @@ config = {
 			watch: dir.src + '/templates/pages/**/*.json'
 		},
 		css: {
-			files: dir.src + '/assets/css/styles.scss',
-			images: dir.src + '/assets/css/assets/*.*',
-			watch: dir.src + '/assets/css/**/*.scss'
+			files: dir.src + '/css/styles.scss',
+			images: dir.src + '/css/assets/*.*',
+			watch: dir.src + '/css/**/*.scss'
 		},
-		js: {
-			files: dir.src + '/assets/js/**/*.js'
-		},
-		images: dir.src + '/assets/img/**/*.*'
+		images: dir.src + '/img/**/*.*'
 	},
 	dest: {
 		html: dir.dest,
-		css: dir.dest + '/assets/css/',
-		cssImg: dir.dest + '/assets/css/assets/',
-		js: dir.dest + '/assets/js/',
-		images: dir.dest + '/assets/img/',
+		css: dir.dest + '/css/',
+		cssImg: dir.dest + '/css/assets/',
+		images: dir.dest + '/img/'
 	},
 	deploy: {
 		site: dir.dest + '/**/*'
@@ -94,16 +90,6 @@ gulp.task('sass', function() {
 
 });
 
-//js task
-gulp.task('js', function() {
-
-	gulp.src(config.src.js.files)
-	.pipe(prod ? uglify() : gutil.noop())
-	.pipe(gulp.dest(config.dest.js))
-	.pipe(dev ? connect.reload() : gutil.noop());
-
-});
-
 //image min inline task
 gulp.task('imageminInline', function () {
     return gulp.src(config.src.images)
@@ -144,9 +130,6 @@ gulp.task('copyCssAssets', function() {
 		//watch css files
 		gulp.watch(config.src.css.watch, ['sass']);
 
-		//watch js files
-		gulp.watch(config.src.js.files, ['js']);
-
 });
 
 //copy CNAME task
@@ -183,6 +166,6 @@ gulp.task('deploy', function () {
 
 //build tasks
 
-gulp.task('default', [ 'swig', 'sass', 'js', 'imageminInline', 'imageminCss', 'copyFiles' ]);
+gulp.task('default', [ 'swig', 'sass', 'imageminInline', 'imageminCss', 'copyFiles' ]);
 
 gulp.task('serve', [ 'default', 'watch', 'connect' ]);

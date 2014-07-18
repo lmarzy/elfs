@@ -10,7 +10,7 @@
 	"product": {
 		"title": "Christmas Elf Set",
 		"price": "13.50",
-		"img": "/assets/img/products/main/elf-sets/main.jpg",
+		"img": "/img/products/main/elf-sets/main.jpg",
 		"alt": "Christmal Elf Set",
 		"caption": "Full elf set",
 		"info": [
@@ -23,17 +23,17 @@
 
 		"moreImages": [
 			{
-				"img": "/assets/img/products/main/elf-sets/girl.jpg",
+				"img": "/img/products/main/elf-sets/girl.jpg",
 				"alt": "Christmal Elf Set",
 				"caption": "Girl Elf"
 			},
 			{
-				"img": "/assets/img/products/main/elf-sets/boy-tunic.jpg",
+				"img": "/img/products/main/elf-sets/boy-tunic.jpg",
 				"alt": "Christmal Elf Set",
 				"caption": "Boy Elf - Tunic"
 			},
 			{
-				"img": "/assets/img/products/main/elf-sets/boy-shorts.jpg",
+				"img": "/img/products/main/elf-sets/boy-shorts.jpg",
 				"alt": "Christmal Elf Set",
 				"caption": "Boy Elf - Shorts"
 			}

@@ -6,7 +6,7 @@
 			"url": "/products/elf-sets.html",
 			"title": "Christmas Elf Set",
 			"price": "13.50",
-			"img": "assets/img/products/list/elf-set.jpg",
+			"img": "/img/products/list/elf-set.jpg",
 			"imgAlt": "Christmal Elf Set",
 			"description": "Your choice of a girl elf, a boy elf wearing shorts or a boy elf wearing a tunic.",
 
@@ -24,7 +24,7 @@
 			"url": "/products/eve-bags.html",
 			"title": "Christmas Eve Bags",
 			"price": "13.50 (Available mid September)",
-			"img": "assets/img/products/list/eve-bags.jpg",
+			"img": "/img/products/list/eve-bags.jpg",
 			"imgAlt": "Christmas Eve Bags",
 			"description": "Christmas Eve bags containing lots of goodies to keep your child occupied on the special night",
 
@@ -40,7 +40,7 @@
 			"url": "/products/nice-cert.html",
 			"title": "Nice Certificate",
 			"price": "3.00",
-			"img": "/assets/img/products/list/nice-cert.jpg",
+			"img": "/img/products/list/nice-cert.jpg",
 			"imgAlt": "Nice Certificate",
 			"description": "Who's been naughtly or nice? Nice Certificate showing childs name",
 
@@ -52,7 +52,7 @@
 			"url": "/products/finger-puppets.html",
 			"title": "Elf Finger Puppets",
 			"price": "4",
-			"img": "/assets/img/products/list/finger-puppets.jpg",
+			"img": "/img/products/list/finger-puppets.jpg",
 			"imgAlt": "Elf Finger Puppets",
 			"description": "Set of 4 finger puppets containing 2 boy and 2 girl elf's",
 
@@ -64,7 +64,7 @@
 			"url": "/products/key.html",
 			"title": "Santa's Special Key",
 			"price": "4.25",
-			"img": "/assets/img/products/list/key.jpg",
+			"img": "/img/products/list/key.jpg",
 			"imgAlt": "Santa's Special Key",
 			"description": "If you haven't got a chimney you need santa's special key",
 
@@ -76,7 +76,7 @@
 			"url": "/products/bendy-elf.html",
 			"title": "Bendy Elf",
 			"price": "5.50 (set of 4)",
-			"img": "/assets/img/products/list/bendy-elfs.jpg",
+			"img": "/img/products/list/bendy-elfs.jpg",
 			"imgAlt": "Bendy Elf",
 			"description": "Choose from a boy or girl elf or take a full set of 4",
 
@@ -88,7 +88,7 @@
 			"url": "/products/elf-mug.html",
 			"title": "Elf Mug",
 			"price": "5.25",
-			"img": "/assets/img/products/list/elf-mugs.jpg",
+			"img": "/img/products/list/elf-mugs.jpg",
 			"imgAlt": "Elf Mug",
 			"description": "3 designs available.",
 

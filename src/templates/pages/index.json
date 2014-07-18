@@ -6,7 +6,7 @@
 			"url": "/products/elf-mug.html",
 			"title": "Elf Mug",
 			"productAlt": "Elf Mug",
-			"productImg": "/assets/img/products/list/elf-mugs.jpg",
+			"productImg": "/img/products/list/elf-mugs.jpg",
 			"productTitle": "Elf Mug",
 			"productPrice": "5.25"
 			},
@@ -14,7 +14,7 @@
 			"url": "/products/bendy-elf.html",
 			"title": "Bendy Elf",
 			"productAlt": "Bendy Elf",
-			"productImg": "/assets/img/products/list/bendy-elfs.jpg",
+			"productImg": "/img/products/list/bendy-elfs.jpg",
 			"productTitle": "Bendy Elf",
 			"productPrice": "2.50 each (4 for £5.50)"
 		}

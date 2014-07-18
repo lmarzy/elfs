@@ -8,7 +8,7 @@
 	"product": {
 		"title": "Christmas Eve Bags",
 		"price": "13.50 (Available mid September)",
-		"img": "/assets/img/products/main/eve-bags/main.jpg",
+		"img": "/img/products/main/eve-bags/main.jpg",
 		"alt": "Christmas Eve Bags",
 		"caption": "Christmas Eve Bags",
 		"info": [
@@ -31,47 +31,47 @@
 
 		"moreImages": [
 			{
-				"img": "/assets/img/products/main/eve-bags/soup.jpg",
+				"img": "/img/products/main/eve-bags/soup.jpg",
 				"alt": "Snowman Soup",
 				"caption": "Snowman Soup"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/choc.jpg",
+				"img": "/img/products/main/eve-bags/choc.jpg",
 				"alt": "Chocolate Santa",
 				"caption": "Chocolate Santa"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/food.jpg",
+				"img": "/img/products/main/eve-bags/food.jpg",
 				"alt": "Reindeer Food",
 				"caption": "Reindeer Food"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/tree-deco.jpg",
+				"img": "/img/products/main/eve-bags/tree-deco.jpg",
 				"alt": "Make Your Own Christmas Decoration",
 				"caption": "Make Your Own Christmas Decoration"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/colour-book.jpg",
+				"img": "/img/products/main/eve-bags/colour-book.jpg",
 				"alt": "Colouring Story Book",
 				"caption": "Colouring Story Book"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/crayons.jpg",
+				"img": "/img/products/main/eve-bags/crayons.jpg",
 				"alt": "Christmas Crayons",
 				"caption": "Christmas Crayons"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/bats.jpg",
+				"img": "/img/products/main/eve-bags/bats.jpg",
 				"alt": "Paddleball Game",
 				"caption": "Paddleball Game"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/bags.jpg",
+				"img": "/img/products/main/eve-bags/bags.jpg",
 				"alt": "Christmas Tote Bag",
 				"caption": "Christmas Tote Bag"
 			},
 			{
-				"img": "/assets/img/products/main/eve-bags/nice-cert.jpg",
+				"img": "/img/products/main/eve-bags/nice-cert.jpg",
 				"alt": "Personalised Nice Certificate",
 				"caption": "Personalised Nice Certificate"
 			}

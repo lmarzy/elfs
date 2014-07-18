@@ -2,7 +2,7 @@
 	
 	<div class="l-wrap">
 		
-		<h1 class="c-logo"><a href="/" title="Back to home page"><img src="/assets/img/logo.svg" alt="The Christmas Elf"></a></h1>
+		<h1 class="c-logo"><a href="/" title="Back to home page"><img src="/img/logo.svg" alt="The Christmas Elf"></a></h1>
 		
 		{% include "../navigation/site-navigation.swig" %}
 
