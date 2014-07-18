@@ -1,0 +1,43 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/POSTS - News posts styles on home page
+
+/* ==========================================================================
+   POSTS MODULE STYLES
+   ========================================================================== */
+
+ .posts {
+	
+		a { 
+			display: block; 
+			margin-bottom: $spacing;
+			color: $text-colour; 
+			text-decoration: none;
+			border: 1px solid $border-colour;
+			border-radius: $border-radius $border-radius 0 0;
+			transition: transform 300ms ease-in;
+
+				&:hover {
+					transform: translateY(toRem(-4px));
+				}
+		}
+	
+		h1 {
+			margin: 0;
+			padding: toRem(6px);
+			background: colour(shades, lightergray);
+		}
+		p {
+			margin: 0;
+			padding: toRem(24px) toRem(6px);
+		}
+		time {
+			display: block;
+			padding: toRem(2px) toRem(6px);
+			font-size: toRem(14px);
+			background: lighten(colour(shades, lightergray),7);
+			border-top: 1px solid $border-colour;
+		}
+
+ }

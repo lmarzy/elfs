@@ -18,6 +18,15 @@
 	@include visuallyhidden;
 }
 
+.date {
+	display: block;
+	margin-bottom: $spacing;
+	padding: toRem(4px);
+	background: lighten(colour(brand, secondary),60);
+	border-radius: $border-radius;
+	font-size: toRem(12px);
+}
+
 //widths
 
 .full-width {

@@ -10,4 +10,6 @@
 
 	{% include "../partials/sections/how-it-works.swig" %}
 
+	{% include "../partials/sections/posts.swig" %}
+
 {% endblock %}

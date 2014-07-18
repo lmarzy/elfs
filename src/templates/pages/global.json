@@ -24,6 +24,37 @@
 		{ "name": "Connect with us on Twitter", "icon": "icon-twitter", "url": "https://twitter.com/elf_xmas", "class": "c-social__twitter" },
 		{ "name": "heckout our antics on Instagram", "icon": "icon-instagram", "url": "http://instagram.com/elfantics?ref=badge", "class": "c-social__instagram" },
 		{ "name": "Send the Head Elf and Email", "icon": "icon-envelope-o", "url": "mailto:headelf@christmaself.co.uk", "class": "c-social__mail" }
+	],
+
+	"posts": [
+		{
+			"url": "/postone.html",
+			"title": "Latest News One", 
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eligendi.", 
+			"dateMachine": "01/01/2014",
+			"dateHuman": "01 January 2014"
+		},
+		{
+			"url": "/postone.html",
+			"title": "Latest News Two",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eligendi.",
+			"dateMachine": "01/01/2014",
+			"dateHuman": "01 January 2014"
+		},
+		{
+			"url": "/postone.html",
+			"title": "Latest News Three",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eligendi.",
+			"dateMachine": "01/01/2014",
+			"dateHuman": "01 January 2014"
+		},
+		{
+			"url": "/postone.html",
+			"title": "Latest News Four",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eligendi.",
+			"dateMachine": "01/01/2014",
+			"dateHuman": "01 January 2014"
+		}
 	]
 
 }
