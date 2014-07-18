@@ -28,32 +28,11 @@
 
 	"posts": [
 		{
-			"url": "/postone.html",
-			"title": "Latest News One", 
-			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eligendi.", 
-			"dateMachine": "01/01/2014",
-			"dateHuman": "01 January 2014"
-		},
-		{
-			"url": "/postone.html",
-			"title": "Latest News Two",
-			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eligendi.",
-			"dateMachine": "01/01/2014",
-			"dateHuman": "01 January 2014"
-		},
-		{
-			"url": "/postone.html",
-			"title": "Latest News Three",
-			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eligendi.",
-			"dateMachine": "01/01/2014",
-			"dateHuman": "01 January 2014"
-		},
-		{
-			"url": "/postone.html",
-			"title": "Latest News Four",
-			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eligendi.",
-			"dateMachine": "01/01/2014",
-			"dateHuman": "01 January 2014"
+			"url": "/posts/sorry-who-are-you-again.html",
+			"title": "Sorry, who are you again?", 
+			"desc": "So who is the person behind Christmas Elf? I'm not a little elf I am a real life person.", 
+			"dateMachine": "18/7/14",
+			"dateHuman": "18 July 2014"
 		}
 	]
 

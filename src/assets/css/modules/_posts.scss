@@ -12,10 +12,12 @@
 		a { 
 			display: block; 
 			margin-bottom: $spacing;
+			background: lighten(colour(shades, lightergray),8);
 			color: $text-colour; 
 			text-decoration: none;
 			border: 1px solid $border-colour;
 			border-radius: $border-radius $border-radius 0 0;
+			overflow: hidden;
 			transition: transform 300ms ease-in;
 
 				&:hover {
@@ -26,7 +28,7 @@
 		h1 {
 			margin: 0;
 			padding: toRem(6px);
-			background: colour(shades, lightergray);
+			border-bottom: 1px solid $border-colour;
 		}
 		p {
 			margin: 0;
@@ -36,7 +38,7 @@
 			display: block;
 			padding: toRem(2px) toRem(6px);
 			font-size: toRem(14px);
-			background: lighten(colour(shades, lightergray),7);
+			background: lighten(colour(brand, secondary),65);
 			border-top: 1px solid $border-colour;
 		}
 
