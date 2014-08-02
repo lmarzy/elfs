@@ -1,0 +1,23 @@
+{
+	"metaTitle": "Christmas Elf - Reward Chart",
+	"breadcrumb": "Reward Chart",
+
+	"buyRewardChart": true,
+
+	"product": {
+		"title": "Reward Chart",
+		"price": "5.25",
+		"img": "/img/products/main/reward-chart/main.jpg",
+		"alt": "Reward Chart",
+		"caption": "Reward Chart",
+ 		"info": [
+ 			"A4 Reward chart printed on card on hung with Christmas twine. Can be personalised.",
+ 			"Contains 24 boxes to represent each day of December up until Christmas Eve.",
+ 			"Comes with 24 Coloured sticky stars. Everyday your child shows good behaviour they get to place a star on the corresponding date.",
+ 			"Will they be on the Naughty or Nice list when it comes to the 25th?"
+ 		]
+	},
+
+	"inStock": true
+
+}

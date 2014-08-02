@@ -3,20 +3,18 @@
 
 	"latestProducts": [
 		{ 
-			"url": "/products/elf-mug.html",
-			"title": "Elf Mug",
-			"productAlt": "Elf Mug",
-			"productImg": "/img/products/list/elf-mugs.jpg",
-			"productTitle": "Elf Mug",
-			"productPrice": "5.25"
+			"url": "/products/reward-chart.html",
+			"title": "Reward Chart",
+			"price": "5.25",
+			"img": "/img/products/list/reward-chart.jpg",
+			"imgAlt": "Reward Chart"
 			},
 		{
 			"url": "/products/bendy-elf.html",
 			"title": "Bendy Elf",
-			"productAlt": "Bendy Elf",
-			"productImg": "/img/products/list/bendy-elfs.jpg",
-			"productTitle": "Bendy Elf",
-			"productPrice": "2.50 each (4 for £5.50)"
+			"price": "2.50 each (4 for £5.50)",
+			"img": "/img/products/list/bendy-elfs.jpg",
+			"imgAlt": "Reward Chart"
 		}
 	]
 

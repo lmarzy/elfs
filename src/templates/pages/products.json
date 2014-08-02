@@ -94,6 +94,18 @@
 
 			"inStock": true
 
+		},
+
+		{
+			"url": "/products/reward-chart.html",
+			"title": "Reward Chart",
+			"price": "5.25",
+			"img": "/img/products/list/reward-chart.jpg",
+			"imgAlt": "Reward Chart",
+			"description": "A great was to keep your child motivated throughout December.",
+
+			"inStock": true
+
 		}
 
 	]

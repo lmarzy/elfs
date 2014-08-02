@@ -12,15 +12,15 @@
 
 				<article itemscope itemtype="http://schema.org/Product">
 						
-						<img class="full-width" alt="{{ products.productAlt }}" src="{{ products.productImg }}" itemprop="image">
+						<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}" itemprop="image">
 
 						<header>
 							
-							<h1 class="h-product" itemprop="name">{{ products.productTitle }}</h1>
+							<h1 class="h-product" itemprop="name">{{ products.title }}</h1>
 
 							<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 
-								<p class="product--price" itemprop="price">&pound;{{ products.productPrice }}</p>
+								<p class="product--price" itemprop="price">&pound;{{ products.price }}</p>
 
 							</div>
 

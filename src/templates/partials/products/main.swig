@@ -95,6 +95,11 @@
 								{% if buyMug %}
 									{% include "buy-buttons/mug.swig" %}
 								{% endif %}
+
+								<!-- Reward Chart -->
+								{% if buyRewardChart %}
+									{% include "buy-buttons/reward-chart.swig" %}
+								{% endif %}
 		
 							{% else %}
 
