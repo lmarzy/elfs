@@ -8,7 +8,7 @@
 	"product": {
 		"title": "Christmas Eve Bags",
 		"price": "13.50 (Available mid September)",
-		"img": "/img/products/main/eve-bags/main.jpg",
+		"img": "/img/main/eve-bags/main.jpg",
 		"alt": "Christmas Eve Bags",
 		"caption": "Christmas Eve Bags",
 		"info": [
@@ -31,47 +31,47 @@
 
 		"moreImages": [
 			{
-				"img": "/img/products/main/eve-bags/soup.jpg",
+				"img": "/img/main/eve-bags/soup.jpg",
 				"alt": "Snowman Soup",
 				"caption": "Snowman Soup"
 			},
 			{
-				"img": "/img/products/main/eve-bags/choc.jpg",
+				"img": "/img/main/eve-bags/choc.jpg",
 				"alt": "Chocolate Santa",
 				"caption": "Chocolate Santa"
 			},
 			{
-				"img": "/img/products/main/eve-bags/food.jpg",
+				"img": "/img/main/eve-bags/food.jpg",
 				"alt": "Reindeer Food",
 				"caption": "Reindeer Food"
 			},
 			{
-				"img": "/img/products/main/eve-bags/tree-deco.jpg",
+				"img": "/img/main/eve-bags/tree-deco.jpg",
 				"alt": "Make Your Own Christmas Decoration",
 				"caption": "Make Your Own Christmas Decoration"
 			},
 			{
-				"img": "/img/products/main/eve-bags/colour-book.jpg",
+				"img": "/img/main/eve-bags/colour-book.jpg",
 				"alt": "Colouring Story Book",
 				"caption": "Colouring Story Book"
 			},
 			{
-				"img": "/img/products/main/eve-bags/crayons.jpg",
+				"img": "/img/main/eve-bags/crayons.jpg",
 				"alt": "Christmas Crayons",
 				"caption": "Christmas Crayons"
 			},
 			{
-				"img": "/img/products/main/eve-bags/bats.jpg",
+				"img": "/img/main/eve-bags/bats.jpg",
 				"alt": "Paddleball Game",
 				"caption": "Paddleball Game"
 			},
 			{
-				"img": "/img/products/main/eve-bags/bags.jpg",
+				"img": "/img/main/eve-bags/bags.jpg",
 				"alt": "Christmas Tote Bag",
 				"caption": "Christmas Tote Bag"
 			},
 			{
-				"img": "/img/products/main/eve-bags/nice-cert.jpg",
+				"img": "/img/main/eve-bags/nice-cert.jpg",
 				"alt": "Personalised Nice Certificate",
 				"caption": "Personalised Nice Certificate"
 			}

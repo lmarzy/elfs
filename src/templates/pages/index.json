@@ -6,14 +6,14 @@
 			"url": "/products/reward-chart.html",
 			"title": "Reward Chart",
 			"price": "5.25",
-			"img": "/img/products/list/reward-chart.jpg",
+			"img": "/img/list/reward-chart.jpg",
 			"imgAlt": "Reward Chart"
 			},
 		{
 			"url": "/products/bendy-elf.html",
 			"title": "Bendy Elf",
 			"price": "2.50 each (4 for £5.50)",
-			"img": "/img/products/list/bendy-elfs.jpg",
+			"img": "/img/list/bendy-elfs.jpg",
 			"imgAlt": "Reward Chart"
 		}
 	]
