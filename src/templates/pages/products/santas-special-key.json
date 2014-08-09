@@ -1,0 +1,25 @@
+{
+	"metaTitle": "Santa’s Special Key | The Christmas Elf",
+	"metaContent": "Santa’s Special Key is ideal when you don’t have a chimney. Help Father Christmas get in to deliver your presents this Christmas.",
+	"h1": "Santa’s Special Key",
+
+	"breadcrumb": "Santa's special key",
+
+	"buyKey": true,
+
+	"product": {
+		"title": "Santa's Special Key",
+		"price": "4.50",
+		"img": "/img/main/key/main.jpg",
+		"alt": "Santa's Special Key",
+		"caption": "Santa's Special Key",
+		"info": [
+ 			"If you don't have a chimney how can  Father Christmas get in to deliver your presents?",
+ 			"Simply leave this magical key outside your front door on Christmas Eve. It only works for Father Christmas so is perfectly safe.",
+ 			"Comes with a small poem."
+ 		]
+	},
+
+	"inStock": true
+
+}

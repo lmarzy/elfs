@@ -7,6 +7,8 @@
 	
 	{% include "../partials/head/css.swig" %}
 
+	{% include "../partials/head/analytics.swig" %}
+
 </head>
 
 <body>
@@ -22,8 +24,6 @@
 	</main>
 
 	{% include "../partials/structure/footer.swig" %}
-
-	{% include "../partials/foot/analytics.swig" %}
 
 	<script>
 

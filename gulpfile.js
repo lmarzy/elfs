@@ -135,7 +135,7 @@ gulp.task('copyCssAssets', function() {
 //copy CNAME task
 gulp.task('copyFiles', function() {
 
-	gulp.src([dir.src + '/CNAME', dir.src + '/robots.txt', dir.src + '/sitemap.xml'])
+	gulp.src([dir.src + '/CNAME', dir.src + '/robots.txt', dir.src + '/sitemap.xml', dir.src + '/.htaccess'])
 	.pipe(prod ? (gulp.dest(dir.dest)) : gutil.noop());
 
 });

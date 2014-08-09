@@ -1,0 +1,87 @@
+{
+	"metaTitle": "Christmas Eve Bags | The Christmas Elf",
+	"metaContent": "Our Christmas Eve Bags is the perfect gift for your lef to leave when they return from the North Pole. Buy yours online today.",
+	"h1": "Christmas Eve Bags",
+
+	"breadcrumb": "Christmas Eve Bags",
+
+	"productMoreImages": true,
+	"productExtraInfo": true,
+
+	"product": {
+		"title": "Christmas Eve Bags",
+		"price": "13.50 (Available mid September)",
+		"img": "/img/main/eve-bags/main.jpg",
+		"alt": "Christmas Eve Bags",
+		"caption": "Christmas Eve Bags",
+		"info": [
+			"This product is not available to order right now due to the set containing food items. This product will be available mid September, if you would like to know when the product is available please send us a message",
+ 			"A perfect gift for your elf to leave when they return to the North Pole. It contains lots to keep your child entertained throughout Christmas Eve.",
+ 			"There is plenty of room for you to add your own gifts such as a DVD or new Pyjamas too!"
+ 		],
+
+ 		"productInfo": [
+			"1 x 14.5\" x 16.5\" large Christmas tote bag with long handles (Various colours - chosen at random)",
+			"1 x Reindeer food to sprinkle on your drive or lawn at night",
+			"1 x make your own elf Christmas decoration (glue needed)",
+			"1 x Snowman soup (hot chocolate with marshmallows and choc buttons with a candy cane stirrer)",
+			"1 x chocolate Santa",
+			"1 x North Pole colouring story book with 12 pages",
+			"1 x pack of Christmas crayons (6 crayons)",
+			"1 x Paddleball game (various designs - chosen at random)",
+			"1 x Personalised nice list certificate (please select boy or girl option at checkout and enter the child's name in the notes field)"
+			],
+
+		"moreImages": [
+			{
+				"img": "/img/main/eve-bags/soup.jpg",
+				"alt": "Snowman Soup",
+				"caption": "Snowman Soup"
+			},
+			{
+				"img": "/img/main/eve-bags/choc.jpg",
+				"alt": "Chocolate Santa",
+				"caption": "Chocolate Santa"
+			},
+			{
+				"img": "/img/main/eve-bags/food.jpg",
+				"alt": "Reindeer Food",
+				"caption": "Reindeer Food"
+			},
+			{
+				"img": "/img/main/eve-bags/tree-deco.jpg",
+				"alt": "Make Your Own Christmas Decoration",
+				"caption": "Make Your Own Christmas Decoration"
+			},
+			{
+				"img": "/img/main/eve-bags/colour-book.jpg",
+				"alt": "Colouring Story Book",
+				"caption": "Colouring Story Book"
+			},
+			{
+				"img": "/img/main/eve-bags/crayons.jpg",
+				"alt": "Christmas Crayons",
+				"caption": "Christmas Crayons"
+			},
+			{
+				"img": "/img/main/eve-bags/bats.jpg",
+				"alt": "Paddleball Game",
+				"caption": "Paddleball Game"
+			},
+			{
+				"img": "/img/main/eve-bags/bags.jpg",
+				"alt": "Christmas Tote Bag",
+				"caption": "Christmas Tote Bag"
+			},
+			{
+				"img": "/img/main/eve-bags/nice-cert.jpg",
+				"alt": "Personalised Nice Certificate",
+				"caption": "Personalised Nice Certificate"
+			}
+		]
+
+		},
+
+	"inStock": false
+
+}

@@ -8,7 +8,7 @@
    ========================================================================== */
 
 .section {
-	padding: $spacing / 2 0 $spacing 0;
+	padding: $spacing 0;
 }
 
 .section--highlight {
@@ -25,6 +25,10 @@
 
 .section--about {
 	position: relative;
-	background: url(assets/bg-hanging-elf.png) no-repeat 94% 22px;
+	background: url(assets/bg-hanging-elf.png) no-repeat 94% -7px;
 	z-index: 100;
+
+		@include bp(bp20) {
+			background-position: 94% 22px;
+		}
 }

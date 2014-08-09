@@ -10,7 +10,7 @@
 
 		<p>We watch you all the time to make sure you are being good and kind.</p>
 
-		<a href="/products/elf-sets.html" class="btn btn--a">Buy yours today</a>
+		<a href="/products/christmas-elf-set.html" class="btn btn--a">Buy yours today</a>
 
 	</div>
 

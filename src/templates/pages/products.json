@@ -1,9 +1,11 @@
 {
-	"metaTitle": "The Christmal Elf - Our product range",
+	"metaTitle": "Our Christmas Toy Product Range | The Christmas Elf",
+	"metaContent": "Check out the full product range from Christmas Elf. We offer the ideal Christmas gifts, from Christmas Elf Sets to Christmas Elf Bags.",
+	"h1": "The Christmas Elf Product Selection",
 
 	"productsMain": [
 		{	
-			"url": "/products/elf-sets.html",
+			"url": "/products/christmas-elf-set.html",
 			"title": "Christmas Elf Set",
 			"price": "13.50",
 			"img": "/img/list/elf-set.jpg",
@@ -21,7 +23,7 @@
 	
 		},
 		{	
-			"url": "/products/eve-bags.html",
+			"url": "/products/christmas-eve-bags.html",
 			"title": "Christmas Eve Bags",
 			"price": "13.50 (Available mid September)",
 			"img": "/img/list/eve-bags.jpg",
@@ -37,7 +39,7 @@
 	"productsExtra": [
 
 		{
-			"url": "/products/nice-cert.html",
+			"url": "/products/christmas-nice-certificate.html",
 			"title": "Nice Certificate",
 			"price": "3.00",
 			"img": "/img/list/nice-cert.jpg",
@@ -49,7 +51,7 @@
 		},
 
 		{
-			"url": "/products/finger-puppets.html",
+			"url": "/products/christmas-elves-finger-puppets.html",
 			"title": "Elf Finger Puppets",
 			"price": "4",
 			"img": "/img/list/finger-puppets.jpg",
@@ -61,7 +63,7 @@
 		},
 
 		{
-			"url": "/products/key.html",
+			"url": "/products/santas-special-key.html",
 			"title": "Santa's Special Key",
 			"price": "4.25",
 			"img": "/img/list/key.jpg",
@@ -73,7 +75,7 @@
 		},
 
 		{
-			"url": "/products/bendy-elf.html",
+			"url": "/products/christmas-bendy-elf-toy.html",
 			"title": "Bendy Elf",
 			"price": "5.50 (set of 4)",
 			"img": "/img/list/bendy-elfs.jpg",
@@ -85,7 +87,7 @@
 		},
 
 		{
-			"url": "/products/elf-mug.html",
+			"url": "/products/santas-elf-mug.html",
 			"title": "Elf Mug",
 			"price": "5.25",
 			"img": "/img/list/elf-mugs.jpg",

@@ -11,8 +11,10 @@
 		
 	<div class="l-wrap">
 		
-		<h1 class="h-page">Products</h1>
+		<h2 class="h-page">More Than A Christmas Elf Toy</h2>
 		
+		<p>Here at The Christmas Elf, we offer much more than your standard <em>elf on the shelf</em>. Our product range covers everything you and your little ones need to make the holiday season special. Not sure how to keep your child occupied on the big night? Then why don’t you look at our Christmas Eve Bags – perfect for keeping their little minds busy, whist getting them into the Christmas spirit.  Our Christmas Elf Sets enable you to choose from a wide range of <em>Christmas elves</em>, both boys and girls, and they come in a range of different and stylish outfits.</p>
+
 		<ul class="g-wrap l-productsmain list-unstyled">
 			
 			{% for products in productsMain %}
@@ -61,7 +63,9 @@
 
 		<div class="l-wrap">
 
-			<h2 class="h-page--sub">Product Extras</h2>
+			<h2 class="h-page--sub">Christmas Elf Extras</h2>
+
+			<p>We also offer a range of product extras, from Santa’s special door keys, to <strong>Christmas Elves</strong> finger puppets. To find out more, click each of the products below.  All our products are available to buy online direct through our website.</p>
 
 				<ul class="g-wrap l-productsextra list-unstyled">
 
