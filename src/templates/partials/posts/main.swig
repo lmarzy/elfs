@@ -15,6 +15,16 @@
 				<p>{{ details }}</p>
 
 			{% endfor %}
+			
+			{% if hasLinks %}
+			<ul class="list-unstyled">
+				
+				<li><a href="http://www.iheartnaptime.net/elf-shelf-ideas/">Elf-Shelf ideas</a></li>
+				<li><a href="http://www.buzzfeed.com/mikespohr/33-genius-elf-on-the-shelf-ideas">33 Genius Elf on the shelf ideas</a></li>
+				<li><a href="http://www.pinterest.com/mudpiestudio/elf-on-the-shelf-ideas/">Elf on the shelf ideas</a></li>
+
+			</ul>
+			{% endif %}
 
 		</div>
 
