@@ -108,6 +108,18 @@
 
 			"inStock": true
 
+		},
+
+		{
+			"url": "/products/christmas-santa-plate.html",
+			"title": "Personalised Keepsake Santa Plate",
+			"price": "11.00(19cm), £13(26cm)",
+			"img": "/img/list/plate.jpg",
+			"imgAlt": "Personalised Keepsake Santa Plate",
+			"description": "Personalised keepsake Christmas Santa plates.",
+
+			"inStock": true
+
 		}
 
 	]

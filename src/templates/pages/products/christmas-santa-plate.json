@@ -1,0 +1,42 @@
+{
+	"metaTitle": "personalised Santa Plate | The Christmas Elf",
+	"metaContent": "Our personalised keepsake Christmas Santa plates are great for children to use year after year and make putting out treats for Santa and the reindeer's even more special.",
+	"h1": "Christmas Elf Set",
+
+	"breadcrumb": "Santa Plate",
+
+	"productMoreImages": true,
+	"productExtraInfo": false,
+
+	"buyPlate": true,
+
+	"product": {
+		"title": "Personalised Keepsake Santa Plate",
+		"price": "11.00(19cm), £13(26cm)",
+		"img": "/img/main/plate/main.jpg",
+		"alt": "CPersonalised Keepsake Santa Plate",
+		"caption": "Personalised Keepsake Santa Plate",
+		"info": [
+ 			"Our personalised keepsake plates are great for children to use year after year and make putting out treats for Santa and the reindeer's even more special.",
+ 			"Can be personalised with your children's names.",
+			"Available in two sizes",
+			"Regular - 19cm (side plate sized - upto 4 names)",
+			"Large - 26cm (dinner plate sized - upto 12 names)",
+			"This item is completely handmade to order. Please allow up to 2 weeks for despatch.",
+			"Postage may be by Royal Mail or My Hermes and will be despatched separately to any elf products purchased.",
+ 			"Supplied by Pretty Please Gifts"
+ 		],
+
+		"moreImages": [
+			{
+				"img": "/img/main/plate/used.jpg",
+				"alt": "Santa plate being used",
+				"caption": "Santa plate - Ready for the big night"
+			}
+		]
+
+		},
+
+	"inStock": true
+
+}

@@ -4,20 +4,20 @@
 	"h1": "The Christmas Elf – Start A Family Tradition Today",
 
 	"latestProducts": [
+		{
+			"url": "/products/christmas-santa-plate.html",
+			"title": "Personalised Keepsake Santa Plate",
+			"price": "11.00(19cm), £13(26cm)",
+			"img": "/img/list/plate.jpg",
+			"imgAlt": "Personalised Keepsake Santa Plate"
+		},
 		{ 
 			"url": "/products/reward-chart.html",
 			"title": "Reward Chart",
 			"price": "5.25",
 			"img": "/img/list/reward-chart.jpg",
 			"imgAlt": "Reward Chart"
-			},
-		{
-			"url": "/products/christmas-bendy-elf-toy.html",
-			"title": "Bendy Elf",
-			"price": "2.50 each (4 for £5.50)",
-			"img": "/img/list/bendy-elfs.jpg",
-			"imgAlt": "Reward Chart"
-		}
+			}
 	]
 
 }

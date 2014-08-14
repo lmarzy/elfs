@@ -100,6 +100,11 @@
 								{% if buyRewardChart %}
 									{% include "buy-buttons/reward-chart.swig" %}
 								{% endif %}
+
+								<!-- Buy Plate -->
+								{% if buyPlate %}
+									{% include "buy-buttons/plate.swig" %}
+								{% endif %}
 		
 							{% else %}
 
