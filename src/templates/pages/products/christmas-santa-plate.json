@@ -13,7 +13,7 @@
 	"product": {
 		"title": "Personalised Keepsake Santa Plate",
 		"price": "11.00(19cm), £13(26cm)",
-		"img": "/img/main/plate/main.jpg",
+		"img": "/img/main/plate.jpg",
 		"alt": "CPersonalised Keepsake Santa Plate",
 		"caption": "Personalised Keepsake Santa Plate",
 		"info": [
@@ -29,7 +29,7 @@
 
 		"moreImages": [
 			{
-				"img": "/img/main/plate/used.jpg",
+				"img": "/img/main/plate-used.jpg",
 				"alt": "Santa plate being used",
 				"caption": "Santa plate - Ready for the big night"
 			}
