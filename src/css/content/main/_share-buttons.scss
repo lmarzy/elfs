@@ -1,0 +1,38 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CORE/CONTENT/MAIN/SHARE-BUTTONS - content styles for the social media share buttons
+
+/* ==========================================================================
+   SHARE-BUTTONS CONTENT STYLES
+   ========================================================================== */
+
+.share-buttons {
+	list-style: none;
+	padding: toRem(6px);
+	@include cf;
+
+		li {
+			float: left;
+			margin-right: toRem(12px);
+		}
+}
+
+.share-buttons-facebook, .share-buttons-twitter {
+	display: block;
+	width: 36px;
+	height: 36px;
+	padding-top: toRem(7px);
+	border-radius: 50%;
+	text-align: center;
+
+		.icon {
+			fill: colour(shades, white);
+		}
+}
+.share-buttons-facebook {
+	background: colour(social, facebook);
+}
+.share-buttons-twitter {
+	background: colour(social, twitter);
+}

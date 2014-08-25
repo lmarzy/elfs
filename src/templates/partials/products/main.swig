@@ -22,6 +22,24 @@
 
 					</figure>
 
+					<ul class="share-buttons">
+						<li>
+							Share
+						</li>
+						<li>
+							<a href="http://www.facebook.com/sharer.php?u=http://www.christmaself.co.uk/products/{{ productUrl }}.html" target="_blank" class="share-buttons-facebook">
+								<span class="visuallyhidden">Share this product on Facebook</span>
+								<svg class="icon icon-facebook" viewBox="0 0 16 16"><use xlink:href="#icon-facebook"></use></svg>
+							</a>
+						</li>
+						<li>
+							<a href="http://twitter.com/share?url=http://www.christmaself.co.uk/products/{{ productUrl }}.html&text=Checkout this great product" target="_blank" class="share-buttons-twitter">
+								<span class="visuallyhidden">Share this product on Twitter</span>
+								<svg class="icon icon-twitter" viewBox="0 0 16 16"><use xlink:href="#icon-twitter"></use></svg>
+							</a>
+						</li>
+					</ul>
+
 					</div> <!-- !END div.l-product-img -->
 
 					<div class="l-product-details">
