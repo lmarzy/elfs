@@ -9,7 +9,8 @@
 
 .share-buttons {
 	list-style: none;
-	padding: toRem(6px);
+	padding: toRem(4px) 0;
+	float: right;
 	@include cf;
 
 		li {
@@ -20,13 +21,15 @@
 
 .share-buttons-facebook, .share-buttons-twitter {
 	display: block;
-	width: 36px;
-	height: 36px;
-	padding-top: toRem(7px);
+	width: 30px;
+	height: 30px;
+	padding-top: toRem(4px);
 	border-radius: 50%;
 	text-align: center;
 
 		.icon {
+			width: 15px;
+			height: 15px;
 			fill: colour(shades, white);
 		}
 }
