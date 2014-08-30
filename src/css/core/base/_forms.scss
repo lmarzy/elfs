@@ -81,3 +81,9 @@ textarea {
 
         &.active { display: block; }
 }
+
+select {
+    font-size: toRem(14px);
+
+        option { padding: toRem(4px); }
+}

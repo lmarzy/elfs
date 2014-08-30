@@ -1,0 +1,26 @@
+{
+	"metaTitle": "Christmas Elf Door - Christmas Elf Toy | The Christmas Elf",
+	"metaContent": "Our Elf doors are a perfect addition to any home this Christmnas and allows your Elf to travel anywhere. Order one today in our online shop.",
+	"h1": "Elf Doors – Christmas Elf Toy",
+	"productUrl": "christmas-elf-doors",
+	
+	"breadcrumb": "Elf Doors",
+
+	"buyElfDoor": true,
+
+	"product": {
+		"title": "Elf Doors",
+		"price": "8.00",
+		"img": "/img/main/elf-door.jpg",
+		"alt": "Elf Doors",
+		"caption": "Elf Doors",
+		"info": [
+ 			"A traditional looking Elf Door",
+ 			"Stands at 15cm tall and has a 3D effect frame. Attach to any skirting board for full effect.",
+ 			"Made from mdf and hand painted. Available for postage from 19th September. "
+ 		]
+	},
+
+	"inStock": true
+
+}

@@ -123,6 +123,16 @@
 								{% if buyPlate %}
 									{% include "buy-buttons/plate.swig" %}
 								{% endif %}
+
+								<!-- Buy Elf Door -->
+								{% if buyElfDoor %}
+									{% include "buy-buttons/elf-doors.swig" %}
+								{% endif %}
+
+								<!-- Buy Craft Bags -->
+								{% if buyCraftBags %}
+									{% include "buy-buttons/craft-bags.swig" %}
+								{% endif %}
 		
 							{% else %}
 

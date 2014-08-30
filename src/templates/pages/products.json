@@ -39,6 +39,42 @@
 	"productsExtra": [
 
 		{
+			"url": "/products/christmas-elf-doors.html",
+			"title": "Elf Doors",
+			"price": "8.00",
+			"img": "/img/list/elf-door.jpg",
+			"imgAlt": "Elf Doors",
+			"description": "How can your Elf get in and out of the house? A magic door.",
+
+			"inStock": true
+
+		},
+
+		{
+			"url": "/products/christmas-craft-bags.html",
+			"title": "Craft Bags",
+			"price": "8.00",
+			"img": "/img/list/craft-bag.jpg",
+			"imgAlt": "Craft Bags",
+			"description": "Keep little one's occupied this Christmas making their own Christmas bag.",
+
+			"inStock": true
+
+		},
+
+		{
+			"url": "/products/christmas-santa-plate.html",
+			"title": "Personalised Keepsake Santa Plate",
+			"price": "11.00(19cm), £13(26cm)",
+			"img": "/img/list/plate.jpg",
+			"imgAlt": "Personalised Keepsake Santa Plate",
+			"description": "Santa & the reindeers will love their Christmas Eve treats served on this fabulous keepsake.",
+
+			"inStock": true
+
+		},
+
+		{
 			"url": "/products/christmas-nice-certificate.html",
 			"title": "Nice Certificate",
 			"price": "3.00",
@@ -105,18 +141,6 @@
 			"img": "/img/list/reward-chart.jpg",
 			"imgAlt": "Reward Chart",
 			"description": "A great way to keep your child motivated throughout December.",
-
-			"inStock": true
-
-		},
-
-		{
-			"url": "/products/christmas-santa-plate.html",
-			"title": "Personalised Keepsake Santa Plate",
-			"price": "11.00(19cm), £13(26cm)",
-			"img": "/img/list/plate.jpg",
-			"imgAlt": "Personalised Keepsake Santa Plate",
-			"description": "Santa & the reindeers will love their Christmas Eve treats served on this fabulous keepsake.",
 
 			"inStock": true
 

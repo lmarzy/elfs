@@ -5,19 +5,19 @@
 
 	"latestProducts": [
 		{
+			"url": "/products/christmas-elf-doors.html",
+			"title": "Elf Doors",
+			"price": "8.00",
+			"img": "/img/list/elf-door.jpg",
+			"imgAlt": "Elf Doors"
+		},
+		{
 			"url": "/products/christmas-santa-plate.html",
 			"title": "Personalised Keepsake Santa Plate",
 			"price": "11.00(19cm), £13(26cm)",
 			"img": "/img/list/plate.jpg",
 			"imgAlt": "Personalised Keepsake Santa Plate"
-		},
-		{ 
-			"url": "/products/reward-chart.html",
-			"title": "Reward Chart",
-			"price": "5.25",
-			"img": "/img/list/reward-chart.jpg",
-			"imgAlt": "Reward Chart"
-			}
+		}
 	]
 
 }

@@ -73,7 +73,7 @@
 
 						<li class="list-unstyled">
 				
-							<a href="{{ products.url }}" title="{{ products.title }}" class="product">
+							<a href="{{ products.url }}" title="{{ products.title }}" class="product product__list">
 
 								<article itemscope itemtype="http://schema.org/Product">
 										

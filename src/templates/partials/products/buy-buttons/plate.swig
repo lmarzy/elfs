@@ -6,7 +6,7 @@
 	<option value="19cm plate">19cm plate £11.00 GBP</option>
 	<option value="26cm plate">26cm plate £13.00 GBP</option>
 </select> </td></tr>
-<tr><td><input type="hidden" name="on1" value="Persoanlisation">Persoanlisation</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+<tr><td><input type="hidden" name="on1" value="Persoanlisation">Personalisation</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
 </table>
 <input type="hidden" name="currency_code" value="GBP">
 <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal ñ The safer, easier way to pay online.">
