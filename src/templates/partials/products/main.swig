@@ -80,6 +80,12 @@
 
 						{% endif %}
 
+						{% if productNotice %}
+
+							<p class="product--notice"><strong>{{ product.productNoticeText }}</strong></p>
+
+						{% endif %}
+
 						<div class="product__buy">
 							
 							{% if inStock %}

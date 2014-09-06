@@ -9,6 +9,8 @@
 	"productMoreImages": true,
 	"productExtraInfo": true,
 
+	"productNotice": true,
+
 	"buyElfSet": true,
 
 	"product": {
@@ -48,8 +50,11 @@
 			"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
 			"1 small bag of magic snow",
 			"1 candy cane"
-			]
-		},
+			],
+
+			"productNoticeText": "We are currently out of stock of the Girl Elf Set, you can still place your order but this will not be dispatched until the 15th September, this includes the purchase of the two elf sets that contain a Girl Elf."
+
+	},
 
 	"inStock": true
 
