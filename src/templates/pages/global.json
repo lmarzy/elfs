@@ -26,6 +26,13 @@
 
 	"posts": [
 		{
+			"url": "/posts/102-days-to-go.html",
+			"title": "102 Days to go!", 
+			"desc": "Christmas is fast approaching. The summer holidays have flown by. Soon we will have dark nights and dark evening and winter will be here. Only 102 days until Christmas.", 
+			"dateMachine": "13/09/14",
+			"dateHuman": "13 September 2014"
+		},
+		{
 			"url": "/posts/normal-service-is-resumed.html",
 			"title": "Normal service is resumed", 
 			"desc": "So I am now into the last few days of the summer holidays and what hard work it has been!", 

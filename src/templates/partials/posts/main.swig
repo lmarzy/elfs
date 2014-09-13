@@ -26,6 +26,15 @@
 			</ul>
 			{% endif %}
 
+			{% if hasSocialMediaLinks %}
+			<ul class="list-unstyled">
+				
+				<li><a href="http://instagram.com/elfantics">Instagram</a></li>
+				<li><a href="https://www.facebook.com/Christmaself01">Facebook</a></li>
+
+			</ul>
+			{% endif %}
+
 		</div>
 
 	</article>
