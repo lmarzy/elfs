@@ -26,6 +26,13 @@
 
 	"posts": [
 		{
+			"url": "/posts/the-day-elf-arrives.html",
+			"title": "The day Elf arrives", 
+			"desc": "So finally it's time to introduce that little elf that has been strategically hidden in the back of a draw or the corner of a wardrobe. But when and how?", 
+			"dateMachine": "16/09/14",
+			"dateHuman": "16 September 2014"
+		},
+		{
 			"url": "/posts/102-days-to-go.html",
 			"title": "102 Days to go!", 
 			"desc": "Christmas is fast approaching. The summer holidays have flown by. Soon we will have dark nights and dark evening and winter will be here. Only 102 days until Christmas.", 

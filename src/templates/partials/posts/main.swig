@@ -34,6 +34,19 @@
 
 			</ul>
 			{% endif %}
+		
+			{% if hasExtraInfo %}
+
+				<h2>{{ extraInfoTitle }}</h2>
+				
+				{% for details in extraInfoDetails %}
+				
+					<p>{{ details }}</p>
+
+				{% endfor %}
+
+			{% endif %}
+
 
 		</div>
 
