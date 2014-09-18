@@ -47,6 +47,31 @@
 
 			{% endif %}
 
+			{% if detailsList %}
+				
+					<ul class="mb">
+						
+						{% for details in detailsList %}
+						
+							<li>{{ details }}</li>
+						
+						{% endfor %}
+
+					</ul>
+
+
+			{% endif %}
+
+			{% if detailsExtra %}
+				
+				{% for details in detailsExtra %}
+				
+					<p>{{ details }}</p>
+
+				{% endfor %}
+
+			{% endif %}
+
 
 		</div>
 

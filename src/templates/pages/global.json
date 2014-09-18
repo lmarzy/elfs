@@ -26,6 +26,13 @@
 
 	"posts": [
 		{
+			"url": "/posts/north-pole-breakfast.html",
+			"title": "North Pole Breakfast", 
+			"desc": "Your elf doesn't have to be mischievous or funny every day and a great idea for something nice that the whole family can take part in is the North Pole Breakfas", 
+			"dateMachine": "19/09/14",
+			"dateHuman": "19 September 2014"
+		},
+		{
 			"url": "/posts/the-day-elf-arrives.html",
 			"title": "The day Elf arrives", 
 			"desc": "So finally it's time to introduce that little elf that has been strategically hidden in the back of a draw or the corner of a wardrobe. But when and how?", 
