@@ -72,6 +72,7 @@
 
 	li {
 		@extend %col-one;
+		margin-bottom: $spacing;
 
 			@include bp(bp10) {
 				@include grid-width(2);

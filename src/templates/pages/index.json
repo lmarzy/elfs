@@ -5,11 +5,11 @@
 
 	"latestProducts": [
 		{
-			"url": "/products/christmas-elf-doors.html",
-			"title": "Elf Doors",
-			"price": "8.00",
-			"img": "/img/list/elf-door.jpg",
-			"imgAlt": "Elf Doors"
+			"url": "/products/christmas-eve-bags.html",
+			"title": "Christmas Eve Bags",
+			"price": "13.50",
+			"img": "/img/list/eve-bags.jpg",
+			"imgAlt": "Christmas Eve Bags"
 		},
 		{
 			"url": "/products/christmas-santa-plate.html",

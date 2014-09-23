@@ -25,12 +25,12 @@
 		{	
 			"url": "/products/christmas-eve-bags.html",
 			"title": "Christmas Eve Bags",
-			"price": "13.50 (Available mid September)",
+			"price": "13.50",
 			"img": "/img/list/eve-bags.jpg",
 			"imgAlt": "Christmas Eve Bags",
 			"description": "Christmas Eve bags containing lots of goodies to keep your child occupied on the special night",
 
-			"inStock": false
+			"inStock": true
 
 		}
 		
@@ -46,7 +46,7 @@
 			"imgAlt": "Elf Doors",
 			"description": "How can your Elf get in and out of the house? A magic door.",
 
-			"inStock": true
+			"inStock": false
 
 		},
 

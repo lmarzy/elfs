@@ -95,6 +95,11 @@
 									{% include "buy-buttons/elf-set.swig" %}
 								{% endif %}
 
+								<!-- Christmas Eve Bags -->
+								{% if buyEveBag %}
+									{% include "buy-buttons/eve-bags.swig" %}
+								{% endif %}
+
 								<!-- Nice Certificate -->
 								{% if buyNiceCert %}
 									{% include "buy-buttons/nice-cert.swig" %}
