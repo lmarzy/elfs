@@ -1,16 +1,19 @@
 // Site          : Responsive Template with SASS and Javascript
 // CSS author    : Lee Marsden
 // Updated by    : Lee Marsden
-// Site CSS File : IMPORT-MODULES - all module imports
+// Site CSS File : MODULES/ALERTS - class styles for alerts
 
 /* ==========================================================================
-   IMPORT - MODULES
+   ALERT MODULE STYLES
    ========================================================================== */
 
-@import "modules/icons";
-@import "modules/headings";
-@import "modules/buttons";
-@import "modules/sections";
-@import "modules/product";
-@import "modules/posts";
-@import "modules/alerts";
+.alert {
+	margin-bottom: $spacing / 2;
+	padding: toRem(8px);
+	font-size: toRem(14px);
+
+		&.is-info {
+			background: lighten(colour(alert, info),20);
+			border: 1px solid colour(alert, info);
+		}
+}

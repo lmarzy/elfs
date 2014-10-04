@@ -10,6 +10,8 @@
 		
 		<div class="l-wrap">
 
+			<div class="alert is-info">Current dispatch time is up to {{ dispatchTime }}.</div>
+
 			<div class="g-wrap">
 
 				<div class="l-product-img">

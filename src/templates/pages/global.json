@@ -10,6 +10,8 @@
 	"facebook": "https://www.facebook.com/Christmaself01?ref=hl",
 	"twitter": "https://twitter.com/elf_xmas",
 
+	"dispatchTime": "7 working days",
+
 	"siteNav": [
 		{ "linkName": "Home", "linkUrl": "/" },
 		{ "linkName": "Products", "linkUrl": "/products.html" },

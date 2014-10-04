@@ -11,6 +11,8 @@
 		
 	<div class="l-wrap">
 
+		<div class="alert is-info">Current dispatch time is up to {{ dispatchTime }}.</div>
+
 		<h2 class="h-page">More Than A Christmas Elf Toy</h2>
 		
 		<p>Here at The Christmas Elf, we offer much more than your standard <em>elf on the shelf</em>. Our product range covers everything you and your little ones need to make the holiday season special. Not sure how to keep your child occupied on the big night? Then why don’t you look at our Christmas Eve Bags – perfect for keeping their little minds busy, whilst getting them into the Christmas spirit.  Our Christmas Elf Sets enable you to choose from a wide range of <em>Christmas elves</em>, both boys and girls, and they come in a range of different and stylish outfits.</p>

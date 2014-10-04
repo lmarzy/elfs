@@ -8,6 +8,8 @@
 
 	"buyElfDoor": true,
 
+	"dispatchTime": "20 working days",
+
 	"product": {
 		"title": "Elf Doors",
 		"price": "8.00",
@@ -16,7 +18,7 @@
 		"caption": "Elf Doors",
 		"info": [
  			"A traditional looking Elf Door",
- 			"Stands at 15cm tall and has a 3D effect frame. Attach to any skirting board for full effect.",
+ 			"Stands at 12cm tall and has a 3D effect frame. Attach to any skirting board for full effect.",
  			"Made from mdf and hand painted."
  		]
 	},
