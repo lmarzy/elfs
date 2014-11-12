@@ -46,7 +46,7 @@
 			"imgAlt": "Elf Doors",
 			"description": "How can your Elf get in and out of the house? A magic door.",
 
-			"inStock": true
+			"inStock": false
 
 		},
 
@@ -118,7 +118,7 @@
 			"imgAlt": "Bendy Elf",
 			"description": "Choose from a boy or girl elf or take a full set of 4",
 
-			"inStock": true
+			"inStock": false
 
 		},
 
