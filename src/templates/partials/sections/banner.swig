@@ -12,6 +12,8 @@
 
 		<a href="/products/christmas-elf-set.html" class="btn btn--a">Buy Yours Today!</a>
 
+		<h2>To guarantee your little Elf for the 1st of December please place your order no later than the 20th of November.</h2>
+
 	</div>
 
 </aside>

@@ -9,7 +9,7 @@
 	"productMoreImages": true,
 	"productExtraInfo": true,
 
-	"productNotice": false,
+	"productNotice": true,
 
 	"buyElfSet": true,
 
@@ -52,7 +52,7 @@
 			"1 candy cane"
 			],
 
-			"productNoticeText": "We are currently out of stock of the Girl Elf Set, you can still place your order but this will not be dispatched until the 15th September, this includes the purchase of the two elf sets that contain a Girl Elf."
+			"productNoticeText": "Girl Elf is now out of stock!"
 
 	},
 

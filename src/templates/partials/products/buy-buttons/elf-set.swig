@@ -5,8 +5,6 @@
 <tr><td><input type="hidden" name="on0" value="Sets">Sets</td></tr><tr><td><select name="os0">
 	<option value="Boy elf with Tunic">Boy elf with Tunic £13.50 GBP</option>
 	<option value="Boy elf with shorts">Boy elf with shorts £13.50 GBP</option>
-	<option value="Girl elf">Girl elf £13.50 GBP</option>
-	<option value="2 elf sets (1 boy, 1 girl)">2 elf sets (1 boy, 1 girl) £23.20 GBP</option>
 	<option value="2 elf sets ( 1 of each boy)">2 elf sets ( 1 of each boy) £23.20 GBP</option>
 </select> </td></tr>
 <tr>
