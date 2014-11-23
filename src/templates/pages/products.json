@@ -19,7 +19,7 @@
 				"1 candy cane"
 			],
 
-			"inStock": true
+			"inStock": false
 	
 		},
 		{	
@@ -82,7 +82,7 @@
 			"imgAlt": "Nice Certificate",
 			"description": "Who's been naughtly or nice? Nice Certificate showing childs name",
 
-			"inStock": true
+			"inStock": false
 
 		},
 
@@ -142,7 +142,7 @@
 			"imgAlt": "Reward Chart",
 			"description": "A great way to keep your child motivated throughout December.",
 
-			"inStock": true
+			"inStock": false
 
 		}
 

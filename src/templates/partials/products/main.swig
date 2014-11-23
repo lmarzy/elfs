@@ -149,7 +149,7 @@
 		
 							{% else %}
 
-								<p>We are currently awaiting product stock, please check back soon</p>
+								<p>Product is now out of stock!</p>
 
 							{% endif %}
 

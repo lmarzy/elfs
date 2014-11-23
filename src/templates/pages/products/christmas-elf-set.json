@@ -50,12 +50,10 @@
 			"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
 			"1 small bag of magic snow",
 			"1 candy cane"
-			],
-
-			"productNoticeText": "Girl Elf is now out of stock!"
+			]
 
 	},
 
-	"inStock": true
+	"inStock": false
 
 }
