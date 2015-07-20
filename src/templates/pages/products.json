@@ -7,7 +7,7 @@
 		{	
 			"url": "/products/christmas-elf-set.html",
 			"title": "Christmas Elf Set",
-			"price": "13.50",
+			"price": "14.50",
 			"img": "/img/list/elf-set.jpg",
 			"imgAlt": "Christmal Elf Set",
 			"description": "Your choice of a girl elf, a boy elf wearing shorts or a boy elf wearing a tunic.",
@@ -19,7 +19,7 @@
 				"1 candy cane"
 			],
 
-			"inStock": false
+			"inStock": true
 	
 		},
 		{	
@@ -46,7 +46,7 @@
 			"imgAlt": "Elf Doors",
 			"description": "How can your Elf get in and out of the house? A magic door.",
 
-			"inStock": false
+			"inStock": true
 
 		},
 
@@ -70,7 +70,7 @@
 			"imgAlt": "Personalised Keepsake Santa Plate",
 			"description": "Santa & the reindeers will love their Christmas Eve treats served on this fabulous keepsake.",
 
-			"inStock": false
+			"inStock": true
 
 		},
 
@@ -82,7 +82,7 @@
 			"imgAlt": "Nice Certificate",
 			"description": "Who's been naughtly or nice? Nice Certificate showing childs name",
 
-			"inStock": false
+			"inStock": true
 
 		},
 
@@ -118,7 +118,7 @@
 			"imgAlt": "Bendy Elf",
 			"description": "Choose from a boy or girl elf or take a full set of 4",
 
-			"inStock": false
+			"inStock": true
 
 		},
 
@@ -142,7 +142,7 @@
 			"imgAlt": "Reward Chart",
 			"description": "A great way to keep your child motivated throughout December.",
 
-			"inStock": false
+			"inStock": true
 
 		}
 
