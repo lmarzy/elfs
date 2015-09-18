@@ -11,7 +11,7 @@
 		
 	<div class="l-wrap">
 
-		<div class="alert is-info">Current dispatch time is up to {{ dispatchTime }}.</div>
+		<div class="alert is-info"><!-- Current dispatch time is up to  -->{{ dispatchTime }}.</div>
 
 		<h2 class="h-page">More Than A Christmas Elf Toy</h2>
 		
