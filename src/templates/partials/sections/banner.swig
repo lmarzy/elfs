@@ -12,8 +12,6 @@
 
 		<a href="/products/christmas-elf-set.html" class="btn btn--a">Buy Yours Today!</a>
 
-		<h2>Please note: The Christmas Elf is now out of stock. They will be back soon though so watch out!!</h2>
-
 	</div>
 
 </aside>
