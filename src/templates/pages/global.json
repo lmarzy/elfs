@@ -10,7 +10,7 @@
 	"facebook": "https://www.facebook.com/Christmaself01?ref=hl",
 	"twitter": "https://twitter.com/elf_xmas",
 
-	"dispatchTime": "Please note: The current dispatch time is 5 days",
+	"dispatchTime": "Please note: Orders are no longer guaranteed to arrive for the 1st of December, please be aware before purchasing! Dispatch is currently 5 working days.",
 
 	"siteNav": [
 		{ "linkName": "Home", "linkUrl": "/" },
@@ -29,50 +29,50 @@
 	"posts": [
 		{
 			"url": "/posts/north-pole-breakfast.html",
-			"title": "North Pole Breakfast", 
-			"desc": "Your elf doesn't have to be mischievous or funny every day and a great idea for something nice that the whole family can take part in is the North Pole Breakfas", 
+			"title": "North Pole Breakfast",
+			"desc": "Your elf doesn't have to be mischievous or funny every day and a great idea for something nice that the whole family can take part in is the North Pole Breakfas",
 			"dateMachine": "19/09/14",
 			"dateHuman": "19 September 2014"
 		},
 		{
 			"url": "/posts/the-day-elf-arrives.html",
-			"title": "The day Elf arrives", 
-			"desc": "So finally it's time to introduce that little elf that has been strategically hidden in the back of a draw or the corner of a wardrobe. But when and how?", 
+			"title": "The day Elf arrives",
+			"desc": "So finally it's time to introduce that little elf that has been strategically hidden in the back of a draw or the corner of a wardrobe. But when and how?",
 			"dateMachine": "16/09/14",
 			"dateHuman": "16 September 2014"
 		},
 		{
 			"url": "/posts/102-days-to-go.html",
-			"title": "102 Days to go!", 
-			"desc": "Christmas is fast approaching. The summer holidays have flown by. Soon we will have dark nights and dark evening and winter will be here. Only 102 days until Christmas.", 
+			"title": "102 Days to go!",
+			"desc": "Christmas is fast approaching. The summer holidays have flown by. Soon we will have dark nights and dark evening and winter will be here. Only 102 days until Christmas.",
 			"dateMachine": "13/09/14",
 			"dateHuman": "13 September 2014"
 		},
 		{
 			"url": "/posts/normal-service-is-resumed.html",
-			"title": "Normal service is resumed", 
-			"desc": "So I am now into the last few days of the summer holidays and what hard work it has been!", 
+			"title": "Normal service is resumed",
+			"desc": "So I am now into the last few days of the summer holidays and what hard work it has been!",
 			"dateMachine": "30/08/14",
 			"dateHuman": "30 August 2014"
 		},
 		{
 			"url": "/posts/christmas-elf-on-the-high-street.html",
-			"title": "Christmas Elf is on the High Street!", 
-			"desc": "Some exciting news for Christmas Elf - we've made it on to the High Street, well sort of !!", 
+			"title": "Christmas Elf is on the High Street!",
+			"desc": "Some exciting news for Christmas Elf - we've made it on to the High Street, well sort of !!",
 			"dateMachine": "17/08/14",
 			"dateHuman": "17 August 2014"
 		},
 		{
 			"url": "/posts/as-easy-or-as-hard-as-you-want.html",
-			"title": "As easy or as hard as you want it to be", 
-			"desc": "The beauty of Christmas Elf is that it really can be as simple or as complicated as you want it to be...", 
+			"title": "As easy or as hard as you want it to be",
+			"desc": "The beauty of Christmas Elf is that it really can be as simple or as complicated as you want it to be...",
 			"dateMachine": "07/08/14",
 			"dateHuman": "07 August 2014"
 		},
 		{
 			"url": "/posts/sorry-who-are-you-again.html",
-			"title": "Sorry, who are you again?", 
-			"desc": "So who is the person behind Christmas Elf? I'm not a little elf I am a real life person...", 
+			"title": "Sorry, who are you again?",
+			"desc": "So who is the person behind Christmas Elf? I'm not a little elf I am a real life person...",
 			"dateMachine": "18/07/14",
 			"dateHuman": "18 July 2014"
 		}

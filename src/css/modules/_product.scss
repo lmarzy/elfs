@@ -13,7 +13,7 @@
 	background: colour(shades, white);
 	border: 1px solid darken($border-colour,4);
 	border-radius: $border-radius;
-	text-decoration: none; 
+	text-decoration: none;
 	color: $text-colour;
 	transition: all 100ms ease-in;
 
@@ -42,7 +42,7 @@
 .product__img {
 	position: relative;
 	border: 4px solid colour(shades, lightergray);
-	
+
 		img { transition: transform 200ms ease-in; }
 
 		img:hover {
@@ -73,8 +73,8 @@
 	}
 }
 
-.product--overview { 
-	border-bottom: 1px solid $border-colour; 
+.product--overview {
+	border-bottom: 1px solid $border-colour;
 	margin-bottom: $spacing / 2;
 
 		p:first-child { margin: 0; }
@@ -101,4 +101,8 @@
 
 .product--notice {
 	font-size: toRem(14px);
+}
+
+.product-stockextra {
+	color: darken(colour(alert, info),15);
 }

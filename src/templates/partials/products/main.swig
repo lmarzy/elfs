@@ -7,7 +7,7 @@
 			<li><a href="/products.html">Products</a></li>
 			<li>{{ breadcrumb }}</li>
 		</ul>
-		
+
 		<div class="l-wrap">
 
 			<div class="alert is-info">Current dispatch time is up to {{ dispatchTime }}.</div>
@@ -17,8 +17,8 @@
 				<div class="l-product-img">
 
 					<figure class="product__img">
-	
-						<img class="full-width" alt="{{ product.alt }}" src="{{ product.img }}" itemprop="image">	
+
+						<img class="full-width" alt="{{ product.alt }}" src="{{ product.img }}" itemprop="image">
 
 						<figcaption>{{ product.caption }}</figcaption>
 
@@ -49,15 +49,18 @@
 					<div class="product__details">
 
 						<header class="product--overview">
-							
+
 							<h1 class="h-product" itemprop="name">{{ product.title }}</h1>
-							
+
 							<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-								
+
 								<p><span class="product--price" itemprop="price">&pound;{{ product.price }}</span> <span class="smallprint">inc uk postage</span></p>
-								
+
 								{% if inStock %}
 									<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">In Stock</p>
+										{% if inStockExtra %}
+											<p class="product-stockextra" itemprop="availability" href="http://schema.org/InStock">{{ inStockExtra }}</p>
+										{% endif %}
 								{% else %}
 									<p class="smallprint" itemprop="availability" href="http://schema.org/InStock">Out of Stock</p>
 								{% endif %}
@@ -65,11 +68,11 @@
 							</div>
 
 						</header>
-						
+
 						<div itemprop="description">
 
 							{% for info in product.info %}
-								
+
 								<p>{{ info }}</p>
 
 							{% endfor %}
@@ -89,7 +92,7 @@
 						{% endif %}
 
 						<div class="product__buy">
-							
+
 							{% if inStock %}
 
 								<!-- Elf Sets -->
@@ -146,7 +149,7 @@
 								{% if buyCraftBags %}
 									{% include "buy-buttons/craft-bags.swig" %}
 								{% endif %}
-		
+
 							{% else %}
 
 								<p>Product is now out of stock!</p>
@@ -166,23 +169,23 @@
 		</div> <!-- !END div.l-wrap -->
 
 	</div> <!-- !END div.section.section highlight -->
-		
+
 		{% if productMoreImages %}
 
 		<aside class="section product__moreimg">
 
 			<div class="l-wrap">
-			
+
 			<h1 class="h-section">More product images</h1>
 
 				<ul class="list-unstyled g-wrap l-more-images">
-					
+
 					{% for moreImages in product.moreImages %}
 
 					<li>
 
 						<figure class="product__img">
-							
+
 							<img class="full-width" alt="{{ moreImages.alt }}" src="{{ moreImages.img }}">
 
 							<figcaption>{{ moreImages.caption }}</figcaption>

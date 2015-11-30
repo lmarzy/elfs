@@ -5,7 +5,7 @@
 <tr><td><input type="hidden" name="on0" value="Sets">Sets</td></tr><tr><td><select name="os0">
 	<option value="Boy elf with Tunic">Boy elf with Tunic &pound;14.50 GBP</option>
 	<option value="Boy elf with shorts">Boy elf with shorts &pound;14.50 GBP</option>
-	<option value="Girl elf">Girl elf &pound;14.50 GBP</option>
+	<!--<option value="Girl elf">Girl elf &pound;14.50 GBP</option>-->
 	<option value="Double elf set">Double elf set &pound;21.70 GBP</option>
 </select> </td></tr>
 <tr>

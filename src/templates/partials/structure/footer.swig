@@ -1,10 +1,10 @@
 <footer role="contentinfo">
-	
+
 	<div class="l-wrap">
-		
-		<small>&copy; 2014 The Christmas Elf</small>
+
+		<small>&copy; 2015 The Christmas Elf</small>
 
 	</div>
 
-</footer> 
-<!-- !END footer.site-footer -->	
+</footer>
+<!-- !END footer.site-footer -->
