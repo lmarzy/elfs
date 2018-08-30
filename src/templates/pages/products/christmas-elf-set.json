@@ -13,6 +13,8 @@
 
 	"buyElfSet": true,
 
+	"dispatchDays": "5",
+
 	"product": {
 		"title": "Christmas Elf Set",
 		"price": "13.50",
@@ -55,6 +57,6 @@
 	},
 
 	"inStock": true,
-	"inStockExtra": "Please Note: Girl elf currently out of stock, the double set will now come with 1 of each boy unless stated otherwise."
+	"inStockExtra": ""
 
 }

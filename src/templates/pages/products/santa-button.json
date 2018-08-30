@@ -13,6 +13,8 @@
 
 	"buySantaButton": true,
 
+	"dispatchDays": "15",
+
 	"product": {
 		"title": "Santa's Lost Button",
 		"price": "5.70",
@@ -26,7 +28,7 @@
  		"smallPrint": "Please note these are a keepsake and not a toy and care should be taken.",
 
 		"productInfo": [
-			"The button comes wrapped in a cellophane bag with a christmas sticker"
+			"The button comes wrapped in a cellophane bag with a Christmas sticker"
 			]
 
 	},

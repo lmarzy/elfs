@@ -10,7 +10,9 @@
 
 		<div class="l-wrap">
 
-			<div class="alert is-info">Current dispatch time is up to {{ dispatchTime }}.</div>
+			{% if dispatchDays %}
+				<div class="alert is-info">Current dispatch time is up to {{ dispatchDays }} working days.</div>
+			{% endif %}
 
 			<div class="g-wrap">
 

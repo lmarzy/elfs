@@ -4,7 +4,10 @@
   "description": "ChristmasElfs",
   "repository": "https://github.com/lmarzy/elfs.git",
   "scripts": {
-    "dev": "gulp"
+    "dev": "gulp",
+    "serve": "gulp serve",
+    "prod": "gulp --prod",
+    "deploy": "gulp deploy"
   },
   "devDependencies": {
     "gulp": "^3.8.6",
