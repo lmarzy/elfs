@@ -24,33 +24,20 @@
 		
 }
 
-.l-productsmain {
+.l-products {
 
 	li {
 		margin-bottom: $spacing;
 		@extend %col-one;
 
-			@include bp(bp10) {
-				@include grid-width(2);
-			}
+		@include bp(bp10) {
+			@include grid-width(2);
+		}
+		@include bp(bp20) {
+			@include grid-width(3);
+		}
 	}
 
-}
-
-.l-productsextra {
-
-	li {
-		margin-bottom: $spacing;
-
-		@extend %col-one;
-
-			@include bp(bp10) {
-				@include grid-width(2);
-			}
-			@include bp(bp20) {
-				@include grid-width(3);
-			}
-	}
 }
 
 .l-product-img {

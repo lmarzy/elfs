@@ -17,12 +17,6 @@
 	border-bottom: 1px solid $border-colour;
 }
 
-.section--extras {
-	padding-top: $spacing;
-	background: lighten(colour(shades, lightergray),2);
-	border-top: 1px solid darken($border-colour,5);
-}
-
 .section--about {
 	position: relative;
 	background: url(assets/bg-hanging-elf.png) no-repeat 94% -7px;

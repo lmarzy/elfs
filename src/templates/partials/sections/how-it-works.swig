@@ -4,13 +4,13 @@
 	
 		<h2 class="h-section">How the Christmas Elf tradition works</h2>
 
-		<p>Your <strong>Christmas Elf</strong> will traditionally arrive on the 1st December and stay until the 23rd December. Each night your child will need to sprinkle the magic snowflakes on their elf so they can fly back to the North Pole to let Santa know how they are behaving.</p>
+		<p>Your <strong>Christmas Elf</strong> will traditionally arrive on the 1st December and stay until the 23rd December. Each night, when everyone is asleep something magical happens! Your Elf gains their magical powers and will fly back to the North Pole to let Santa know how well your child is behaving.</p>
 
 		<p>When the elf gets back to your house is when the mischievousness starts!!</p>
 
 		<p>You can really do as much or as little as you like with your elf. He could simply be in a different place each morning or he could get up to lots of mischief.</p>
 
-		<p>If you're looking for ideas of what your elf could get up to please take a look at our Elfantics instagram page and follow everyone's elf antics.</p>
+		<p>If you're looking for ideas of what your elf could get up to please take a look at our Christmas Elf Facebook page and follow everyone's elf antics.</p>
 
 		<p>Your elf will need to leave on the evening before Christmas Eve so that he can help Santa get ready for the big day.</p>
 

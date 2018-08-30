@@ -1,6 +1,6 @@
 {
 	"metaTitle": "Christmas Elf Set | The Christmas Elf",
-	"metaContent": "Our Christmas Elf Set includes your very own elf, a personalised letter  from Father Christmas, magic snow and a candy cane. Buy online now!",
+	"metaContent": "Our Christmas Elf Set includes your very own elf, a personalised letter from Father Christmas, 1 Official Elf Report and 1 Christmas Elf Contract. Buy online now!",
 	"h1": "Christmas Elf Set",
 	"productUrl": "christmas-elf-set",
 
@@ -15,7 +15,7 @@
 
 	"product": {
 		"title": "Christmas Elf Set",
-		"price": "14.50",
+		"price": "13.50",
 		"img": "/img/main/elf-sets/main.jpg",
 		"alt": "Christmal Elf Set",
 		"caption": "Full elf set",
@@ -46,15 +46,15 @@
 		],
 
 		"productInfo": [
-			"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice). The double elf set option comes in one box and contains 1 boy and 1 girl elf plus 1 letter, 1 bag of magic snow and up to 4 candy canes. If you wish to change this combination, please contact us via email before purchase",
+			"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice). The double elf set option comes in one box and contains 1 boy and 1 girl elf plus 1 letter, 2 Official Elf Reports and 2 Christmas Elf Contracts. If you wish to change this combination, please contact us via email before purchase",
 			"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
-			"1 small bag of magic snow",
-			"1 candy cane"
+			"1 Official Elf Report",
+			"1 Christmas Elf Contract"
 			]
 
 	},
 
-	"inStock": false,
+	"inStock": true,
 	"inStockExtra": "Please Note: Girl elf currently out of stock, the double set will now come with 1 of each boy unless stated otherwise."
 
 }

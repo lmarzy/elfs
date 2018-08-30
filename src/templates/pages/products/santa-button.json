@@ -1,0 +1,37 @@
+{
+	"metaTitle": "Santa's lost button | The Christmas Elf",
+	"metaContent": "Santa's lost buttons are of a high quality mirror effect gold finish and are hand sewn onto hand brushed material to look like Santa’s coat.",
+	"h1": "Santa's Lost Button",
+	"productUrl": "santa-button",
+
+	"breadcrumb": "Santa's lost button",
+
+	"productMoreImages": false,
+	"productExtraInfo": true,
+
+	"productNotice": true,
+
+	"buySantaButton": true,
+
+	"product": {
+		"title": "Santa's Lost Button",
+		"price": "5.70",
+		"img": "/img/main/santa-button/main.jpg",
+		"alt": "Santa's Lost Button",
+		"caption": "Santa's Lost Button",
+		"info": [
+ 			"Imagine your child’s face when they come downstairs on Christmas morning to find Santa has lost one of his buttons during the night !!!! The buttons are of a high quality mirror effect gold finish and are hand sewn onto hand brushed material to look like Santa’s coat."
+ 		],
+
+ 		"smallPrint": "Please note these are a keepsake and not a toy and care should be taken.",
+
+		"productInfo": [
+			"The button comes wrapped in a cellophane bag with a christmas sticker"
+			]
+
+	},
+
+	"inStock": true,
+	"inStockExtra": "Please Note: The current dispatch time is 3 weeks"
+
+}

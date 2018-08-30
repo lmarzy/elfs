@@ -3,11 +3,11 @@
 	"metaContent": "Check out the full product range from Christmas Elf. We offer the ideal Christmas gifts, from Christmas Elf Sets to Christmas Elf Bags.",
 	"h1": "The Christmas Elf Product Selection",
 
-	"productsMain": [
+	"products": [
 		{
 			"url": "/products/christmas-elf-set.html",
 			"title": "Christmas Elf Set",
-			"price": "14.50",
+			"price": "13.50",
 			"img": "/img/list/elf-set.jpg",
 			"imgAlt": "Christmal Elf Set",
 			"description": "Your choice of a girl elf, a boy elf wearing shorts or a boy elf wearing a tunic.",
@@ -15,137 +15,24 @@
 			"productInfo": [
 				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
 				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
-				"1 small bag of magic snow",
-				"1 candy cane"
+				"1 Official Elf Report",
+				"1 Christmas Elf Contract"
 			],
 
-			"inStock": false
-
-		},
-		{
-			"url": "/products/christmas-eve-bags.html",
-			"title": "Christmas Eve Bags",
-			"price": "13.50",
-			"img": "/img/list/eve-bags.jpg",
-			"imgAlt": "Christmas Eve Bags",
-			"description": "Christmas Eve bags containing lots of goodies to keep your child occupied on the special night",
-
-			"inStock": false
-
-		}
-
-	],
-
-	"productsExtra": [
-
-		{
-			"url": "/products/christmas-elf-doors.html",
-			"title": "Elf Doors",
-			"price": "8.00",
-			"img": "/img/list/elf-door.jpg",
-			"imgAlt": "Elf Doors",
-			"description": "How can your Elf get in and out of the house? A magic door.",
-
 			"inStock": true
 
 		},
-
 		{
-			"url": "/products/christmas-craft-bags.html",
-			"title": "Craft Bags",
-			"price": "8.00",
-			"img": "/img/list/craft-bag.jpg",
-			"imgAlt": "Craft Bags",
-			"description": "Keep little one's occupied this Christmas making their own Christmas bag.",
+			"url": "/products/santa-button.html",
+			"title": "Santa's Lost Button",
+			"price": "4.50",
+			"img": "/img/list/santa-button.jpg",
+			"imgAlt": "Santa's lost button",
+			"description": "Image your child's face when they find Santa's lost button on Christmas morning.",
 
 			"inStock": true
-
-		},
-
-		{
-			"url": "/products/christmas-santa-plate.html",
-			"title": "Personalised Keepsake Santa Plate",
-			"price": "11.00(19cm), £13(26cm)",
-			"img": "/img/list/plate.jpg",
-			"imgAlt": "Personalised Keepsake Santa Plate",
-			"description": "Santa & the reindeers will love their Christmas Eve treats served on this fabulous keepsake.",
-
-			"inStock": true
-
-		},
-
-		{
-			"url": "/products/christmas-nice-certificate.html",
-			"title": "Nice Certificate",
-			"price": "3.00",
-			"img": "/img/list/nice-cert.jpg",
-			"imgAlt": "Nice Certificate",
-			"description": "Who's been naughtly or nice? Nice Certificate showing childs name",
-
-			"inStock": true
-
-		},
-
-		{
-			"url": "/products/christmas-elves-finger-puppets.html",
-			"title": "Elf Finger Puppets",
-			"price": "4",
-			"img": "/img/list/finger-puppets.jpg",
-			"imgAlt": "Elf Finger Puppets",
-			"description": "Set of 4 finger puppets containing 2 boy and 2 girl elves",
-
-			"inStock": true
-
-		},
-
-		{
-			"url": "/products/santas-special-key.html",
-			"title": "Santa's Special Key",
-			"price": "4.25",
-			"img": "/img/list/key.jpg",
-			"imgAlt": "Santa's Special Key",
-			"description": "If you haven't got a chimney you need Santa's special key",
-
-			"inStock": true
-
-		},
-
-		{
-			"url": "/products/christmas-bendy-elf-toy.html",
-			"title": "Bendy Elf",
-			"price": "5.50 (set of 4)",
-			"img": "/img/list/bendy-elfs.jpg",
-			"imgAlt": "Bendy Elf",
-			"description": "Choose from a boy or girl elf or take a full set of 4",
-
-			"inStock": true
-
-		},
-
-		{
-			"url": "/products/santas-elf-mug.html",
-			"title": "Elf Mug",
-			"price": "5.25",
-			"img": "/img/list/elf-mugs.jpg",
-			"imgAlt": "Elf Mug",
-			"description": "3 designs available.",
-
-			"inStock": true
-
-		},
-
-		{
-			"url": "/products/reward-chart.html",
-			"title": "Reward Chart",
-			"price": "5.25",
-			"img": "/img/list/reward-chart.jpg",
-			"imgAlt": "Reward Chart",
-			"description": "A great way to keep your child motivated throughout December.",
-
-			"inStock": false
 
 		}
 
 	]
-
 }

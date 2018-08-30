@@ -5,18 +5,11 @@
 
 	"latestProducts": [
 		{
-			"url": "/products/christmas-eve-bags.html",
-			"title": "Christmas Eve Bags",
-			"price": "13.50",
-			"img": "/img/list/eve-bags.jpg",
-			"imgAlt": "Christmas Eve Bags"
-		},
-		{
-			"url": "/products/christmas-santa-plate.html",
-			"title": "Personalised Keepsake Santa Plate",
-			"price": "11.00(19cm), £13(26cm)",
-			"img": "/img/list/plate.jpg",
-			"imgAlt": "Personalised Keepsake Santa Plate"
+			"url": "/products/santa-button.html",
+			"title": "Santa's Lost Button",
+			"price": "5.70",
+			"img": "/img/list/santa-button.jpg",
+			"imgAlt": "Santa's Lost Button"
 		}
 	]
 

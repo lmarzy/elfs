@@ -100,6 +100,11 @@
 									{% include "buy-buttons/elf-set.swig" %}
 								{% endif %}
 
+								<!-- Santa's Lost Button -->
+								{% if buySantaButton %}
+									{% include "buy-buttons/santa-button.swig" %}
+								{% endif %}
+
 								<!-- Christmas Eve Bags -->
 								{% if buyEveBag %}
 									{% include "buy-buttons/eve-bags.swig" %}

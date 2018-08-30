@@ -2,7 +2,7 @@
 
 	<div class="l-wrap">
 
-		<small>&copy; 2015 The Christmas Elf</small>
+		<small>&copy; 2018 The Christmas Elf Gift Shop</small>
 
 	</div>
 
