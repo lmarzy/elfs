@@ -4,33 +4,37 @@
 
 	<ul class="latest__list">
 
-		{% for products in latestProducts %}
+		{% for product in products %}
 
-			<li class="list-unstyled">
-	
-			<a href="{{ products.url }}" title="{{ products.title }}" class="product">
+			{% if product.latest %}
 
-				<article itemscope itemtype="http://schema.org/Product">
-						
-						<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}" itemprop="image">
+				<li class="list-unstyled">
+		
+					<a href="{{ product.url }}" title="{{ product.title }}" class="product">
 
-						<header>
-							
-							<h1 class="h-product" itemprop="name">{{ products.title }}</h1>
+						<article itemscope itemtype="http://schema.org/Product">
+								
+								<img class="full-width" alt="{{ product.imgAlt }}" src="/images/products/{{ product.img }}" itemprop="image">
 
-							<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+								<header>
+									
+									<h1 class="h-product" itemprop="name">{{ product.title }}</h1>
 
-								<p class="product--price" itemprop="price">&pound;{{ products.price }}</p>
+									<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 
-							</div>
+										<p class="product--price" itemprop="price">&pound;{{ product.price }}</p>
 
-						</header>
+									</div>
 
-				</article>
+								</header>
 
-			</a>
+						</article>
 
-		</li>			
+					</a>
+
+				</li>
+
+			{% endif %}
 
 		{% endfor %}
 

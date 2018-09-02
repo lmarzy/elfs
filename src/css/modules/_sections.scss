@@ -16,14 +16,3 @@
 	border-top: 1px solid $border-colour;
 	border-bottom: 1px solid $border-colour;
 }
-
-.section--about {
-	position: relative;
-	background: url(assets/bg-hanging-elf.png) no-repeat 94% -7px;
-	z-index: 100;
-
-		@include bp(bp20) {
-			padding-top: $spacing * 2;
-			background-position: 94% 22px;
-		}
-}

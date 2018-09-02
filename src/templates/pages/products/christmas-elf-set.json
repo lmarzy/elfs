@@ -18,9 +18,9 @@
 	"product": {
 		"title": "Christmas Elf Set",
 		"price": "13.50",
-		"img": "/img/main/elf-sets/main.jpg",
+		"img": "elf-sets/main.jpg",
 		"alt": "Christmal Elf Set",
-		"caption": "Full elf set",
+		"caption": "The Elf Range",
 		"info": [
  			"The elf is approx 11inches long and comply with EN71 / CE safety regulations and are suitable from the age of 3+ due to small parts. Adult supervision is required."
  		],
@@ -31,17 +31,17 @@
 
 		"moreImages": [
 			{
-				"img": "/img/main/elf-sets/girl.jpg",
+				"img": "elf-sets/girl.jpg",
 				"alt": "Christmal Elf Set",
 				"caption": "Girl Elf"
 			},
 			{
-				"img": "/img/main/elf-sets/boy-tunic.jpg",
+				"img": "elf-sets/boy-tunic.jpg",
 				"alt": "Christmal Elf Set",
 				"caption": "Boy Elf - Tunic"
 			},
 			{
-				"img": "/img/main/elf-sets/boy-shorts.jpg",
+				"img": "elf-sets/boy-shorts.jpg",
 				"alt": "Christmal Elf Set",
 				"caption": "Boy Elf - Shorts"
 			}

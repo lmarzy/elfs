@@ -21,26 +21,8 @@ html {
 }
 
 body {
-	padding-bottom: toRem(42px);
-	background: url(assets/bg-body-mini.jpg) no-repeat 0 0;
-	background-size: 100%;
-
-		@include bp(bpbody1) {
-			background: url(assets/bg-body-sml.jpg) no-repeat 0 0;
-			background-size: 100%;			
-		}
-		@include bp(bpbody2) {
-			background: url(assets/bg-body-med.jpg) no-repeat 0 0;
-			background-size: 100%;	
-		}
-		@include bp(bpbody3) {
-			background: url(assets/bg-body-lrg.jpg) no-repeat 0 0;
-			background-size: 100%;
-		}
-		@include bp(bpbody4) {
-			background: url(assets/bg-body-xlrg.jpg) no-repeat 0 0;
-			background-size: 100%;
-		}
+  padding-bottom: toRem(42px);
+  border-top: 4px solid colour(brand, primary);
 
 		@include bp(bp30) {
 			padding: 0;

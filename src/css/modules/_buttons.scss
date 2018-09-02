@@ -28,6 +28,7 @@
 .btn--a {
 	background: $btn-primary-bg;
 	color: $btn-primary-colour;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
 
 		&:hover, &:visited, &:focus, &.btn-disabled, &[disabled] { background: darken($btn-primary-bg,10); color: $btn-primary-colour; box-shadow: 0 0 6px rgba(colour(shades, black), 0.8); }
 		&:active { background: darken($btn-primary-bg,20); }

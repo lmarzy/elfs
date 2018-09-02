@@ -11,39 +11,53 @@
 	background: colour(shades, white);
 	text-align: center;
 	color: darken($text-colour,15);
+
+	&_wrap {
+		max-width: 1760px;
+		height: 240px;
+		margin: 0 auto;
+		padding-top: 40px;
+		background-image: url(assets/bg-banner-1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		@include bp(bpBanner1) {
+			height: 300px;
+			padding-top: 60px;
+			background-image: url(assets/bg-banner-2.png);
+			background-size: 100% 100%;	
+		}
+		@include bp(bpBanner2) {
+			height: 360px;
+			padding-top: 80px;
+			background-image: url(assets/bg-banner-3.png);
+		}
+		@include bp(bpBanner3) {
+			height: 420px;
+			padding-top: 100px;
+			background-image: url(assets/bg-banner-4.png);
+		}
+		@include bp(bpBanner4) {
+			height: 480px;
+			padding-top: 120px;
+			background-image: url(assets/bg-banner-5.png);
+		}
+	}
+
+	&_btnWrap {
+		> div {
+			margin-bottom: $spacing / 4;
+		}
+
+		@include bp(bp10) {
+			div {
+				display: inline-block;
+
+				&:first-child {
+					margin-right: $spacing / 2;
+				}
+			}
+		}
+	}
 		
-		.l-wrap {
-			padding: $spacing 0;
-			position: relative;
-			background: url(assets/bg-banner.jpg) no-repeat 50% top;
-			background-size: 100%;
-		}
-
-		.btn {
-			position: absolute;
-			left: 50%;
-			bottom: toRem(-20px);
-			margin-left: toRem(-84px);
-		}
-
-		@include bp(bp05) {
-			.l-wrap { background-size: auto; }
-		}
-		@include bp(bp10) {
-			text-align: left;
-
-				.l-wrap { background-position: right top; padding-bottom: $spacing * 2; }
-
-				.btn { font-size: toEms(20px); bottom: toRem(-26px); }
-
-		}
-}
-
-.c-banner__uselfs{
-	font-size: toRem(24px);
-	color: colour(brand, secondary);
-
-		@include bp(bp10) {
-			font-size: toRem(32px);
-		}
 }

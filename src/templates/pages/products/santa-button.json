@@ -18,7 +18,7 @@
 	"product": {
 		"title": "Santa's Lost Button",
 		"price": "5.70",
-		"img": "/img/main/santa-button/main.jpg",
+		"img": "santa-button/main.jpg",
 		"alt": "Santa's Lost Button",
 		"caption": "Santa's Lost Button",
 		"info": [

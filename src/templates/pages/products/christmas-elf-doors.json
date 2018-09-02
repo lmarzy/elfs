@@ -13,7 +13,7 @@
 	"product": {
 		"title": "Elf Doors",
 		"price": "8.00",
-		"img": "/img/main/elf-door.jpg",
+		"img": "elf-door.jpg",
 		"alt": "Elf Doors",
 		"caption": "Elf Doors",
 		"info": [

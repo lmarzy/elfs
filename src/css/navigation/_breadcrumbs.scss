@@ -8,14 +8,25 @@
 	 ========================================================================== */
 
 .breadcrumbs {
-	margin-bottom: $spacing / 2;
 	padding: toRem(6px);
-	background: lighten(colour(shades, lightergray),2);
+	text-align: center;
 	border-radius: 0 0 $border-radius $border-radius;
 	@include cf;
 
 	li { 
-		float: left; 
-		margin-right: toRem(12px); 
-		font-size: toRem(12px); }
+		display: inline-block;
+		margin-right: toRem(4px);
+		color: lighten(colour(brand, secondary), 30);
+		font-size: toRem(12px);
+
+		+ li::before {
+			content: '/ ';
+			margin-right: toRem(4px);
+		}
+
+		a {
+			text-decoration: none;
+			color: colour(brand, secondary);
+		}
+	}
 }

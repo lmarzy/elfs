@@ -37,13 +37,13 @@ config = {
 			images: dir.src + '/css/assets/*.*',
 			watch: dir.src + '/css/**/*.scss'
 		},
-		images: dir.src + '/img/**/*.*'
+		images: dir.src + '/images/**/*.*'
 	},
 	dest: {
 		html: dir.dest,
 		css: dir.dest + '/css/',
 		cssImg: dir.dest + '/css/assets/',
-		images: dir.dest + '/img/'
+		images: dir.dest + '/images/'
 	},
 	deploy: {
 		site: dir.dest + '/**/*'

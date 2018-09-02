@@ -8,7 +8,7 @@
 	 ========================================================================== */
 
 .nav-main {
-	padding: toRem(6px) 0;
+	margin-bottom: toRem(12px);
 	border-top: 1px solid $border-colour;
 	border-bottom: 1px solid $border-colour;
 	@include cf;
@@ -17,7 +17,7 @@
 
 	li {
 		width: 25%;
-		border-right: 1px solid $border-colour;
+		border-right: 1px dashed $border-colour;
 
 			&:last-child {
 				border: none;
@@ -43,7 +43,10 @@
 			margin-top: toRem(48px);
 			border: none;
 
-				li { width: auto; border: none; }
+				li {
+					width: auto;
+				}
+
 				a {
 					padding: 0 toRem(20px);
 					font-size: toRem(24px);

@@ -25,7 +25,7 @@
 
 						<article>
 								
-								<img class="full-width" alt="{{ products.imgAlt }}" src="{{ products.img }}" itemprop="image">
+								<img class="full-width" alt="{{ products.imgAlt }}" src="/images/products/{{ products.img }}" itemprop="image">
 
 								<header class="product--overview">
 									

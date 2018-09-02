@@ -2,7 +2,7 @@
 	
 	<div class="l-wrap">
 
-		<h1 class="h-section">Latest News</h1>
+		<h1 class="h-section">Latest Elf Antics</h1>
 
 		<ul class="list-unstyled posts">
 		

@@ -20,7 +20,7 @@
 
 					<figure class="product__img">
 
-						<img class="full-width" alt="{{ product.alt }}" src="{{ product.img }}" itemprop="image">
+						<img class="full-width" alt="{{ product.alt }}" src="/images/products/{{ product.img }}" itemprop="image">
 
 						<figcaption>{{ product.caption }}</figcaption>
 
@@ -107,56 +107,6 @@
 									{% include "buy-buttons/santa-button.swig" %}
 								{% endif %}
 
-								<!-- Christmas Eve Bags -->
-								{% if buyEveBag %}
-									{% include "buy-buttons/eve-bags.swig" %}
-								{% endif %}
-
-								<!-- Nice Certificate -->
-								{% if buyNiceCert %}
-									{% include "buy-buttons/nice-cert.swig" %}
-								{% endif %}
-
-								<!-- Finger Puppets -->
-								{% if buyFingerPuppets %}
-									{% include "buy-buttons/finger-puppets.swig" %}
-								{% endif %}
-
-								<!-- Special Key -->
-								{% if buyKey %}
-									{% include "buy-buttons/key.swig" %}
-								{% endif %}
-
-								<!-- Bendy Elf -->
-								{% if buyBendyElf %}
-									{% include "buy-buttons/bendy-elfs.swig" %}
-								{% endif %}
-
-								<!-- Elf Mug -->
-								{% if buyMug %}
-									{% include "buy-buttons/mug.swig" %}
-								{% endif %}
-
-								<!-- Reward Chart -->
-								{% if buyRewardChart %}
-									{% include "buy-buttons/reward-chart.swig" %}
-								{% endif %}
-
-								<!-- Buy Plate -->
-								{% if buyPlate %}
-									{% include "buy-buttons/plate.swig" %}
-								{% endif %}
-
-								<!-- Buy Elf Door -->
-								{% if buyElfDoor %}
-									{% include "buy-buttons/elf-doors.swig" %}
-								{% endif %}
-
-								<!-- Buy Craft Bags -->
-								{% if buyCraftBags %}
-									{% include "buy-buttons/craft-bags.swig" %}
-								{% endif %}
-
 							{% else %}
 
 								<p>Product is now out of stock!</p>
@@ -193,7 +143,7 @@
 
 						<figure class="product__img">
 
-							<img class="full-width" alt="{{ moreImages.alt }}" src="{{ moreImages.img }}">
+							<img class="full-width" alt="{{ moreImages.alt }}" src="/images/products/{{ moreImages.img }}">
 
 							<figcaption>{{ moreImages.caption }}</figcaption>
 

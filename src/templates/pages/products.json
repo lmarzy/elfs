@@ -1,38 +1,5 @@
 {
 	"metaTitle": "Our Christmas Toy Product Range | The Christmas Elf",
 	"metaContent": "Check out the full product range from Christmas Elf. We offer the ideal Christmas gifts, from Christmas Elf Sets to Christmas Elf Bags.",
-	"h1": "The Christmas Elf Product Selection",
-
-	"products": [
-		{
-			"url": "/products/christmas-elf-set.html",
-			"title": "Christmas Elf Set",
-			"price": "13.50",
-			"img": "/img/list/elf-set.jpg",
-			"imgAlt": "Christmal Elf Set",
-			"description": "Your choice of a girl elf, a boy elf wearing shorts or a boy elf wearing a tunic.",
-
-			"productInfo": [
-				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
-				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
-				"1 Official Elf Report",
-				"1 Christmas Elf Contract"
-			],
-
-			"inStock": true
-
-		},
-		{
-			"url": "/products/santa-button.html",
-			"title": "Santa's Lost Button",
-			"price": "5.70",
-			"img": "/img/list/santa-button.jpg",
-			"imgAlt": "Santa's lost button",
-			"description": "Image your child's face when they find Santa's lost button on Christmas morning.",
-
-			"inStock": true
-
-		}
-
-	]
+	"h1": "The Christmas Elf Product Selection"
 }

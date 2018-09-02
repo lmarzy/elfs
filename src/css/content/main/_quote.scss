@@ -8,8 +8,12 @@
    ========================================================================== */
 
 .quote {
+	max-width: 1000px;
+	margin: 0 auto;
 	padding: $spacing 0;
 	text-align: center;
+	border-top: 1px solid $border-colour;
+	border-bottom: 1px solid $border-colour;
 
 		p {
 			margin: 0;

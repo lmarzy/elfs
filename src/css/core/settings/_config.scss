@@ -15,8 +15,8 @@ $shades: hsl(0, 0%, 100%);
 
 $colours: (
     brand: (
-    	primary 								: hsl(4, 90%, 24%),
-			secondary 							: hsl(123, 28%, 30%),
+    	primary 								: #AE0F0F,
+			secondary 							: #0A724C,
     ),
     shades: (
 			white 									: hsl(0, 0%, 100%),
@@ -56,15 +56,22 @@ $bpbody2                      : toRem(880px);
 $bpbody3                      : toRem(1160px);
 $bpbody4                      : toRem(1440px);
 
+$bpBanner1                    : toRem(620px);
+$bpBanner2                    : toRem(900px);
+$bpBanner3                    : toRem(1180px);
+$bpBanner4                    : toRem(1460px);
+$bpBanner5                    : toRem(1740px);
+
 $breakpoints: (
   bp05: $bp05,
   bp10: $bp10,
   bp20: $bp20,
   bp30: $bp30,
-  bpbody1: $bpbody1,
-  bpbody2: $bpbody2,
-  bpbody3: $bpbody3,
-  bpbody4: $bpbody4
+  bpBanner1: $bpBanner1,
+  bpBanner2: $bpBanner2,
+  bpBanner3: $bpBanner3,
+  bpBanner4: $bpBanner4,
+  bpBanner5: $bpBanner5
 );
 
 

@@ -8,6 +8,11 @@
    ========================================================================== */
 
 .latest {
-	padding: $spacing;
-	background: lighten(colour(shades, lightergray),2);
+  padding: $spacing;
+
+  @include bp(bp20) {
+    margin-top: $spacing;
+    padding-top: toRem(12px);
+    border-left: 1px solid $border-colour;
+  }
 }

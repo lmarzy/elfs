@@ -3,25 +3,49 @@
 	"meta": {
 		"author": "Lee Marsden"
 	},
-
 	"pageHeader": "The Christmas Elf",
-
 	"email": "headelf@christmaself.co.uk",
 	"facebook": "https://www.facebook.com/Christmaself01?ref=hl",
 	"twitter": "https://twitter.com/elf_xmas",
-
 	"siteNav": [
 		{ "linkName": "Home", "linkUrl": "/" },
 		{ "linkName": "Products", "linkUrl": "/products.html" },
 		{ "linkName": "FAQ's", "linkUrl": "/faq.html" },
 		{ "linkName": "Contact", "linkUrl": "/contact.html" }
 	],
-
 	"socialLinks": [
 		{ "name": "Connect with us on Facebook", "icon": "icon-facebook", "url": "https://www.facebook.com/Christmaself01?ref=hl", "class": "c-social__facebook" },
 		{ "name": "Connect with us on Twitter", "icon": "icon-twitter", "url": "https://twitter.com/elf_xmas", "class": "c-social__twitter" },
 		{ "name": "Checkout our antics on Instagram", "icon": "icon-instagram", "url": "http://instagram.com/elfantics?ref=badge", "class": "c-social__instagram" },
 		{ "name": "Send the Head Elf an Email", "icon": "icon-envelope-o", "url": "mailto:headelf@christmaself.co.uk", "class": "c-social__mail" }
+	],
+
+	"products": [
+		{
+			"url": "/products/christmas-elf-set.html",
+			"title": "Christmas Elf Set",
+			"price": "13.50",
+			"img": "elf-sets/main.jpg",
+			"imgAlt": "Christmal Elf Set",
+			"description": "Your choice of a girl elf, a boy elf wearing shorts or a boy elf wearing a tunic.",
+			"productInfo": [
+				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
+				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
+				"1 Official Elf Report",
+				"1 Christmas Elf Contract"
+			],
+			"inStock": true
+		},
+		{
+			"latest": true,
+			"url": "/products/santa-button.html",
+			"title": "Santa's Lost Button",
+			"price": "5.70",
+			"img": "santa-button/main.jpg",
+			"imgAlt": "Santa's lost button",
+			"description": "Image your child's face when they find Santa's lost button on Christmas morning.",
+			"inStock": true
+		}
 	],
 
 	"posts": [
@@ -75,5 +99,4 @@
 			"dateHuman": "18 July 2014"
 		}
 	]
-
 }

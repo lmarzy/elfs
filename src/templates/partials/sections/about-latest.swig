@@ -1,4 +1,4 @@
-<div class="section--highlight">
+<div>
 	
 	<div class="l-wrap">
 

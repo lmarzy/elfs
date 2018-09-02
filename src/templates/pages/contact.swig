@@ -13,13 +13,13 @@
 		
 		<h1 class="h-page">Contact Us</h1>
 	
-		<p>Questions, concerns or comments, we love to hear from you and always happy to help</p>
+		<p>Questions, concerns or comments, we love to hear from you and always happy to help.</p>
 
 		<p>You can contact us in a number of ways:</p>
 
 		<ul class="list-contact">
 			<li>Send an email to <a href="mailto:{{ email }}">{{ email }}</a></li>
-			<li>Send a messae through <a href="{{ facebook }}">facebook</a></li>
+			<li>Send a message through <a href="{{ facebook }}">facebook</a></li>
 			<li>Send us a message through <a href="{{ twitter }}">twitter</a></li>
 		</ul>
 
