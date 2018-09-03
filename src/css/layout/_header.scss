@@ -13,6 +13,7 @@
 
 		@include bp(bp10) {
 			padding-top: $spacing;
+			padding-bottom: $spacing / 2;
 			text-align: left;
 		}
 		

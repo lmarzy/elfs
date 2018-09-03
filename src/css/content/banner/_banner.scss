@@ -14,32 +14,30 @@
 
 	&_wrap {
 		max-width: 1760px;
-		height: 240px;
+		height: 300px;
 		margin: 0 auto;
-		padding-top: 40px;
+		padding-top: 60px;
 		background-image: url(assets/bg-banner-1.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 
 		@include bp(bpBanner1) {
-			height: 300px;
-			padding-top: 60px;
+			height: 340px;
 			background-image: url(assets/bg-banner-2.png);
-			background-size: 100% 100%;	
 		}
 		@include bp(bpBanner2) {
-			height: 360px;
-			padding-top: 80px;
+			height: 380px;
 			background-image: url(assets/bg-banner-3.png);
+			background-size: 100% 100%;
 		}
 		@include bp(bpBanner3) {
-			height: 420px;
+			height: 440px;
 			padding-top: 100px;
 			background-image: url(assets/bg-banner-4.png);
 		}
 		@include bp(bpBanner4) {
-			height: 480px;
-			padding-top: 120px;
+			height: 500px;
+			padding-top: 140px;
 			background-image: url(assets/bg-banner-5.png);
 		}
 	}
