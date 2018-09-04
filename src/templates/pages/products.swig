@@ -45,8 +45,6 @@
 
 								</header>
 
-								<p class="product--description" itemprop="description">{{ products.description }}</p>
-
 						</article>
 
 					</a>

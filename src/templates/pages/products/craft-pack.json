@@ -1,0 +1,43 @@
+{
+	"metaTitle": "Christmas craft pack | The Christmas Elf",
+	"metaContent": "Christmas craft pack containing a wooden Christmas shape, decorative paper, 2 colours of glitter, 3 different bags of pretties to add some sparkle, a mixture of sequins, gems, Pom poms and mini wooden shapes.",
+	"h1": "Christmas craft pack",
+	"productUrl": "craft-pack",
+
+	"breadcrumb": "Christmas craft pack",
+
+	"productMoreImages": false,
+	"productExtraInfo": true,
+
+	"productNotice": true,
+
+	"buyCraftPack": true,
+
+	"dispatchDays": "5",
+
+	"product": {
+		"title": "Christmas craft pack",
+		"price": "4.50",
+		"img": "craft-pack/main.jpg",
+		"alt": "Christmas craft pack",
+		"caption": "Christmas Craft Pack",
+		"info": [
+      "Just add your own glue (paint if you want to) and you are good to go.",
+      "Shapes available: Tree, Reindeer, Snowflake, Snowman and Star."
+ 		],
+
+ 		"smallPrint": "These are not suitable for under 3 years old and should always be supervised by an adult due to small pieces.",
+
+		"productInfo": [
+      "A wooden Christmas shape",
+      "Decorative paper",
+      "2 colours of glitter",
+      "3 different bags of pretties to add some sparkle",
+      "A mixture of sequins, Gems, Pom Poms and mini Wooden shapes"
+			]
+
+	},
+
+	"inStock": true
+
+}

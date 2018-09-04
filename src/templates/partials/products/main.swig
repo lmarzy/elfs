@@ -107,6 +107,11 @@
 									{% include "buy-buttons/santa-button.swig" %}
 								{% endif %}
 
+								<!-- Craft Pack -->
+								{% if buyCraftPack %}
+									{% include "buy-buttons/craft-pack.swig" %}
+								{% endif %}
+
 							{% else %}
 
 								<p>Product is now out of stock!</p>

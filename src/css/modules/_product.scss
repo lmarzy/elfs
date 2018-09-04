@@ -71,14 +71,19 @@
 		background: colour(shades, white);
 		box-shadow: 0 0 4px rgba(colour(shades, black),0.5);
 	}
+
+	.product--overview {
+		border-bottom: 1px solid $border-colour;
+		margin-bottom: $spacing / 2;
+	
+			p:first-child { margin: 0; }
+			p:last-child { margin-bottom: $spacing / 2; }
+	}
 }
 
 .product--overview {
-	border-bottom: 1px solid $border-colour;
-	margin-bottom: $spacing / 2;
-
-		p:first-child { margin: 0; }
-		p:last-child { margin-bottom: $spacing / 2; }
+		p:first-child { margin: toRem(4px); }
+		p:last-child { margin-bottom: $spacing / 4; }
 }
 
 .product--description {

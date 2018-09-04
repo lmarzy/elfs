@@ -27,13 +27,6 @@
 			"price": "13.50",
 			"img": "elf-sets/main.jpg",
 			"imgAlt": "Christmal Elf Set",
-			"description": "Your choice of a girl elf, a boy elf wearing shorts or a boy elf wearing a tunic.",
-			"productInfo": [
-				"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice)",
-				"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
-				"1 Official Elf Report",
-				"1 Christmas Elf Contract"
-			],
 			"inStock": true
 		},
 		{
@@ -43,7 +36,15 @@
 			"price": "5.70",
 			"img": "santa-button/main.jpg",
 			"imgAlt": "Santa's lost button",
-			"description": "Image your child's face when they find Santa's lost button on Christmas morning.",
+			"inStock": true
+		},
+		{
+			"latest": true,
+			"url": "/products/craft-pack.html",
+			"title": "Christmas Craft Pack",
+			"price": "4.50",
+			"img": "craft-pack/main.jpg",
+			"imgAlt": "Christmas Craft Pack",
 			"inStock": true
 		}
 	],
