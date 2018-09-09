@@ -6,7 +6,7 @@
 	<option value="Boy elf with Tunic">Boy elf with Tunic £13.50 GBP</option>
 	<option value="Boy elf with shorts">Boy elf with shorts £13.50 GBP</option>
 	<option value="Girl elf">Girl elf £13.50 GBP</option>
-	<option value="Double elf set">Double elf set £21.50 GBP</option>
+	<option value="Double elf set">Double elf set £20.50 GBP</option>
 </select> </td></tr>
 <tr><td><input type="hidden" name="on1" value="Children's Name">Children's Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
 </table>

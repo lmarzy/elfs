@@ -20,7 +20,7 @@
 		"price": "13.50",
 		"img": "elf-sets/main.jpg",
 		"alt": "Christmal Elf Set",
-		"caption": "The Elf Range",
+		"caption": "The Elf Set",
 		"info": [
  			"The elf is approx 11inches long and comply with EN71 / CE safety regulations and are suitable from the age of 3+ due to small parts. Adult supervision is required."
  		],
@@ -30,6 +30,21 @@
  		"smallPrintInfo": "",
 
 		"moreImages": [
+			{
+				"img": "elf-sets/girl-set.jpg",
+				"alt": "Christmal Elf Set",
+				"caption": "Girl Elf Set"
+			},
+			{
+				"img": "elf-sets/boy-tunic-set.jpg",
+				"alt": "Christmal Elf Set",
+				"caption": "Boy Elf Set - Tunic"
+			},
+			{
+				"img": "elf-sets/boy-shorts-set.jpg",
+				"alt": "Christmal Elf Set",
+				"caption": "Boy Elf Set - Shorts"
+			},
 			{
 				"img": "elf-sets/girl.jpg",
 				"alt": "Christmal Elf Set",
@@ -44,6 +59,21 @@
 				"img": "elf-sets/boy-shorts.jpg",
 				"alt": "Christmal Elf Set",
 				"caption": "Boy Elf - Shorts"
+			},
+			{
+				"img": "elf-sets/letter.jpg",
+				"alt": "Christmal Elf Set - Letter",
+				"caption": "Letter"
+			},
+			{
+				"img": "elf-sets/letter-other.jpg",
+				"alt": "Christmal Elf Set - Contract/Report",
+				"caption": "Contract/Report"
+			},
+			{
+				"img": "elf-sets/letter-all.jpg",
+				"alt": "Christmal Elf Set - Letter/Contract/Report",
+				"caption": "Letter/Contract/Report"
 			}
 		],
 
