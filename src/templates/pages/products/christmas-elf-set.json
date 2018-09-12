@@ -80,13 +80,13 @@
 		"productInfo": [
 			"1 elf(boy or girl) - you have the choice of a boy with shorts or with a tunic (please use drop down box to indicate your choice). The double elf set option comes in one box and contains 1 boy and 1 girl elf plus 1 letter, 2 Official Elf Reports and 2 Christmas Elf Contracts. If you wish to change this combination, please contact us via email before purchase",
 			"1 personalised letter from Father Christmas to explain to your child the purpose of the Elf's visit.",
-			"1 Official Elf Report",
-			"1 Christmas Elf Contract"
+			"1 Official Elf Report. 2 if the double set is ordered.",
+			"1 Christmas Elf Contract. 2 if he double set is ordered."
 			]
 
 	},
 
 	"inStock": true,
-	"inStockExtra": ""
+	"inStockExtra":
 
 }
