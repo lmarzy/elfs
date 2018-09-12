@@ -132,7 +132,7 @@
 
 	</div> <!-- !END div.section.section highlight -->
 
-		{% if productMoreImages %}
+		{% if product.moreImages %}
 
 		<aside class="section product__moreimg">
 

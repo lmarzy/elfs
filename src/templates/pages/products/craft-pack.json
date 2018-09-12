@@ -5,8 +5,7 @@
 	"productUrl": "craft-pack",
 
 	"breadcrumb": "Christmas craft pack",
-
-	"productMoreImages": false,
+	
 	"productExtraInfo": true,
 
 	"productNotice": true,
@@ -24,7 +23,25 @@
 		"info": [
       "Just add your own glue (paint if you want to) and you are good to go.",
       "Shapes available: Tree, Reindeer, Snowflake, Snowman and Star."
- 		],
+		 ],
+		 
+		 "moreImages": [
+			{
+				"img": "craft-pack/reindeer.jpg",
+				"alt": "Christmal Craft Pack Reindeer",
+				"caption": "Christmal Craft Pack Reindeer"
+			},
+			{
+				"img": "craft-pack/snowman.jpg",
+				"alt": "Christmal Craft Pack Snowman",
+				"caption": "Christmal Craft Pack Snowman"
+			},
+			{
+				"img": "craft-pack/tree.jpg",
+				"alt": "Christmal Craft Pack Tree",
+				"caption": "Christmal Craft Pack Tree"
+			}
+		],
 
  		"smallPrint": "These are not suitable for under 3 years old and should always be supervised by an adult due to small pieces.",
 

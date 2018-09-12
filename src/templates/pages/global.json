@@ -46,6 +46,15 @@
 			"img": "craft-pack/main.jpg",
 			"imgAlt": "Christmas Craft Pack",
 			"inStock": true
+		},
+		{
+			"latest": true,
+			"url": "/products/christmas-elf-door.html",
+			"title": "Christmas Elf Door",
+			"price": "8.00",
+			"img": "elf-door/main.jpg",
+			"imgAlt": "Christmas Elf Door",
+			"inStock": true
 		}
 	],
 

@@ -4,23 +4,41 @@
 	"h1": "Elf Doors – Christmas Elf Toy",
 	"productUrl": "christmas-elf-doors",
 	
-	"breadcrumb": "Elf Doors",
+	"breadcrumb": "Elf Door",
 
 	"buyElfDoor": true,
 
-	"dispatchTime": "20 working days",
+	"dispatchDays": "5",
 
 	"product": {
 		"title": "Elf Doors",
 		"price": "8.00",
-		"img": "elf-door.jpg",
+		"img": "elf-door/main.jpg",
 		"alt": "Elf Doors",
 		"caption": "Elf Doors",
 		"info": [
  			"A traditional looking Elf Door",
  			"Stands at 12cm tall and has a 3D effect frame. Attach to any skirting board for full effect.",
  			"Made from mdf and hand painted."
- 		]
+		 ],
+		 
+		 "moreImages": [
+			{
+				"img": "elf-door/two.jpg",
+				"alt": "Elf Door - Two",
+				"caption": "Elf Door - Two"
+			},
+			{
+				"img": "elf-door/elf-door.jpg",
+				"alt": "Elf Door with Elf",
+				"caption": "Elf Door with Elf"
+			},
+			{
+				"img": "elf-door/elf-door-alt.jpg",
+				"alt": "Elf Door with Elf",
+				"caption": "Elf Door with Elf"
+			}
+		]
 	},
 
 	"inStock": true
