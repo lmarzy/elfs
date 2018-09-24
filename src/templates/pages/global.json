@@ -31,20 +31,11 @@
 		},
 		{
 			"latest": true,
-			"url": "/products/santa-button.html",
-			"title": "Santa's Lost Button",
-			"price": "5.70",
-			"img": "santa-button/main.jpg",
-			"imgAlt": "Santa's lost button",
-			"inStock": true
-		},
-		{
-			"latest": true,
-			"url": "/products/craft-pack.html",
-			"title": "Christmas Craft Pack",
-			"price": "4.50",
-			"img": "craft-pack/main.jpg",
-			"imgAlt": "Christmas Craft Pack",
+			"url": "/products/elf-sleeping-bag.html",
+			"title": "Christmas Elf Sleeping Bag",
+			"price": "7.50",
+			"img": "elf-sleeping-bag/main.jpg",
+			"imgAlt": "Christmas Elf Sleeping Bag",
 			"inStock": true
 		},
 		{
@@ -54,6 +45,22 @@
 			"price": "8.00",
 			"img": "elf-door/main.jpg",
 			"imgAlt": "Christmas Elf Door",
+			"inStock": true
+		},
+		{
+			"url": "/products/santa-button.html",
+			"title": "Santa's Lost Button",
+			"price": "5.70",
+			"img": "santa-button/main.jpg",
+			"imgAlt": "Santa's lost button",
+			"inStock": true
+		},
+		{
+			"url": "/products/craft-pack.html",
+			"title": "Christmas Craft Pack",
+			"price": "4.50",
+			"img": "craft-pack/main.jpg",
+			"imgAlt": "Christmas Craft Pack",
 			"inStock": true
 		}
 	],

@@ -1,33 +1,26 @@
 {
-	"metaTitle": "Christmas Elf Set | The Christmas Elf",
+	"metaTitle": "Christmas Eve Tote Bags | The Christmas Elf",
 	"metaContent": "Our Christmas Elf Set includes your very own elf, a personalised letter from Father Christmas, 1 Official Elf Report and 1 Christmas Elf Contract. Buy online now!",
-	"h1": "Christmas Elf Set",
-	"productUrl": "christmas-elf-set",
+	"h1": "Christmas Eve Tote Bags",
+	"productUrl": "christmas-eve-tote-bags",
 
-	"breadcrumb": "Christmas Elf Set",
+	"breadcrumb": "Christmas Eve Tote Bags",
 
-	"productMoreImages": true,
 	"productExtraInfo": true,
 
-	"productNotice": true,
-
-	"buyElfSet": true,
+	"buyEveBag": true,
 
 	"dispatchDays": "5",
 
 	"product": {
-		"title": "Christmas Elf Set",
-		"price": "13.50",
-		"img": "elf-sets/main.jpg",
-		"alt": "Christmal Elf Set",
-		"caption": "The Elf Set",
+		"title": "Christmas Eve Tote Bags",
+		"price": "7.80",
+		"img": "eve-tote-bags/main.jpg",
+		"alt": "Christmal Eve Tote Bag",
+		"caption": "Christmas Eve Tote Bags",
 		"info": [
  			"The elf is approx 11 inches long and complies with EN71 / CE safety regulations. The product is suitable from the age of 3+ due to small parts. Adult supervision is required."
  		],
-
- 		"smallPrint": "Please note these elf's are intended as an occasional/decorative toy.",
-
- 		"smallPrintInfo": "",
 
 		"moreImages": [
 			{
@@ -86,6 +79,7 @@
 
 	},
 
-	"inStock": true
+	"inStock": true,
+	"inStockExtra":
 
 }

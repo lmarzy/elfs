@@ -112,6 +112,16 @@
 									{% include "buy-buttons/craft-pack.swig" %}
 								{% endif %}
 
+								<!-- Craft Pack -->
+								{% if buyElfDoor %}
+									{% include "buy-buttons/elf-door.swig" %}
+								{% endif %}
+
+								<!-- Craft Pack -->
+								{% if buyElfSleepingBag %}
+									{% include "buy-buttons/elf-sleeping-bag.swig" %}
+								{% endif %}
+
 							{% else %}
 
 								<p>Product is now out of stock!</p>

@@ -1,0 +1,55 @@
+{
+	"metaTitle": "Christmas Elf Sleeping Bag | The Christmas Elf",
+	"metaContent": "Christmas Elf Sleeping Bags are of a high quality mirror effect gold finish and are hand sewn onto hand brushed material to look like Santa’s coat.",
+	"h1": "Christmas Elf Sleeping Bag",
+	"productUrl": "santa-button",
+
+	"breadcrumb": "Christmas Elf Sleeping Bag",
+
+	"productNotice": true,
+
+	"buyElfSleepingBag": true,
+
+	"dispatchDays": "5",
+
+	"product": {
+		"title": "Christmas Elf Sleeping Bag",
+		"price": "7.50",
+		"img": "elf-sleeping-bag/main.jpg",
+		"alt": "Christmas Elf Sleeping Bag",
+		"caption": "Christmas Elf Sleeping Bag",
+		"info": [
+			 "A handmade christmas elf sleeping bag, perfect for your elf on the shelf.",
+			 "Let your elves get all snuggled down ready for the night, before they start their mischief that is!",
+			 "These sleeping bags are handmade from various Christmas fabrics and felt. We cannot guarantee the design of your sleeping bag as materials will vary. A random design will be sent.",
+			 "If you have a specific request please feel free to contact us."
+		 ],
+		 
+		 "moreImages": [
+			{
+				"img": "elf-sleeping-bag/2.jpg",
+				"alt": "Elf Sleeping Bag",
+				"caption": "Elf Sleeping Bag Double"
+			},
+			{
+				"img": "elf-sleeping-bag/3.jpg",
+				"alt": "Elf Sleeping Bag",
+				"caption": "Elf Sleeping Bag"
+			},
+			{
+				"img": "elf-sleeping-bag/4.jpg",
+				"alt": "Elf Sleeping Bag",
+				"caption": "Elf Sleeping Bag"
+			},
+			{
+				"img": "elf-sleeping-bag/5.jpg",
+				"alt": "Elf Sleeping Bag",
+				"caption": "Elf Sleeping Bag Double"
+			}
+		]
+
+	},
+
+	"inStock": true
+
+}
